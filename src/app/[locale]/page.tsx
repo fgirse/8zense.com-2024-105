@@ -11,8 +11,11 @@ import { CallToAct } from "@/src/components/CallToAct";
 import ColorChangeCards from "@/src/components/ColorChangeCard";
 import IlluTestimonial from "@/public/assets/images/illustration.png";
 import HorizontalSroll from "@/src/components/HorizontalScrollCarousel";
-import { useTranslations } from "next-intl";
+import { NextIntlClientProvider, useTranslations } from "next-intl";
+import { getMessages } from "next-intl/server";
 export default async function Index() {
+  const messages = await getMessages();
+
   const canInitSupabaseClient = () => {
     // This function is just for the interactive tutorial.
     // Feel free to remove it once you have Supabase connected.
@@ -25,11 +28,12 @@ export default async function Index() {
   };
 
   const isSupabaseConnected = canInitSupabaseClient();
+  
 
   return (
     <div className="w-[100%] flex-1 flex flex-col gap-2 items-center">
       <nav className="w-[100%] flex justify-center border-b border-b-foreground/10 h-12">
-        <div className="w-full  max-w-4xl flex justify-between items-center p-3 text-sm">
+        <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm">
           {isSupabaseConnected && <AuthButton />}
         </div>
       </nav>
@@ -49,7 +53,10 @@ export default async function Index() {
             <IntroWebside />
           </section>
           <section className="">
+
+            <NextIntlClientProvider messages={messages}  >
             <CollapseCardFeatures />
+            </NextIntlClientProvider>
           </section>
 
           <section id="section-itworks" className="mt- lg:h-[45vh]">

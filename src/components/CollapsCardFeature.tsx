@@ -4,8 +4,11 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
+import { useMessages, useTranslations } from "next-intl";
+
 
 const CollapseCardFeatures = () => {
+  const t = useTranslations("CollapsCard");
   const [position, setPosition] = useState(0);
 
   const shiftLeft = () => {
@@ -25,7 +28,7 @@ const CollapseCardFeatures = () => {
       <div className="mx-auto max-w-6xl">
         <div className="mb-8 flex justify-between gap-4">
           <h2 className="text-4xl font-bold leading-[1.2] md:text-5xl">
-            Wir sind top! <span className="text-slate-400">Hier ist warum</span>
+     {t("Text_01")} <span className="text-slate-400">{t("Text_02")}</span>
           </h2>
           <div className="flex gap-2">
             <button
@@ -99,7 +102,7 @@ const features = [
     title: "Individualität",
     icon: "/assets/images/Individuality.gif",
     description:
-      "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!",
+      "{Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!",
   },
   {
     title: "Networking",
@@ -121,7 +124,7 @@ const features = [
   },
   {
     title: "Zeitlos",
-    icon: "/assets/images/zeitlos04.png",
+    icon: "/assets/images/zeitlos02.png",
     description: "8zense.com Beton-Design ist zeitlos!",
   },
 ];

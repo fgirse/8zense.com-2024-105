@@ -6,6 +6,12 @@
   "authButton": {
     "login": "Login"
   },
+"CollapsCard": {
+    "Text_01": "Wir are top!",
+    "Text_02": "That's why:",
+    "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"
+  },
+
 
   "Contact": {
     "Title_Contact": "Contact us!"
