@@ -97,13 +97,13 @@ export default CollapseCardFeatures;
 const features = [
   {
     title: "Individualität",
-    icon: "/assets/images/Animation - 1713258701084-gif",
+    icon: "/assets/images/Individuality.gif",
     description:
       "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!",
   },
   {
     title: "Networking",
-    icon: "/assets/images/networking05.json",
+    icon: "/assets/images/networking.gif",
     description:
       "Wir pflegen beste Verbindungen zu renommierten Architekten und Designern!",
   },
@@ -121,7 +121,7 @@ const features = [
   },
   {
     title: "Zeitlos",
-    icon: "/assets/images/Zeituhrdark.svg",
+    icon: "/assets/images/zeitlos04.png",
     description: "8zense.com Beton-Design ist zeitlos!",
   },
 ];
