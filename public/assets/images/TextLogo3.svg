@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="139.45515mm"
+   height="31.574753mm"
+   viewBox="0 0 139.45515 31.574753"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   sodipodi:docname="Text_logo_1.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.80444024"
+     inkscape:cx="467.40576"
+     inkscape:cy="90.124781"
+     inkscape:window-width="1387"
+     inkscape:window-height="1027"
+     inkscape:window-x="189"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <rect
+       x="152.90135"
+       y="149.17204"
+       width="410.22314"
+       height="91.989433"
+       id="rect1663" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1657">
+      <stop
+         style="stop-color:#d2d1c4;stop-opacity:0.95871562;"
+         offset="0.38000011"
+         id="stop1653" />
+      <stop
+         style="stop-color:#f6f5f4;stop-opacity:0;"
+         offset="1"
+         id="stop1655" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1657"
+       id="linearGradient1659"
+       x1="97.355484"
+       y1="80.910301"
+       x2="97.355484"
+       y2="111.82724"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(24.667771,80.910299)" />
+  </defs>
+  <g
+     inkscape:label="Ebene 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-24.667771,-80.910299)">
+    <rect
+       style="opacity:0.9;fill:url(#linearGradient1659);fill-opacity:1;fill-rule:evenodd;stroke:#77767b;strokeWidth:0;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.901961"
+       id="rect1651"
+       width="139.45515"
+       height="31.574749"
+       x="24.667772"
+       y="80.910301"
+       inkscape:export-filename="TextLogo.svg"
+       inkscape:export-xdpi="96"
+       inkscape:export-ydpi="96" />
+    <text
+       xml:space="preserve"
+       transform="matrix(0.61006954,0,0,0.57969132,-123.5499,10.791535)"
+       id="text1661"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:37.3333px;line-height:0;font-family:Skia;-inkscape-font-specification:Skia;text-align:center;white-space:pre;shape-inside:url(#rect1663);opacity:0.9;fill:#77767b;fill-opacity:1;fill-rule:evenodd;stroke:#3d3846;strokeWidth:1.07603;stroke-miterlimit:0;stroke-dasharray:none;stroke-opacity:0.901961"><tspan
+         x="261.56226"
+         y="160.10937"
+         id="tspan1757">8zenSe.com</tspan></text>
+  </g>
+</svg>
