@@ -4,7 +4,7 @@ import {NextIntlClientProvider} from 'next-intl';
 import {
   getMessages,
   getTranslations,
-  unstable_setRequestLocale
+
 } from 'next-intl/server';
 import {ReactNode} from 'react';
 import Navigation from '@/src/components/Navigation/Menu';
@@ -12,6 +12,7 @@ import Footer from '@/src/components/Footer/footer';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
+import {unstable_setRequestLocale} from 'next-intl/server';
 
 const inter = Inter({subsets: ['latin']});
 
@@ -34,12 +35,24 @@ export async function generateMetadata({
     icons: {icon : "/assets/images/LogoEZ990.svg"},
   }}
 
-export default async function LocaleLayout({
-  children,
-  params: {locale}
-}: Props) {
+  
+ 
+  export default async function LocaleLayout({children, params: { locale }}: {
+    children: ReactNode;
+    params: { locale: string };
+  }) {
+    unstable_setRequestLocale(locale);
+  
+    // Enable static rendering
+  
+    // Providing all messages to the client
+    // side is the easiest way to get started
+  
+  
+
+
   // Enable static rendering
-  unstable_setRequestLocale(locale);
+  
 
   // Providing all messages to the client
   // side is the easiest way to get started

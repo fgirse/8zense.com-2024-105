@@ -13,8 +13,18 @@ import IlluTestimonial from "@/public/assets/images/illustration.png";
 import HorizontalSroll from "@/src/components/HorizontalScrollCarousel";
 import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages } from "next-intl/server";
-export default async function Index() {
-  const messages = await getMessages();
+import {unstable_setRequestLocale} from 'next-intl/server';
+const locale:string = "";
+
+export default async function IndexPage({ params: { locale } }: { params: { locale: string } }) {//+
+  //... rest of the code//+
+//+
+ // {"conversationId":"bd2c6c72-eac2-4eed-8220-4912f89325a8","source":"instruct"}
+// {"conversationId":"db92e98f-8b76-491a-874b-c43bdb555bd0","source":"instruct"}
+
+  unstable_setRequestLocale(locale);
+
+  const messages =  getMessages();
 
   const canInitSupabaseClient = () => {
     // This function is just for the interactive tutorial.
@@ -33,7 +43,7 @@ export default async function Index() {
   return (
     <div className="w-[100%] flex-1 flex flex-col gap-2 items-center">
       <nav className="w-[100%] flex justify-center border-b border-b-foreground/10 h-12">
-        <div className="w-full max-w-4xl flex justify-between items-center p-3 text-sm">
+        <div className="w-full  max-w-4xl flex justify-between items-center p-3 text-sm">
           {isSupabaseConnected && <AuthButton />}
         </div>
       </nav>
@@ -54,7 +64,7 @@ export default async function Index() {
           </section>
           <section className="">
 
-            <NextIntlClientProvider messages={messages}  >
+            <NextIntlClientProvider  >
             <CollapseCardFeatures />
             </NextIntlClientProvider>
           </section>
