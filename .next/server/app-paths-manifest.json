@@ -1,8 +1,22 @@
 {
+  "/_not-found/page": "app/_not-found/page.js",
   "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
-  "/[locale]/page": "app/[locale]/page.js",
+  "/page": "app/page.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/[locale]/about/ourhistory/page": "app/[locale]/about/ourhistory/page.js",
+  "/[locale]/about/whatwedo/page": "app/[locale]/about/whatwedo/page.js",
   "/[locale]/[...rest]/page": "app/[locale]/[...rest]/page.js",
+  "/[locale]/about/whoweare/page": "app/[locale]/about/whoweare/page.js",
+  "/[locale]/contact/page": "app/[locale]/contact/page.js",
   "/[locale]/login/page": "app/[locale]/login/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/pathnames/page": "app/[locale]/pathnames/page.js",
+  "/[locale]/rechtliches/cookies/page": "app/[locale]/rechtliches/cookies/page.js",
   "/[locale]/projects/page": "app/[locale]/projects/page.js",
-  "/[locale]/signin/[id]/page": "app/[locale]/signin/[id]/page.js"
+  "/[locale]/rechtliches/datenschutz/page": "app/[locale]/rechtliches/datenschutz/page.js",
+  "/[locale]/rechtliches/impressum/page": "app/[locale]/rechtliches/impressum/page.js",
+  "/[locale]/services/page": "app/[locale]/services/page.js",
+  "/[locale]/signin/[id]/page": "app/[locale]/signin/[id]/page.js",
+  "/[locale]/signin/page": "app/[locale]/signin/page.js"
 }
