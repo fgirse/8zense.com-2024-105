@@ -1,3 +1,4 @@
+import Navbar from '@/src/components/ui/Navbar';
 import React from 'react'
 import Image from 'next/image'
 import LogoEZ from "@/public/assets/images/LogoEZ990.svg";
@@ -7,6 +8,7 @@ import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { Navigation } from 'lucide-react';
+
 const Menu = () => {
 
     const t = useTranslations("Navigation")
@@ -23,8 +25,12 @@ const Menu = () => {
             <Image src={TextLogoEZ} alt="TextLogo" width="400" priority={true} height="300" />
           </div>
         </Link>
+    
         <div className="relative mx-auto">
+          <div className='flex items-center mr-6 '>
           <LocaleSwitcher />
+          <Navbar/>
+          </div>
         </div>
       <div className="sm:hidden">
         <button type="button" className="hs-collapse-toggle relative size-7 flex justify-center items-center gap-x-2 rounded-lg border border-gray-200 bg-white text-gray-800 shadow-sm hover:bg-gray-50 focus:outline-none focus:bg-gray-50 disabled:opacity-50 disabled:pointer-events-none dark:bg-transparent dark:border-neutral-700 dark:text-white dark:hover:bg-white/10 dark:focus:bg-white/10" id="hs-navbar-example-collapse" aria-expanded="false" aria-controls="hs-navbar-example" aria-label="Toggle navigation" data-hs-collapse="#hs-navbar-example">
@@ -122,6 +128,7 @@ const Menu = () => {
       </div>
     </div>
   </nav>
+ 
 </header>
 
   )

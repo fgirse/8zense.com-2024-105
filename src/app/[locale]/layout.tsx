@@ -8,11 +8,26 @@ import {
 } from 'next-intl/server';
 import {ReactNode} from 'react';
 import Navigation from '@/src/components/Navigation/Menu';
-import Footer from '@/src/components/Footer/footer';
+//import Footer from '@/src/components/Footer/footer';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
 import {unstable_setRequestLocale} from 'next-intl/server';
+
+import Navbar from '@/src/components/ui/Navbar/Navbar';
+import { Metadata } from 'next';
+import Footer from '@/src//components/ui/Navbar';
+import { Toaster } from '@/src/components/ui/Toasts/toaster';
+import { PropsWithChildren, Suspense } from 'react';
+import { getURL } from '@/src/utils/helpers';
+//import 'styles/main.css';
+
+
+
+
+
+
+
 
 const inter = Inter({subsets: ['latin']});
 
@@ -62,7 +77,10 @@ export async function generateMetadata({
     <html className="" lang={locale}>
       <body suppressHydrationWarning={true} className={clsx(inter.className, 'flex min-h-[100vh] w-[100%] flex-col')}>
         <NextIntlClientProvider messages={messages}>
+      
           <Navigation />
+        
+      
           {children}
         <ScrollToTopButton/>
           <Footer />

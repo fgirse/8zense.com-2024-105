@@ -41,6 +41,27 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/_not-found/page.js"
+    ],
+    "/[locale]/login/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/login/page.js"
+    ],
+    "/[locale]/projects/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/projects/page.js"
+    ],
+    "/[locale]/signin/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/signin/page.js"
+    ],
+    "/[locale]/signin/[id]/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/css/app/[locale]/signin/[id]/page.css",
+      "static/chunks/app/[locale]/signin/[id]/page.js"
     ]
   }
 }

@@ -3,6 +3,7 @@
 import { revalidatePath } from "next/cache"
 import { redirect } from "next/navigation"
 import { createClient } from "@/src/utils/supabase/server"
+import { getRedirectMethod } from "@/src/utils/auth-helpers/settings"
 
 export async function signIn(formData: FormData) {
   const supabase = createClient()
