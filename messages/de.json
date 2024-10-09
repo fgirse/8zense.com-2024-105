@@ -1,4 +1,5 @@
 {
+
   "Error": {
     "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
     "title": "Etwas ist schief gelaufen!"
@@ -29,9 +30,9 @@
   },
 
   "Hero": {
-    "präTitle": "Innenarchitektur",
-    "Title": "8zense.com",
-    "postTitle": "Zeitloses Desing mit dem Werkstoff Beton"
+    "präTitle": "eine hundegeschichte",
+    "Title": "Kica",
+    "postTitle": "vierjährige hündin aus porto"
   },
 
   "HowItWorks": {
