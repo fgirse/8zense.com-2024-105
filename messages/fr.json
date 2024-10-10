@@ -64,7 +64,7 @@
   },
 
   "LocaleLayout": {
-    "title": "8zense.com",
+    "title": "Kica.com",
     "description": "Landing page develope avec next.js et next.intel"
   },
   "LocaleSwitcher": {
@@ -93,8 +93,8 @@
   },
 
   "NotFoundPage": {
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
-    "title": "Seite nicht gefunden"
+    "description": "Veuillez vérifier la barre d'adresse de votre navigateur ou utiliser la navigation pour accéder à une page familière.",
+    "title": "Page non trouvée!!!!!!!!"
   },
 
   "OurHistory": {},

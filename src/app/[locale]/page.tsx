@@ -48,35 +48,14 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
           </section>
           <section className="">
 
-            <NextIntlClientProvider  >
-            <CollapseCardFeatures />
-            </NextIntlClientProvider>
+      
           </section>
 
-          <section id="section-itworks" className="mt- lg:h-[45vh]">
-            <FeatureAnim />
-          </section>
 
-          <section id="section-projRef" className="-mt-4 lg:h-[66vh]">
-            <div className="bg-black">
-              <h1 className="text-center text-white uppercase text-3xl md:text-6xl lg:mb-24  ">
-                Referenz Projekte
-              </h1>
-            </div>
 
-            <ColorChangeCards />
-          </section>
-          <section className="h-screen">
-            {/*<CallToAct />*/}
-          </section>
-
-          <section id="section-testimonials" className="-mt-24 lg:h-[70vh]">
-            <div className="bg-black mb-7 ">
-              <h1 className="text-center text-white uppercase text-3xl md:text-6xllg:mb-24  ">
-                Team
-              </h1>
-            </div>
-          </section>
+     
+     
+          
 
           {/*====================================================grid ende ===============*/}
 

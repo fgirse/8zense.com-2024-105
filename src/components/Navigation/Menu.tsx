@@ -2,7 +2,7 @@ import Navbar from '@/src/components/ui/Navbar';
 import React from 'react'
 import Image from 'next/image'
 import LogoEZ from "@/public/assets/images/shiluette.png";
-import TextLogoEZ from "@/public/assets/images/TextLogo4.png";
+//import TextLogoEZ from "@/public/assets/images/TextLogo4.png";
 import LocaleSwitcher from "@/src/components/LocaleSwitcher";
 import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
@@ -21,8 +21,8 @@ const Menu = () => {
           <div className="ml-3 ">
             <Image src={LogoEZ} alt="Logo" width="60" height="60" />
           </div>
-          <div className="hidden md:block w-[12vw] md:py-2">
-            <Image src={TextLogoEZ} alt="TextLogo" width="400" priority={true} height="300" />
+          <div className=" md:block w-[12vw] md:py-2">
+            {/*<Image src={TextLogoEZ} alt="TextLogo" width="400" priority={true} height="300" />*/}
           </div>
         </Link>
     

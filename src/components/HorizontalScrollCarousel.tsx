@@ -78,35 +78,52 @@ type CardType = {
 
 const cards: CardType[] = [
   {
-    url: "/assets/images/Portrait01.jpeg",
-    title: "Fernanda Pereira",
-    subtitle: "Founderin 8zense.com",
+    url: "/assets/images/Puppy_primo.jpeg",
+    title: "Primus",
+    subtitle: "30.09.2024",
     statement:
-      "<< 8zense.com ist das Fundament und die Basis für anspuchvolles Design >>",
+      "Primus",
     id: 1,
   },
   {
-    url: "/assets/images/Portrait02.jpeg",
-    title: "Fernanda Pereira",
-    subtitle: "Founderin 8zense.com",
+    url: "/assets/images/Puppy_secundo.jpeg",
+    title: "Sekundus",
+    subtitle: "30.09.2024",
     statement:
-      "<< 8zense.com ist das Fundament und die Basis für anspuchvolles Design >>",
+      "sekundus - der zweite",
     id: 2,
   },
   {
-    url: "/assets/images/Portrait03.jpeg",
-    title: "Fernanda Pereira",
-    subtitle: "Founderin 8zense.com",
+    url: "/assets/images/Puppy_tertio.jpeg",
+    title: "Tertius",
+    subtitle: "30.09.2024",
     statement:
-      "<< 8zense.com ist das Fundament und die Basis für anspuchvolles Design >>",
+      "",
     id: 3,
   },
   {
-    url: "/assets/images/Portrait04.jpeg",
-    title: "Fernanda Pereira",
-    subtitle: "Founderin 8zense.com",
+    url: "/assets/images/Puppy_quatro.jpeg",
+    title: "Quartos",
+    subtitle: "30.09.2024",
     statement:
-      "<< 8zense.com ist das Fundament und die Basis für anspuchvolles Design >>",
+      "",
     id: 4,
   },
+  {
+    url: "/assets/images/Puppy_cinquo.jpeg",
+    title: "Quintus",
+    subtitle: "30.09.2024",
+    statement:
+      "",
+    id: 5,
+  },
+  {
+    url: "/assets/images/Puppy_sixto.jpeg",
+    title: "Sixtus",
+    subtitle: "30.09.2024",
+    statement:
+      "",
+    id: 6,
+  },
+
 ];

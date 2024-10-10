@@ -1,78 +1,96 @@
 {
   "node": {
-    "08a7fecadc3051614abe677964b8f6ddadb291ee": {
+    "2ae8eb8c3ffe3dc2d0658f036a7aff5625dd7185": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "372d51019844aade05cc825cdb052ecc05facf88": {
+    "4242d6b4a66ca6631d10dab92e14cffcb64becd1": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "3a2359a19135b61b26f4645fd900e7e8518779b9": {
+    "53b75ef671a684a53f88ef2f6b9a12684b7cb3df": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "3df73894007f1c35cf9c5cd52dce0803c46b7d74": {
+    "c38d3be4985c00a4c3bb8056b22a235306b21067": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "5a75b62380bd87520b0ad6df4b195fc86f47b36a": {
+    "cee53dca84d0977dbd63bb774a670c115e4d1789": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "b65fe1aaa7f164ff425294df4a2fc35967dc3f7e": {
+    "d6ec286c10307fefa84b6ee3497043ed503d1887": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "cdf60e18805ac29eac4b1475a522e2b52af36b80": {
+    "e7c157b95cf03d3acbba2c86b60f521cfa1bc262": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "e08f04c385216b83ee7c93e6421ceff3e05e184a": {
+    "eb55fe749887f59cadb2b600ab6ed2a431b7434d": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     },
-    "e39ebc4624e3383328c6634c71e7241b15c3a3e1": {
+    "f01ba0feb060ece5a682385bc5ae4f96e75b70dd": {
       "workers": {
-        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2F8zense.com-2024-105%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22redirectToPath%22%2C%22updateName%22%2C%22SignOut%22%2C%22requestPasswordUpdate%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22signUp%22%2C%22signInWithEmail%22%2C%22updateEmail%22%5D%5D%5D&__client_imported__=true!"
+        "app/[locale]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!",
+        "app/[locale]/[...rest]/page": "(action-browser)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Futils%2Fauth-helpers%2Fserver.ts%22%2C%5B%22updateEmail%22%2C%22signUp%22%2C%22SignOut%22%2C%22updateName%22%2C%22redirectToPath%22%2C%22signInWithEmail%22%2C%22updatePassword%22%2C%22signInWithPassword%22%2C%22requestPasswordUpdate%22%5D%5D%5D&__client_imported__=true!"
       },
       "layer": {
-        "app/[locale]/page": "action-browser"
+        "app/[locale]/page": "action-browser",
+        "app/[locale]/[...rest]/page": "action-browser"
       }
     }
   },
   "edge": {},
-  "encryptionKey": "cqD6xQYYbE1w8lxJAqMmoHIY2g2ZnlHtCOum3CATphM="
+  "encryptionKey": "tDaBISsSCF5+buog9xLj4IAZh6T2d3CfiHW0dsG7wEg="
 }
