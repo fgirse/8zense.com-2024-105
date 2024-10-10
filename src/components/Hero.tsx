@@ -30,10 +30,10 @@ const Hero =()=> {
           />
           
         </div>
-        <h1 className="relative mb-8 text-center top- text-2xl leading-3 lg:text-white font-black uppercase text-neutral-100  sm:text-4xl md:text-6x lg:text-[4.0rem] lg:leading-9 lg:top-10 xl:text-[4.66rem] 2xl:text-[5.166rem] lg:mb-5">
+        <h1 className="relative mb-8 text-center top- text-2xl leading-3 lg:text-white font-normal uppercase text-neutral-100  sm:text-4xl md:text-6x lg:text-[4.0rem] lg:leading-9 lg:top-10 xl:text-[4.66rem] 2xl:text-[5.166rem] lg:mb-5">
           {t("präTitle")}
                                                             </h1>
-        <h1 className="mb-3 relative text-center top-[3vh] text-[8.0rem] font-black uppercase leading-3 text-slate-500 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[10.33rem] lg:font-black lg:leading-3 xl:text-[14.33rem] xl:top-32">
+        <h1 className="mb-3 relative text-center top-[3vh] text-[8.0rem] font-normal uppercase leading-3 text-slate-500 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[10.33rem] lg:font-black lg:leading-3 xl:text-[14.33rem] xl:top-32">
           {t("Title")}
         </h1>
 

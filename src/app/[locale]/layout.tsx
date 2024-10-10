@@ -1,5 +1,5 @@
 import clsx from 'clsx';
-import {Inter} from 'next/font/google';
+import {Gluten} from 'next/font/google';
 import {NextIntlClientProvider} from 'next-intl';
 import {
   getMessages,
@@ -29,7 +29,7 @@ import { getURL } from '@/src/utils/helpers';
 
 
 
-const inter = Inter({subsets: ['latin']});
+const inter = Gluten({subsets: ['latin']});
 
 type Props = {
   children: ReactNode;

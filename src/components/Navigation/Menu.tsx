@@ -1,7 +1,7 @@
 import Navbar from '@/src/components/ui/Navbar';
 import React from 'react'
 import Image from 'next/image'
-import LogoEZ from "@/public/assets/images/LogoEZ990.svg";
+import LogoEZ from "@/public/assets/images/shiluette.png";
 import TextLogoEZ from "@/public/assets/images/TextLogo4.png";
 import LocaleSwitcher from "@/src/components/LocaleSwitcher";
 import { Locale } from "@/src/i18n/routing";
