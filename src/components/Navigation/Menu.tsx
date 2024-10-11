@@ -1,8 +1,8 @@
 import Navbar from '@/src/components/ui/Navbar';
 import React from 'react'
 import Image from 'next/image'
-import LogoEZ from "@/public/assets/images/shiluette.png";
-//import TextLogoEZ from "@/public/assets/images/TextLogo4.png";
+import LogoPet from "@/public/assets/images/logoPet.svg";
+import TextLogoPet from "@/public/assets/images/TextLogo3.svg";
 import LocaleSwitcher from "@/src/components/LocaleSwitcher";
 import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
@@ -19,10 +19,10 @@ const Menu = () => {
     <div className="flex items-center justify-between">
     <Link href="/" className="mr-6 flex" prefetch={false}>
           <div className="ml-3 ">
-            <Image src={LogoEZ} alt="Logo" width="60" height="60" />
+            <Image src={LogoPet} alt="Logo" width="60" height="60" />
           </div>
-          <div className=" md:block w-[12vw] md:py-2">
-            {/*<Image src={TextLogoEZ} alt="TextLogo" width="400" priority={true} height="300" />*/}
+          <div className=" ml-3 md:block w-[20vw] md:py-2">
+            <Image src={TextLogoPet} alt="TextLogo" width="300" priority={true} height="300" />
           </div>
         </Link>
     
@@ -84,10 +84,10 @@ const Menu = () => {
             </Link>*/}
           </div>
         </div>
-        <Link className="font-medium text-gray-600 hover:text-gray-40 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/projects">{t("Projects")}</Link>
-        <Link className="font-medium text-gray-600  focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/services">{t("Services")}</Link>
+       {/* <Link className="font-medium text-gray-600 hover:text-gray-40 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/frei">{t("Projects")}</Link>*/}
+        {/* <Link className="font-medium text-gray-600  focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/services">{t("Services")}</Link> */}
         <Link className="font-medium text-gray-600  focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/contact">{t("contact")}</Link>
-        <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
+       {/* <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
           <button id="hs-navbar-example-dropdown" type="button" className="hs-dropdown-toggle flex items-center w-full text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" aria-haspopup="menu" aria-expanded="false" aria-label="Mega Menu">
          {t("rechtliches")}
             <svg className="hs-dropdown-open:-rotate-180 sm:hs-dropdown-open:rotate-0 duration-300 ms-1 shrink-0 size-4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="m6 9 6 6 6-6"/></svg>
@@ -124,7 +124,7 @@ const Menu = () => {
              {t('allgemeine Geschäftsbedingungen')} 
             </Link>
           </div>
-        </div>
+        </div>*/}
       </div>
     </div>
   </nav>

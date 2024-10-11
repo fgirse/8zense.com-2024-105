@@ -1,1 +1,1 @@
-self.__NEXT_FONT_MANIFEST='{"pages":{},"app":{"/Users/fgirse/Kica_2024_010/Kica_2024-10/src/app/[locale]/layout":["static/media/9edffc55491bc7d9-s.p.woff2"]},"appUsingSizeAdjust":true,"pagesUsingSizeAdjust":false}';
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/fgirse/Kica_2024_010/Kica_2024-10/src/app/[locale]/layout\":[\"static/media/9edffc55491bc7d9-s.p.woff2\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"
