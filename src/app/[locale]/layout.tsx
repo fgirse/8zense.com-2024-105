@@ -16,7 +16,7 @@ import {unstable_setRequestLocale} from 'next-intl/server';
 
 import Navbar from '@/src/components/ui/Navbar/Navbar';
 import { Metadata } from 'next';
-import Footer from '@/src//components/ui/Navbar';
+import Footer from '@/src/components/Footer/footer';
 import { Toaster } from '@/src/components/ui/Toasts/toaster';
 import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';

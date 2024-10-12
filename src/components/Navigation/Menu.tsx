@@ -2,7 +2,6 @@ import Navbar from '@/src/components/ui/Navbar';
 import React from 'react'
 import Image from 'next/image'
 import LogoPet from "@/public/assets/images/logoPet.svg";
-import TextLogoPet from "@/public/assets/images/TextLogo3.svg";
 import LocaleSwitcher from "@/src/components/LocaleSwitcher";
 import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
@@ -18,16 +17,16 @@ const Menu = () => {
 <nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
     <div className="flex items-center justify-between">
     <Link href="/" className="mr-6 flex" prefetch={false}>
-          <div className="ml-3 ">
+          <div className=" w-12 ">
             <Image src={LogoPet} alt="Logo" width="60" height="60" />
           </div>
-          <div className=" ml-3 md:block w-[20vw] md:py-2">
-            <Image src={TextLogoPet} alt="TextLogo" width="300" priority={true} height="300" />
+          <div className="hidden py-3 ml-3 md:block w-[10vw] md:py-2">
+            <h1 className="text-neutral-500">Kica.com</h1>
           </div>
         </Link>
     
         <div className="relative mx-auto">
-          <div className='flex items-center mr-6 '>
+          <div className='flex items-center mr-1 '>
           <LocaleSwitcher />
           <Navbar/>
           </div>
