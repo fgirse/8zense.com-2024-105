@@ -1,3 +1,4 @@
+"use client"
 import React, { useState } from "react";
 import { FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import { AnimatePresence, motion } from "framer-motion";
@@ -107,38 +108,33 @@ const titleVariants = {
 
 const images = [
   {
-    src: "/assets/images/projekt10.jpg",
-    title: "A Title",
+    src: "/assets/images/Puppy_primo.jpeg",
+    title: "Primus",
     id: 1,
   },
   {
-    src: "/assets/images/projekt11.jpg",
-    title: "Another Title",
+    src: "/assets/images/Puppy_secundo.jpeg",
+    title: "Secundus",
     id: 2,
   },
   {
-    src: "/assets/images/projekt12.jpg",
-    title: "And Another",
+    src: "/assets/images/Puppy_tertio.jpeg",
+    title: "Tertius",
     id: 3,
   },
   {
-    src: "/assets/images/projekt14.jpg",
-    title: "Another Title",
-    id: 4,
+    src: "/assets/images/Puppy_quatro.jpeg",
+    title: "Quartus",
+    id: 3,
   },
   {
-    src: "/assets/images/projekt16.jpg",
-    title: "Another Title",
+    src: "/assets/images/Puppy_cinquo.jpeg",
+    title: "Quintus",
     id: 5,
   },
   {
-    src: "/assets/images/projekt30.jpg",
-    title: "Another Title",
+    src: "/assets/images/Puppy_sixto.jpeg",
+    title: "Sixtus",
     id: 6,
-  },
-  {
-    src: "/assets/images/projekt40.jpg",
-    title: "Another Title",
-    id: 7,
   },
 ];
