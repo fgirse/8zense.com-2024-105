@@ -18,7 +18,7 @@ const Hero =()=> {
   const t = useTranslations("Hero");
 
   return (
-    <section id="section-Hero" className="bg-pink-500/20 full ">
+    <section id="section-Hero" className="bg-slate-700 full ">
       <div className="  flex min-h-screen flex-col items-center md:flex-row">
        <Banner/>
         <div className=" flex items-center justify-center p-6 md:w-4/5 md:px-28 md:py-12">

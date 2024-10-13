@@ -12,7 +12,7 @@ const IntroWebside = () => {
 
   return (
     <>
-      <section className="bg-pink-500/20 ">
+      <section className="bg-slate-700 ">
         <div className="grid-rows-16 grid grid-cols-12 gap-1">
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
@@ -21,8 +21,8 @@ const IntroWebside = () => {
               {t("zitat")}
             </p>
 
-            <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full bg-slate-100 mt-2 text-xs leading-3 text-white shadow-xl shadow-gray-400/50 sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
-              <p className="mt-4 relative z-10 text-[3.0rem] font-black md:text-5xl md:leading-4 lg:text-3xl">
+            <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-xs leading-3 text-white shadow-xl shadow-gray-400/50 sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
+         <p className="mt-4 relative z-10 text-[3.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
               🇵🇹
               </p>
 
@@ -34,45 +34,29 @@ const IntroWebside = () => {
         </div>
 
         <section className="h-33vh mx-auto lg:w-2/3 lg:bg-[url('/assets/images/space02.svg')] lg:bg-contain lg:bg-no-repeat">
-          {/*<div className="relative -z-10 -mt-60 h-[33vh] w-[77vw] lg:h-[100vh] lg:w-[90vw]">
-            <Image src={Space} sizes="100vw" alt="space Illustration" />
-          </div>*/}
+         
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className=" lg:top lg:leading-0 relative -top-20 bg-slate-600 bg-gradient-to-b from-slate-900 to-slate-500 bg-clip-text px-1 text-[3.0rem] uppercase leading-10 text-transparent md:text-center md:text-[3.750rem] md:leading-[4rem] lg:text-8xl lg:tracking-wider">
+            <h1 className=" lg:top lg:leading-0 relative -top-20 bg-aelllijoi
               {t("text01")}
             </h1>
 
             {/*<div className="relative -top-20 h-[24vh] w-[75vw] lg:w-[45vw]">
               <Image src={Skizze} fill sizes="100vw" alt="Skizze" />
             </div>*/}
+            
 
-            <p className="my-4 -mt-12 text-base text-slate-700 md:my-6 md:text-lg">
-              <span className="font-bold text-zenseSignal2">Montecordova                                   wq </span>{" "}
+            <p className="-mt-24 text-base text-slate-700 md:my-6 md:text-lg">
+            
               {t("text02")}
             </p>
           </section>
 
-          <div className="bg-neutral-300 mb-20 flex flex-col">
+          <div className="bg-slate-300 mb-20 flex flex-col">
             {/*<EmailModal />*/}
           </div>
 
-          <section className="container mx-auto grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 lg:grid-cols-1">
-            <h1 className="lg:leading-0 via lg:top relative -mt-12 bg-slate-600 bg-gradient-to-b from-slate-900 to-slate-500 bg-clip-text px-1 text-[3.0rem] font-black uppercase leading-10 text-transparent md:text-center md:text-[3.750rem] lg:text-9xl lg:text-[4rem] lg:tracking-wider">
-              {t("text03")}
-            </h1>
-
-            <div className="relative mt-3 h-[24vh] w-[75vw] lg:w-[45vw]">
-              <Image src={Skizze} fill sizes="100vw" alt="Skizze" />
-            </div>
-
-            <p className="my-4 text-base text-slate-700 md:my-6 md:text-lg">
-              <span className="font-bold text-zenseSignal2">8zenSe.com</span>{" "}
-              {t("text04")}{" "}
-            </p>
-
-            {/*<Button />*/}
-          </section>
+          
         </section>
 
         {/*  <section className="shuffle-Hero -mt-44 ">*/}
