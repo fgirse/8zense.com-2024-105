@@ -37,7 +37,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className=" lg:top lg:leading-0 relative -top-20 bg-aelllijoi
+            <h1 className=" lg:top lg:leading-0 relative -top-20 text-slate-300 text-[2.33rem]">
               {t("text01")}
             </h1>
 
@@ -46,7 +46,7 @@ const IntroWebside = () => {
             </div>*/}
             
 
-            <p className="-mt-24 text-base text-slate-700 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base text-slate-200 md:my-6 md:text-lg">
             
               {t("text02")}
             </p>
