@@ -17,7 +17,7 @@ const ShuffleHero = () => {
          Kica hat am 30. September 2024 zwischen 17:12 und 20:48 sechs Welpen geworfen: Primus, Secundus, Tertius, Quartus, Quintus und Sixtus.
         </p>
         <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Find a class
+          Send email
         </button>
       </div>
       <ShuffleGrid />

@@ -20,7 +20,7 @@ const Hero =()=> {
   const t = useTranslations("Hero");
 
   return (
-    <section id="section-Hero" className="bg-slate-700 full ">
+    <section id="section-Hero" className="bg-slate-800 full ">
       <div className="  flex min-h-screen flex-col items-center md:flex-row">
        <Banner/>
         <div className=" flex items-center justify-center p-6 md:w-4/5 md:px-28 md:py-12">
@@ -38,7 +38,7 @@ const Hero =()=> {
         <h1 className="relative mb-2 text-center -top-5 text-[2.33rem] leading-9 lg:text-white font-normal uppercase text-neutral-100  sm:text-4xl md:text-6x lg:mb7 lg:text-[5.0rem] lg:leading-10 lg:top-1 xl:text-[4.66rem] 2xl:text-[5.166rem] lg:mb-5">
           {t("präTitle")}
                                                             </h1>
-        <h1 className="mb-3 relative text-center -top-[3vh] text-[10.0rem] font-normal uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:font-black lg:leading-3 xl:text-[14.33rem] xl:top-32">
+        <h1 className="mb-3 relative text-center -top-[3vh] text-[8.0rem] font-normal uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:font-black lg:leading-3 xl:text-[14.33rem] xl:top-32">
           {t("Title")}
         </h1>
 
@@ -49,17 +49,17 @@ const Hero =()=> {
         <div className="flex flex-col items-center">
         <Image
             src={HeroImageMobile}
-            height={650}
-            width={850}
-            
+            height={550}
+            width={550}
             className="block md:hidden"
             alt="Hero Image mobile version"
           />
           
           </div>
-          <div className="relative w-6 ">
-        <Image src={Background} alt="babyfoot" width={400}/>
-        <Image src={Footsteps} alt="babyfoot" width={400}/>
+          <div className="relative -top-16 right-16 w-56 h-56 ">
+      
+        <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
+        
         </div>
       </div>
     </section>
