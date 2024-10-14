@@ -20,10 +20,11 @@ const Hero =()=> {
   const t = useTranslations("Hero");
 
   return (
-    <section id="section-Hero" className="bg-slate-800 full ">
-      <div className="  flex min-h-screen flex-col items-center md:flex-row">
-       <Banner/>
-        <div className=" flex items-center justify-center p-6 md:w-4/5 md:px-28 md:py-12">
+    <section id="section-Hero" className="bg-slate-800 full flex-col items-center ">
+      <Banner/>
+      <div className="  flex min-h-screen flex-col items-center">
+       
+        <div className="flex items-center justify-center p-6 md:w-4/5 md:px-28 md:py-12">
           {/* Add Hero Images Here */}
           <Image
             src={HeroImage}

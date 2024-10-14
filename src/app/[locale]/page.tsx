@@ -2,7 +2,7 @@ import Image from "next/image";
 import AuthButton from "@/src/components/AuthButton";
 import { createClient } from "@/src/utils/supabase/server";
 import Header from "@/src/components/Header";
-import Hero from "@/src/components/Hero";
+import Hero03 from "@/src/components/Hero03";
 import IntroWebside from "@/src/components/IntroWebside";
 import CollapseCardFeatures from "@/src/components/CollapsCardFeature";
 import FeatureAnim from "@/src/components/FeatureAnimated";
@@ -15,6 +15,7 @@ import Hero02 from "@/src/components/Hero02";
 import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages } from "next-intl/server";
 import {unstable_setRequestLocale} from 'next-intl/server';
+
 const locale:string = "";
 
 export default async function IndexPage({ params: { locale } }: { params: { locale: string } }) {//+
@@ -41,7 +42,7 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
 
         <section className="w-[100vw] mx-auto bg-slate-800">
           <div className="relative">
-            <Hero/>
+            <Hero03/>
           </div>
 
           <section className="">
