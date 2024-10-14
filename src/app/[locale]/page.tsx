@@ -11,6 +11,7 @@ import { CallToAct } from "@/src/components/CallToAct";
 import ColorChangeCards from "@/src/components/ColorChangeCard";
 import IlluTestimonial from "@/public/assets/images/illustration.png";
 import Caroussel from "@/src/components/Carousel";
+import Hero02 from "@/src/components/Hero02";
 import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages } from "next-intl/server";
 import {unstable_setRequestLocale} from 'next-intl/server';
@@ -38,29 +39,20 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
 
         {/*====================================================grid start ===============*/}
 
-        <section className="w-[100vw] mx-auto bg-neutral-300">
+        <section className="w-[100vw] mx-auto bg-slate-800">
           <div className="relative">
             <Hero/>
           </div>
 
           <section className="">
-            <IntroWebside />
+            <Hero02 />
           </section>
           <section className="">
-
-      
           </section>
-
-
-
-     
-     
-          
-
           {/*====================================================grid ende ===============*/}
 
-          <section className="">
-            <Caroussel/>
+        <section className="">
+            <IntroWebside/>
           </section>
         </section>
       </main>

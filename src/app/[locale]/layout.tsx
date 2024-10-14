@@ -75,7 +75,7 @@ export async function generateMetadata({
 
   return (
     <html className="" lang={locale}>
-      <body suppressHydrationWarning={true} className={clsx(inter.className, 'flex min-h-[100vh] w-[100%] flex-col')}>
+      <body suppressHydrationWarning={true} className={clsx(inter.className, 'flex min-h-[100vh] w-[100%] flex-col bg-slate-700')}>
         <NextIntlClientProvider messages={messages}>
       
           <Navigation />

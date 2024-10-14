@@ -12,23 +12,24 @@ const IntroWebside = () => {
 
   return (
     <>
-      <section className="bg-slate-700 ">
+      <section className="bg-slate-800 ">
         <div className="grid-rows-16 grid grid-cols-12 gap-1">
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
-          <div className="relative col-span-6 col-start-7 row-span-7 row-start-1 mr-5 px-1">
-            <p className="mb-5 mt-7 rounded-xl bg-slate-900 px-3 py-1 text-right text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+          <div className="relative top-0 left-0 col-span-6 col-start-7 row-span-7 row-start-1 px-1">
+            <p className="text-left mb-5  rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
               {t("zitat")}
             </p>
 
-            <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-xs leading-3 text-white shadow-xl shadow-gray-400/50 sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
-         <p className="mt-4 relative z-10 text-[3.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+            <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-8xl leading-3 text-white sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
+         <p className="mt-4 relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
               🇵🇹
               </p>
 
-              <p className="text-sm font-black md:text-2xl md:leading-4 lg:text-3xl">
-              
-              </p>
+           <h1 className=" lg:top lg:leading-0 relative -top-20 text-slate-300 text-[2.33rem]">
+              {t("text01")}
+            </h1>
+
             </div>
           </div>
         </div>
@@ -50,11 +51,22 @@ const IntroWebside = () => {
             
               {t("text02")}
             </p>
+
+            <p className="text-left   rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+              {t("zitat02")}
+            </p>
+            <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              🇵🇹
+              </p>
+              <p className="-mt-24 text-base text-slate-200 md:my-6 md:text-lg">
+            
+            {t("text03")}
+          </p>
+
+
           </section>
 
-          <div className="bg-slate-300 mb-20 flex flex-col">
-            {/*<EmailModal />*/}
-          </div>
+ 
 
           
         </section>
