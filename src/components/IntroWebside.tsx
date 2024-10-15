@@ -6,6 +6,7 @@ import Skizze from "@/public/assets/images/skizze.png";
 import Skizze2 from "@/public/assets/images/scetch.png";
 import { useTranslations } from "next-intl";
 import Travel from "@/public/assets/images/IllustrationTravel.png";
+import Surprise from "@/public/assets/images/surprise01.png";
 import Footsteps from "@/public/assets/images/babyfoot.png";
 const IntroWebside = () => {
   const t = useTranslations("introWebside");
@@ -79,6 +80,28 @@ const IntroWebside = () => {
               {t("text04")}
             </p>
 
+            <p className="text-left   rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+              {t("zitat02")}
+            </p>
+            <div className=" inline-flex">
+            <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              🇵🇹
+              </p>
+              <div className="w-32 h-20">
+              <Image src={Surprise} alt="illustration travel" width={300} height={300}/>
+              </div>
+              <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              🇨🇭
+              </p>
+              </div>
+              <p className=" text-[m ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,k108rem] text-slate-200 md:my-6 md:text-lg">
+            
+            {t("text05")}
+          </p>
+          <p className="text-base text-slate-200 md:my-6 md:text-lg">
+            
+              {t("text06")}
+            </p>
 
           </section>
 

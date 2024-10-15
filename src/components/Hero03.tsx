@@ -15,12 +15,10 @@ const Hero03= () => {
         <div className="hs-carousel-slide">
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica08.png')] bg-cover bg-center bg-no-repeat">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-              <span className="block text-white">Kica wird Mamma</span>
+              <span className="block text-white text-3xl">Kica wird Mamma</span>
               <span className="block text-white text-xl md:text-3xl">Eine Geschichte über eine Hundemama</span>
               <div className="mt-5">
-                <a className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                  Read Case Studies
-                </a>
+          l
               </div>
             </div>
           </div>
@@ -29,14 +27,12 @@ const Hero03= () => {
 
         {/* Item */}
         <div className="hs-carousel-slide">
-          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('https://images.unsplash.com/photo-1612287230202-1ff1d85d1bdf?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica_Welpe.jpeg')] bg-cover bg-center bg-no-repeat">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <span className="block text-white">CoolApps</span>
               <span className="block text-white text-xl md:text-3xl">From mobile apps to gaming consoles</span>
               <div className="mt-5">
-                <a className="py-2 px-3 inline-flex items-center gap-x-2 text-sm font-medium rounded-xl bg-white border border-transparent text-black hover:bg-gray-100 focus:outline-none focus:bg-gray-100 disabled:opacity-50 disabled:pointer-events-none" href="#">
-                  Read Case Studies
-                </a>
+
               </div>
             </div>
           </div>
@@ -45,7 +41,7 @@ const Hero03= () => {
 
         {/* Item */}
         <div className="hs-carousel-slide">
-          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('https://images.unsplash.com/photo-1629666451094-8908989cae90?q=80&w=1920&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')] bg-cover bg-center bg-no-repeat">
+          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica06.png')] bg-cover bg-center bg-no-repeat">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <span className="block text-white">Grumpy</span>
               <span className="block text-white text-xl md:text-3xl">Bringing Art to everything</span>
