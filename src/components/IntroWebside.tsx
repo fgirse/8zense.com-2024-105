@@ -94,7 +94,7 @@ const IntroWebside = () => {
               🇨🇭
               </p>
               </div>
-              <p className=" text-[2.08rem] text-slate-200 md:my-6 md:text-lg">
+              <p className=" text-[1.8rem] text-slate-200 md:my-6 md:text-lg">
             
             {t("text05")}
           </p>
