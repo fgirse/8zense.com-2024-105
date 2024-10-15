@@ -1990,6 +1990,12 @@ video {
 .text-\[108rem\] {
   font-size: 108rem;
 }
+.text-\[m108rem\] {
+  font-size: m108rem;
+}
+.text-\[z108rem\] {
+  font-size: z108rem;
+}
 .font-black {
   font-weight: 900;
 }
