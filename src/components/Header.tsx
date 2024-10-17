@@ -17,7 +17,7 @@ export default async function AuthButton() {
           <div>
             <Badge
               variant={"default"}
-              className="font-normal pointer-events-none"
+              className="text-red-500 font-normal pointer-events-none"
             >
               Please update .env.local file with anon key and url
             </Badge>
@@ -26,7 +26,7 @@ export default async function AuthButton() {
             <Button
               asChild
               size="sm"
-              variant={"outline"}
+              variant={"default"}
               disabled
               className="opacity-75 cursor-none pointer-events-none"
             >

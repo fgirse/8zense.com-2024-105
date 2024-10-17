@@ -1,5 +1,106 @@
 {
-  "node": {},
+  "node": {
+    "1bd2b4b9da397722398ae93215eb2bd803eec635": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "551b5a84b6c0eb94ed5a317c89b887b32c0bd1d5": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "7981a6511d89ad66f89855e03fcf37af17e6c536": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "7cb9bb097990c92a950a893a522d6d772710644a": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "98774dd8a878703b7523e26c3f164122dc4a4631": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "a26d2b754da01d71fc0edc9d84232cbbe85db155": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "c3209bf49ee70751daf19b3b937417567dd1bc6c": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "f10c1e08e39382501cf498baa2f8048cd7c31c99": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "f6c79cada85bf61e51c64eebda769af1ce868828": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    },
+    "fc4b5eb7ca2eaf70197c70bda911820f918e1dc0": {
+      "workers": {
+        "app/[locale]/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!",
+        "app/[locale]/(auth-pages)/sign-in/page": "(rsc)/./node_modules/next/dist/build/webpack/loaders/next-flight-action-entry-loader.js?actions=%5B%5B%22%2FUsers%2Ffgirse%2FKica_2024_010%2FKica_2024-10%2Fsrc%2Fapp%2Factions.ts%22%2C%5B%22%24%24ACTION_3%22%2C%22%24%24ACTION_1%22%2C%22%24%24ACTION_0%22%2C%22forgotPasswordAction%22%2C%22signInAction%22%2C%22%24%24ACTION_2%22%2C%22%24%24ACTION_4%22%2C%22signOutAction%22%2C%22signUpAction%22%2C%22resetPasswordAction%22%5D%5D%5D&__client_imported__=!"
+      },
+      "layer": {
+        "app/[locale]/page": "rsc",
+        "app/[locale]/(auth-pages)/sign-in/page": "rsc"
+      }
+    }
+  },
   "edge": {},
-  "encryptionKey": "BIFw4fHcLkdVg60O1smhLCzzUsty+U1nDbgvqbCDGjs="
+  "encryptionKey": "b6FnbyryGEF5lAHFicJRKzugmdasIwv3WGugsIbtVNo="
 }
