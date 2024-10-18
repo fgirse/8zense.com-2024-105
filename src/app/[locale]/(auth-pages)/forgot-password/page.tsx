@@ -1,11 +1,10 @@
-import { forgotPasswordAction } from "@/src/app/actions";
+import { forgotPasswordAction } from "@/src/app/[locale]/actions";
 import { FormMessage, Message } from "@/src/components/form-message";
 import { SubmitButton } from "@/src/components/submit-button";
 import { Input } from "@/src/components/ui/input";
-import { Label } from "@//src/components/ui/label";
+import { Label } from "@/src/components/ui/label";
 import Link from "next/link";
-import SmtpMessage  from "@/src/components/ui/smtp-message";
-import { useTranslations } from "next-intl";
+import { SmtpMessage } from "../smtp-message";
 
 export default function ForgotPassword({
   searchParams,
@@ -15,11 +14,11 @@ export default function ForgotPassword({
   return (
     <>
       <form className="flex-1 flex flex-col w-full gap-2 text-foreground [&>input]:mb-6 min-w-64 max-w-64 mx-auto">
-        <div>
-          <h1 className="text-2xl font-medium">Reset Password</h1>
+        <div className="h-[100vh]">
+          <h1 className="mt-5 text-2xl text-slate-200 font-medium">Reset Password</h1>
           <p className="text-sm text-secondary-foreground">
             Already have an account?{" "}
-            <Link className="text-orange-400 underline" href="/sign-in">
+            <Link className="text-orange-300 underline" href="/sign-in">
               Sign in
             </Link>
           </p>
@@ -33,9 +32,7 @@ export default function ForgotPassword({
           <FormMessage message={searchParams} />
         </div>
       </form>
-      <SmtpMessage searchParams={{
-              success: ""
-          }} />
+      <SmtpMessage />
     </>
   );
 }

@@ -1,5 +1,7 @@
+
+
 import {ReactNode} from 'react';
-import './styles.css';
+import './globals.css';
 
 type Props = {
   children: ReactNode;
@@ -8,5 +10,16 @@ type Props = {
 // Since we have a `not-found.tsx` page on the root, a layout file
 // is required, even if it's just passing children through.
 export default function RootLayout({children}: Props) {
-  return children;
+ return (
+
+  <html>
+  <body className="h-[100vh]">
+   {children}
+   </body>
+ 
+ </html>
+
+ )
+
+
 }
