@@ -40,7 +40,6 @@
     "@stripe/stripe-js": "2.4.0",
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
-    "autoprefixer": "10.4.17",
     "class-variance-authority": "^0.7.0",
     "classnames": "^2.5.1",
     "clsx": "^2.1.1",
