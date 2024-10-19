@@ -4,6 +4,8 @@ import { SubmitButton } from "@/src/components/submit-button";
 import { Input } from "@/src/components/ui/input";
 import { Label } from "@/src/components/ui/label";
 import Link from "next/link";
+import Image from "next/image";
+import Logo from "@/public/assets/images/logoPet.svg";
 import { SmtpMessage } from "@/src/app/[locale]/(auth-pages)/smtp-message";
 
 export default function Signup({ searchParams }: { searchParams: Message }) {
@@ -17,6 +19,9 @@ export default function Signup({ searchParams }: { searchParams: Message }) {
 
   return (
     <>
+    <div className=" mt-4  flex-col items-center w-36 j">
+        <Image src={Logo} alt="Logo" height={300}  />
+    </div>
       <form className="bg-slate-500 rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
         <h1 className="mt-3 text-2xl text-lime-400 font-medium">Sign up</h1>
         <p className="text-sm">

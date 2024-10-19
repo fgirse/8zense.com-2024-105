@@ -1,4 +1,4 @@
-import Navbar from '@/src/components/Header';
+import Navbar from '@/src/components/header_auth';
 import React from 'react'
 import Image from 'next/image'
 import LogoPet from "@/public/assets/images/logoPet.svg";
