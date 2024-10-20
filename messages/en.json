@@ -73,6 +73,7 @@
   },
   "Navigation": {
     "home": "Home",
+    "galery": "Foto-Galery",
     "about": "About",
     "ourhistory": "our History",
     "whatwedo": "What we do?",
@@ -114,6 +115,12 @@
 
   "Rechtliches": {
     "Title_Rechtliches": "Rechtliches"
+  },
+
+  "protected": {
+    "Title_Protected": "This is a protected page that you can only see as an authenticated user",
+     "userDetails": "Your user details",
+     "logged_in": "logged in as:"
   },
 
   "Team": {

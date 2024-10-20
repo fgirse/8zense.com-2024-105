@@ -47,20 +47,22 @@ export default async function AuthButton() {
     );
   }
   return user ? (
-    <div className=" text-red-300bflex items-center gap-4">
-      Hey, {user.email}!
+    
+    <div className="ml-6 rounded-xl text-xs text-slate-700 flex items-center gap-x-5">
+
       <form action={signOutAction}>
-        <Button type="submit" variant={"outline"}>
+        <Button type="submit" variant={"default"} className="text-white bg-slate-400 hover:bg-slate-500">
           Sign out
         </Button>
       </form>
+  
     </div>
   ) : (
     <div className="flex gap-2">
-      <Button asChild size="sm" variant={"default"}>
+      <Button asChild size="sm" variant={"default"} className="bg-orange-400 text-white hover:bg-orange-600">
         <Link href="/sign-in">Sign in</Link>
       </Button>
-      <Button asChild size="sm" variant={"default"}>
+      <Button asChild size="sm" variant={"default"} className="bg-lime-400 text-white hover:bg-lime-600" >
         <Link href="/sign-up">Sign up</Link>
       </Button>
     </div>

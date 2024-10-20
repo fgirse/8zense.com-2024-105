@@ -3,37 +3,30 @@
     "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
     "title": "Etwas ist schief gelaufen!"
   },
-
   "authButton": {
     "login": "Connectez"
   },
-
   "CollapsCard": {
     "Text_01": "Nous sommes les premieure!",
     "Text_02": "Ici la solution",
     "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"
-},
-
+  },
   "Contact": {
     "Title_Contact": "Contactez nous!"
   },
-
   "Datenschutz": {
     "Title_Datenschutz": "Securite Data"
   },
-
   "emailMessage": {
     "Email_Text01": "France",
     "Email_Text02": "Frncee",
     "Email_Text03": "France"
   },
-
   "Hero": {
     "präTitle": "",
     "Title": "Kica",
     "postTitle": "est ume Mama"
   },
-
   "HowItWorks": {
     "Howitworks": "So geht's",
     "text_01": "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
@@ -43,10 +36,9 @@
     "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
     "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
   },
-
   "introWebside": {
     "zitat": "August 2024",
-    "zitat02": "Septembre 2024", 
+    "zitat02": "Septembre 2024",
     "text01": "Une decision",
     "text02": "En août, en raison de l'état de santé des parents de Claudia, nous avons décidé de déplacer Kica, la chienne de quatre ans, en Suisse. Kica subit un examen médical vétérinaire approfondi et, conformément aux Swiss Pet Recommendations, une puce d'identification. De plus, le statut vaccinal est vérifié ou complété.",
     "text03": "Kica a voyage",
@@ -54,7 +46,6 @@
     "text05": "une Paqquet surprise!!!",
     "text06": "Au début, ce n'était qu'une vague idée - mais cela s'est rapidement confirmé : Kica nous a apporté un petit paquet surprise - elle était enceinte de six petits chiots."
   },
-
   "Layout": {
     "metaData": {
       "title": "8zense.com",
@@ -66,7 +57,6 @@
       "statement": ""
     }
   },
-
   "LocaleLayout": {
     "title": "Kica.com",
     "description": "Landing page develope avec next.js et next.intel"
@@ -79,15 +69,15 @@
     "description": "",
     "name": ""
   },
-
   "Navigation": {
     "home": "Maison",
+    "galery": "Galerie do Photos",
     "about": "apropos de nous",
     "ourhistory": "Notre histoire",
     "whatwedo": "Questque fait?",
     "whoweare": "Qui nous sommes?",
     "Projects": "Projects",
-    "Services":  "Accesoires",
+    "Services": "Accesoires",
     "contact": "Contacte",
     "impressum": "info-Impressum",
     "datenschutz": "securite data",
@@ -95,14 +85,11 @@
     "cookies": "Cookies",
     "allgemeine Geschäftsbedingungen": "conditions generales"
   },
-
   "NotFoundPage": {
     "description": "Veuillez vérifier la barre d'adresse de votre navigateur ou utiliser la navigation pour accéder à une page familière.",
     "title": "Page non trouvée!!!!!!!!"
   },
-
   "OurHistory": {},
-
   "PageLayout": {
     "links": {
       "docs": {
@@ -121,25 +108,27 @@
     "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
     "title": "Pfadnamen"
   },
-
+  "protected": {
+    "Title_Protected": "Diese Seite sehen Sie nur wenn sie bei kics2024.de registriert bzw. eingeloggt sind!",
+    "userDetails": "Votre info d'user",
+    "logged_in": "connecter a:"
+  },
   "Rechtliches": {
     "Title_Rechtliches": "Rechtliches"
   },
-
   "Team": {
     "scroll_down": "tirez a bas",
     "scroll_up": "tirez a top"
   },
-
   "Whoweare": {
     "präTitle": "da 8zense.com",
     "Title_Whoweare": "Qui nous sommes?",
     "SubTitle_Whoweare": "8zense.com est Fernanda Pereira",
     "Text_Whoweare": "est née de l'intuition, même si Fernanda s'est demandé à plusieurs reprises si un bon design n'était accessible qu'à ceux qui en ont les moyens. En tant qu'architecte d'intérieur de formation, Fernanda a supervisé d'innombrables projets et les ingrédients que sont le béton, le bois, l'acier et le verre ont fait leurs preuves. be Les matériaux préférés de son travail ont été développés autour d'un design bon, attrayant et intemporel. Fernanda a toujours eu le désir de combiner la symbiose des matériaux et de les expérimenter. Le résultat est:"
   },
-
   "IndexPage": {
     "Title": "Rechtliches",
     "description": "absbssbbbsb"
-  }
+  },
+  "Title_Protected": ""
 }

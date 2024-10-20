@@ -1,40 +1,32 @@
 {
-
   "Error": {
     "description": "<p>Es ist leider ein Problem aufgetreten.</p><p>Du kannst versuchen <retry>diese Seite neu zu laden</retry>.</p>",
     "title": "Etwas ist schief gelaufen!"
   },
-
   "authButton": {
     "login": "Anmeldung"
   },
-"CollapsCard": {
+  "CollapsCard": {
     "Text_01": "Wir sind top!!!",
     "Text_02": "Hier ist warum:",
     "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"
- },
-
-
+  },
   "Contact": {
     "Title_Contact": "Kontakt"
   },
-
   "Datenschutz": {
     "Title_Datenschutz": "Datenschutz"
   },
-
   "emailMessage": {
     "Email_Text01": "Deutschland",
     "Email_Text02": "Deutschland",
     "Email_Text03": "Deutschland"
   },
-
   "Hero": {
     "präTitle": "",
     "Title": "Kica",
     "postTitle": "ist Mama"
   },
-
   "HowItWorks": {
     "Howitworks": "So geht's",
     "text_01": "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
@@ -44,10 +36,9 @@
     "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
     "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
   },
-
   "introWebside": {
     "zitat": "August 2024",
-    "zitat02": "September 2024", 
+    "zitat02": "September 2024",
     "text01": "Eine Endscheidung",
     "text02": "Im August entscheiden wir uns auf Grund der gesundheitlichen Situation der Eltern Claudias, die vierjährige Hündin Kica in die Schweiz überzusiedeln. Kica erhält eine ausgiebige veterinär-medizinische Untersuchung und gemäss den Schweizer Haustierlichen Empfehlungen einen Identifikations-Chip. Zudem erfolgt eine Uberprüfung bzw. Ergänzung des Impfstatus.",
     "text03": "Eine Reise für Kica",
@@ -61,7 +52,6 @@
       "description": "landing page entwickelt mit Next.js und next-intl"
     }
   },
-
   "LocaleLayout": {
     "title": "Kica"
   },
@@ -71,25 +61,24 @@
   },
   "Manifest": {
     "description": "",
-                          "name": ""
+    "name": ""
   },
-
   "Navigation": {
     "home": "Start",
+    "galery": "Foto-Galerie",
     "about": "über uns",
     "ourhistory": "Unsere Geschichte",
     "whatwedo": "Was wir tun?",
     "whoweare": "Wer wir sind?",
     "Projects": "Projekte",
-    "Services":  "Accesoires",
+    "Services": "Accesoires",
     "contact": "Kontakt",
     "impressum": "Impressum",
     "datenschutz": "Datenschutz",
     "rechtliches": "Rechtliches",
-     "cookies": "Cookies",
-     "allgemeine Geschäftsbedingungen": "allgemeine Geschäftsbedingungen"
+    "cookies": "Cookies",
+    "allgemeine Geschäftsbedingungen": "allgemeine Geschäftsbedingungen"
   },
-
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
     "title": "Seite nicht gefunden"
@@ -120,13 +109,15 @@
     "scroll_down": "nach unten scrollen",
     "scroll_up": "nach oben scrollen"
   },
-
   "OurHistory": {},
-
+  "protected": {
+    "Title_Protected": "Diese Seite sehen Sie nur wenn sie bei kics2024.de registriert bzw. eingeloggt sind!",
+    "userDetails": "Ihre Anwenderdaten",
+    "logged_in": "angemeldet als:"
+  },
   "Rechtliches": {
     "Title_Rechtliches": "Rechtliches"
   },
-
   "Whoweare": {
     "präTitle": "über 8zense.com",
     "Title_Whoweare": "Wer wir sind?",
@@ -136,6 +127,6 @@
   "IndexPage": {
     "title": "Rechtliches",
     "description": "absbssbbbsb"
-  }
-
+  },
+  "Title_Protected": ""
 }

@@ -20,13 +20,7 @@ import Footer from '@/src/components/Footer/footer';
 import { Toaster } from '@/src/components/ui/Toasts/toaster';
 import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
-//import 'styles/main.css';
-
-
-
-
-
-
+import './globals.css';
 
 
 const inter = Gluten({subsets: ['latin']});
