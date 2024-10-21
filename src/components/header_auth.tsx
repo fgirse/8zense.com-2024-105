@@ -48,14 +48,14 @@ export default async function AuthButton() {
   }
   return user ? (
     <div className="w-[30vw] text-slate-50 rounded-xl flex-row ml-5">
-    <div className="ml-6 rounded-xl text-xs text-slate-700 flex items-center gap-x-5">
-      Hey, {user.email}!
+    
+    
       <form action={signOutAction}>
-        <Button type="submit" variant={"default"} className="text-white bg-slate-400 hover:bg-slate-500">
+        <Button type="submit" variant={"default"} className="text-white bg-slate-500 hover:bg-slate-700">
           Sign out
         </Button>
       </form>
-    </div>
+    
     </div>
   ) : (
     <div className="flex gap-2">
