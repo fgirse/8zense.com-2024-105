@@ -3,7 +3,9 @@ import { createClient } from "@/src/utils/supabase/server";
 import { InfoIcon } from "lucide-react";
 import { redirect } from "next/navigation";
 import { getTranslations } from "next-intl/server";
-import  Galery  from "@/src/components/Galeria"
+import Galery  from "@/src/components/Galeria";
+import Galery02 from "@/src/components/Galeria02";
+
 export default async function ProtectedPage() {
    
   const supabase = createClient();
@@ -33,6 +35,7 @@ export default async function ProtectedPage() {
         </div>
       </div>
       <Galery/>
+      <Galery02/>
     </div>
   );
 }
