@@ -24,7 +24,7 @@ export default function Signup({ searchParams }: { searchParams: Message }) {
     </div>
       <form className="bg-slate-500 rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
         <h1 className="mt-3 text-2xl text-lime-400 font-medium">Sign up</h1>
-        <p className="text-sm">
+        <p className="text-white text-sm">
           Already have an account?{" "}
           <Link className="text-orange-300 hover:text-orange-400 font-medium underline" href="/sign-in">
             Sign in
@@ -41,7 +41,7 @@ export default function Signup({ searchParams }: { searchParams: Message }) {
             minLength={6}
             required
           />
-          <SubmitButton className="bg-orange-300 hover:bg-orange-400                                       M" formAction={signUpAction} pendingText="Signing up...">
+          <SubmitButton className="bg-lime-300 hover:bg-lime-400                                       M" formAction={signUpAction} pendingText="Signing up...">
             Sign up
           </SubmitButton>
           <FormMessage message={searchParams} />

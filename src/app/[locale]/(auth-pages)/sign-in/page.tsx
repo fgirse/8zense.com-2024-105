@@ -39,7 +39,7 @@ export default function Login({ searchParams }: { searchParams: Message }) {
           placeholder="Your password"
           required
         />
-        <SubmitButton pendingText="Signing In..." formAction={signInAction}>
+        <SubmitButton pendingText="Signing In..." formAction={signInAction} className="bg-orange-300 hover:bg-orange-400 text-white">
           Sign in
         </SubmitButton>
         <FormMessage message={searchParams} />
