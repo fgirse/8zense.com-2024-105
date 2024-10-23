@@ -107,33 +107,32 @@ const titleVariants = {
 };
 
 const images = [
-  {
-    src: "/assets/images/Puppy_primo.jpeg",
+  { src:"/assets/images/Bild07.jpeg",
     title: "Primus",
     id: 1,
   },
   {
-    src: "/assets/images/Puppy_secundo.jpeg",
+    src:"/assets/images/Bild08.jpeg",
     title: "Secundus",
     id: 2,
   },
   {
-    src: "/assets/images/Puppy_tertio.jpeg",
+    src:"/assets/images/Bild09.jpeg",
     title: "Tertius",
     id: 3,
   },
   {
-    src: "/assets/images/Puppy_quatro.jpeg",
+    src:"//assets/images/Bild10.jpeg",
     title: "Quartus",
     id: 3,
   },
   {
-    src: "/assets/images/Puppy_cinquo.jpeg",
+    src:"/assets/images/Bild11.jpeg",
     title: "Quintus",
     id: 5,
   },
   {
-    src: "/assets/images/Puppy_sixto.jpeg",
+    src:"/assets/images/Bild11.jpeg",
     title: "Sixtus",
     id: 6,
   },

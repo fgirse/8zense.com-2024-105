@@ -37,35 +37,26 @@
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/not-found.js"
     ],
-    "/[locale]/(auth-pages)/sign-up/page": [
+    "/[locale]/(auth-pages)/sign-in/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(auth-pages)/sign-up/page.js"
+      "static/chunks/app/[locale]/(auth-pages)/sign-in/page.js"
     ],
     "/[locale]/(auth-pages)/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/(auth-pages)/layout.js"
     ],
-    "/[locale]/(auth-pages)/sign-in/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(auth-pages)/sign-in/page.js"
-    ],
     "/[locale]/protected/page": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/protected/page.js"
     ],
-    "/[locale]/contact/page": [
+    "/[locale]/protected/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/contact/page.js"
-    ],
-    "/[locale]/(auth-pages)/forgot-password/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/(auth-pages)/forgot-password/page.js"
+      "static/css/app/[locale]/protected/layout.css",
+      "static/chunks/app/[locale]/protected/layout.js"
     ]
   }
 }
