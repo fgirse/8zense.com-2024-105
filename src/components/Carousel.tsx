@@ -132,7 +132,7 @@ const images = [
     id: 5,
   },
   {
-    src:"/assets/images/Bild11.jpeg",
+    src:"/assets/images/Bild03.jpeg",
     title: "Sixtus",
     id: 6,
   },
