@@ -718,6 +718,12 @@ video {
 .top-full {
   top: 100%;
 }
+.-top-1 {
+  top: -0.25rem;
+}
+.top-16 {
+  top: 4rem;
+}
 .z-0 {
   z-index: 0;
 }
@@ -1235,6 +1241,12 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-\[100\] {
+  width: 100;
+}
+.w-\[100v\] {
+  width: 100v;
 }
 .min-w-64 {
   min-width: 16rem;

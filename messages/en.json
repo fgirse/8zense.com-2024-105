@@ -6,11 +6,6 @@
   "authButton": {
     "login": "Login"
   },
-"CollapsCard": {
-    "Text_01": "Wir are top!",
-    "Text_02": "That's why:",
-    "Text_06": "Individualität ist bei 8zense.com gross geschrieben. Jede unserer Beton-Compositionen ist ein Einzelstück!"
-  },
 
 
   "Contact": {
@@ -26,17 +21,20 @@
     "Email_Text02": "England",
     "Email_Text03": "England"
   },
+
   "Hero": {
     "präTitle": "",
     "Title": "Kica",
     "postTitle": "is a mammy"
   },
-"Hero_03": {
+
+  "Hero_03": {
   "präTitle": "",
   "Title": "Kica is pregnant",
-  "postTitle": "The Story of a Female Dog"
+  "postTitle": "The Story of a Female Dog",
+   "text00_Hero3": "Something is happening here",
+  "text01_Hero3": "Kica gave birth to six puppies on September 30, 2024 between 5:12 p.m. and 8:48 p.m.: Primus, Secundus, Tertius, Quartus, Quintus and Sixtus. They were all doing well and weighed between 430g and 540g."
 },
-
 
   "introWebside": {
     "zitat": "August 2024",
@@ -46,19 +44,12 @@
     "text03": "Traveling for Kica",
     "text04": "After a few training trips in Portugal, Kica traveled with the Agostini family - Sissy, Matthiasm Joana, Raul and Alena in the family bus from Montecordova to Basel on September 8th and was warmly welcomed by Claudia at her new home on Binzenstrasse.",
     "text05": "Ein A surpricing Package!!!",
-    "text06": "At first it was just a vague idea - but then it was quickly confirmed: Kica brought us a little surprise package - she was pregnant with six little puppies."
-  },
-  
-  
-  "HowItWorks": {
-    "Howitworks": "How it works",
-    "text_01": "Sign up an account on oue webside von 8zense.com!",
-    "text_02": "Make an appointment to an interview with Fernanda to define wishes, dreams and aims and ideas!",
-    "text_03": "Due to our excellent networking we will found a specific team of specialists which would realize your design dream under the hood of Fernanda will realize your design dream",
+    "text06": "At first it was just a vague idea - but then it was quickly confirmed: Kica brought us a little surprise package - she was pregnant with six little pDue to our excellent networking we will found a specific team of specialists which would realize your design dream under the hood of Fernanda will realize your design dream",
     "text_04": "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichen wundervollem zusammnen",
     "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
     "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
   },
+
   "Layout": {
     "metaData": {
       "title": "8zense.com",
@@ -75,9 +66,7 @@
     "label": "Change language",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 France} other {Unknown}}"
   },
-  "Manifest": {
-    "name": "next-intl example"
-  },
+
   "Navigation": {
     "home": "Home",
     "galery": "Foto-Galery",
@@ -94,31 +83,13 @@
     "cookies": "Cookies",
     "allgemeine Geschäftsbedingungen": "General Terms and Conditions"
   },
+
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",
     "title": "Page not found"
   },
 
   "OurHistory": {},
-
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/",
-        "title": "Docs"
-      },
-      "source": {
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Source code"
-      }
-    }
-  },
-  "PathnamesPage": {
-    "description": "<p>The pathnames are internationalized too.</p><p>If you're using the default language English, you'll see <code>/en/pathnames</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is localized accordingly (<code>/de/pfadnamen</code>).</p>",
-    "title": "Pathnames"
-  },
 
   "Rechtliches": {
     "Title_Rechtliches": "Rechtliches"
@@ -130,21 +101,11 @@
      "logged_in": "logged in as:"
   },
 
-  "Team": {
-    "scroll_down": " scroll down",
-    "scroll_up": "scroll up"
-  },
-
   "Whoweare": {
     "präTitle": "about 8zense.com",
     "Title_Whoweare": "Who we are?",
     "SubTitle_Whoweare": "8zense.com is Fernanda Pereira",
     "Text_Whoweare": "was born out of intuition, although Fernanda repeatedly asked herself whether good design is only available to those people who can afford it. As a trained interior designer, Fernanda has supervised countless projects and the ingredients concrete, wood, steel and glass have proven to be The preferred materials of her work were developed around good, appealing and timeless design. It was always Fernanda's desire to combine the symbiosis of the materials and to experiment with them. The result is:"
-  },
-
-  "IndexPage": {
-    "title": "Rechtliches",
-    "description": "absbssbbbsb"
   }
 }
 

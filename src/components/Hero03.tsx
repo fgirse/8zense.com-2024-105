@@ -2,7 +2,7 @@ import React from "react"
 import Image from "next/image";
 import Puppies  from'@/public/assets/images/peddiesGras.png';
 import { useTranslations } from "next-intl"; 
-
+import Footsteps from '@/public/assets/images/babyfoot.png';
 const Hero03= () => {
 const t= useTranslations("Hero_03")
     return (
@@ -81,7 +81,15 @@ const t= useTranslations("Hero_03")
     </button>
     {/* End Arrows */}
   </div>
-  <h1 className="mt-5 text-slate-100 text-5xl">Hier ist was los !!!</h1>
+ 
+
+  <h1 className="mt-5 text-slate-100 text-5xl"> {t("text00_Hero3")}</h1>
+  <p className="text-base md:text-lg text-slate-200 my-4 md:my-6 ">{t("text01_Hero3")}</p>
+        <div className="relative top-16 w-56 h-56 ">
+      
+      <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
+      
+      </div>
 </div>
 
 </>
