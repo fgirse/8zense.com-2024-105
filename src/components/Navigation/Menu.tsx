@@ -8,6 +8,7 @@ import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { Navigation } from 'lucide-react';
 
+
 const Menu = () => {
 
     const t = useTranslations("Navigation")
@@ -41,7 +42,9 @@ const Menu = () => {
     </div>
     <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block" aria-labelledby="hs-navbar-example-collapse">
       <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5 hover:text-white lg:text-2xl ">
-        <Link className="mb-2 font-medium  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/" aria-current="page">{t("home")}</Link>            
+        <Link className="mb-2 font-medium  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/" aria-current="page">{t("home")}</Link>
+       
+        <Link className="mb-2 font-medium  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/protected" aria-current="page">{t("galery")}</Link>                       
         <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
           <button id="hs-navbar-example-dropdown" type="button" className="hs-dropdown-toggle flex items-center w-full text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" aria-haspopup="menu" aria-expanded="false" aria-label="Mega Menu">
          {t("about")}
@@ -85,6 +88,7 @@ const Menu = () => {
         </div>
        {/* <Link className="font-medium text-gray-600 hover:text-gray-40 focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/frei">{t("Projects")}</Link>*/}
         {/* <Link className="font-medium text-gray-600  focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/services">{t("Services")}</Link> */}
+        
         <Link className="font-medium text-gray-600  focus:outline-none focus:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white" href="/contact">{t("contact")}</Link>
        {/* <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
           <button id="hs-navbar-example-dropdown" type="button" className="hs-dropdown-toggle flex items-center w-full text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" aria-haspopup="menu" aria-expanded="false" aria-label="Mega Menu">

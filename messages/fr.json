@@ -24,9 +24,16 @@
   },
   "Hero": {
     "präTitle": "",
-    "Title": "Kica",
-    "postTitle": "est ume Mama"
+    "Title": "Kica la Mama",
+    "postTitle": "L 'Histoire du chienne"
   },
+
+"Hero_03": {
+  "präTitle": "",
+  "Title": "Kica is pregnant",
+  "postTitle": "The Story of a Female Dog"
+},
+
   "HowItWorks": {
     "Howitworks": "So geht's",
     "text_01": "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
@@ -109,7 +116,7 @@
     "title": "Pfadnamen"
   },
   "protected": {
-    "Title_Protected": "Diese Seite sehen Sie nur wenn sie bei kics2024.de registriert bzw. eingeloggt sind!",
+    "Title_Protected": "Vous ne verrez cette page que si vous êtes inscrit ou connecté sur kica2024.de !",
     "userDetails": "Votre info d'user",
     "logged_in": "connecter a:"
   },

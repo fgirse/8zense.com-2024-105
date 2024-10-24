@@ -2,24 +2,14 @@
 
 import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
+import { useTranslations } from "next-intl";
+
+
 
 const ShuffleHero = () => {
   return (
     <section className="bg-slate-800 w-full px-8 py-12 grid grid-cols-1 md:grid-cols-2 items-center gap-8 max-w-6xl mx-auto">
-      <div>
-        <span className="block mb-4 text-base md:text-base text-orange-300 font-medium">
-          Impressionen
-        </span>
-        <h3 className="text-slate-100 text-4xl md:text-6xl font-semibold">
-          Hier ist was los...
-        </h3>
-        <p className="text-base md:text-lg text-slate-200 my-4 md:my-6">
-         Kica hat am 30. September 2024 zwischen 17:12 und 20:48 sechs Welpen geworfen: Primus, Secundus, Tertius, Quartus, Quintus und Sixtus.
-        </p>
-        <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
-          Send email
-        </button>
-      </div>
+      
       <ShuffleGrid />
     </section>
   );

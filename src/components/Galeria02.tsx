@@ -22,7 +22,7 @@ const Cards = () => {
     <div className="bg-slate-900 absolute inset-0 z-10" ref={containerRef}>
       <Card
         containerRef={containerRef}
-        src="/assets/images/Bild07.jpeg"
+        src="/assets/images/Bild06.jpeg"
         alt="Example image"
         rotate="6deg"
         top="20%"

@@ -12,6 +12,7 @@ import ColorChangeCards from "@/src/components/ColorChangeCard";
 import IlluTestimonial from "@/public/assets/images/illustration.png";
 import Caroussel from "@/src/components/Carousel";
 import Hero02 from "@/src/components/Hero02";
+import Carousel2 from "@/src/components/Caroussel_2";
 import { NextIntlClientProvider, useTranslations } from "next-intl";
 import { getMessages } from "next-intl/server";
 import {unstable_setRequestLocale} from 'next-intl/server';
@@ -54,6 +55,9 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
 
         <section className="">
             <IntroWebside/>
+          </section>
+          <section>
+            <Carousel2/>
           </section>
         </section>
       </main>

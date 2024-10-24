@@ -1,3 +1,4 @@
+
 import { signOutAction } from "@/src/app/[locale]/actions";
 import { hasEnvVars } from "@/src/utils/supabase/check-env-vars";
 import Link from "next/link";

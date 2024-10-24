@@ -1,9 +1,10 @@
 import React from "react"
 import Image from "next/image";
 import Puppies  from'@/public/assets/images/peddiesGras.png';
+import { useTranslations } from "next-intl"; 
 
 const Hero03= () => {
-
+const t= useTranslations("Hero_03")
     return (
 
 <>
@@ -20,8 +21,8 @@ const Hero03= () => {
         <div className="hs-carousel-slide">
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica08.png')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-              <span className="block text-white text-6xl uppercase md:text-[7.33rem]">Kica wird Mama</span>
-              <span className="block text-white text-xl md:text-3xl"> Geschichte über eine Hundemama</span>
+              <span className="block text-white text-6xl uppercase md:text-[7.33rem]">{t("Title")}</span>
+              <span className="block text-white text-xl md:text-3xl">{t("postTitle")}</span>
               <div className="mt-5">
           l
               </div>
@@ -80,6 +81,7 @@ const Hero03= () => {
     </button>
     {/* End Arrows */}
   </div>
+  <h1 className="mt-5 text-slate-100 text-5xl">Hier ist was los !!!</h1>
 </div>
 
 </>
