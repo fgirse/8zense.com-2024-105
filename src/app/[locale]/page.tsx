@@ -4,9 +4,10 @@ import { createClient } from "@/src/utils/supabase/server";
 import Header from "@/src/components/Header";
 import Hero03 from "@/src/components/Hero03";
 import IntroWebside from "@/src/components/IntroWebside";
-import CollapseCardFeatures from "@/src/components/CollapsCardFeature";
-import FeatureAnim from "@/src/components/FeatureAnimated";
-import Lotticall from "@/src/components/LottiCallToAct";
+
+
+
+//import Lotticall from0 "@/src/components/LottiCallToAct";
 import { CallToAct } from "@/src/components/CallToAct";
 import ColorChangeCards from "@/src/components/ColorChangeCard";
 import IlluTestimonial from "@/public/assets/images/illustration.png";

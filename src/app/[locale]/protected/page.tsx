@@ -20,7 +20,7 @@ import Carousel_2 from "@/src/components/Caroussel_2";
 
   const t = await getTranslations ("protected");
   return (
-    <div className="  flex-1 w-full flex flex-col gap-12">
+    <div className=" bg-slate-800  flex-1 w-full flex flex-col gap-12">
       <div className="w-full">
         <div className="bg-accent text-center text-sm p-3 px-5 rounded-md text-slate-50 flex gap-3 items-center">
           <InfoIcon size="16" strokeWidth={2} />

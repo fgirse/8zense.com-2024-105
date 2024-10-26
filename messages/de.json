@@ -48,6 +48,7 @@
     "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
     "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
   },
+
   "introWebside": {
     "zitat": "August 2024",
     "zitat02": "September 2024",
@@ -64,9 +65,7 @@
       "description": "landing page entwickelt mit Next.js und next-intl"
     }
   },
-  "LocaleLayout": {
-    "title": "Kica"
-  },
+  
   "LocaleSwitcher": {
     "label": "wähle Sprache",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 France} other {Unknown}}"
@@ -94,20 +93,7 @@
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
     "title": "Seite nicht gefunden"
-  },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
-        "href": "https://next-intl-docs.vercel.app/",
-        "title": "Dokumentation"
-      },
-      "source": {
-        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-app-router",
-        "title": "Quellcode"
-      }
-    }
+
   },
   "PathnamesPage": {
     "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",

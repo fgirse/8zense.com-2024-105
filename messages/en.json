@@ -51,21 +51,21 @@
   },
 
   "Layout": {
-    "metaData": {
-      "title": "8zense.com",
+    
+      "title": "kica2024.de",
       "description": "A landing page built with Next.js and next-intl"
-    }
-  },
-
-  "LocaleLayout": {
-    "title": "Kica.com",
-    "description": "landing page DEVELOPED WITH mit Next.js und next-intl"
-  },
+    },
 
   "LocaleSwitcher": {
     "label": "Change language",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 France} other {Unknown}}"
   },
+
+  "Manifest": {
+    "description": "",
+    "name": ""
+  }, 
+
 
   "Navigation": {
     "home": "Home",

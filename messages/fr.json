@@ -47,16 +47,10 @@
   },
 
   "Layout": {
-    "metaData": {
+    
       "title": "kica2024.de",
       "description": "A landing page constructe with Next.js and next-intl"
-    }
-
-  },
-  "LocaleLayout": {
-    "title": "Kica2024.de",
-    "description": "Landing page develope avec next.js et next.intel"
-  },
+    },
 
   "LocaleSwitcher": {
     "label": "Changer la lanque",
