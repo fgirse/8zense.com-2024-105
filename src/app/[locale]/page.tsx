@@ -7,7 +7,7 @@ import IntroWebside from "@/src/components/IntroWebside";
 
 
 
-//import Lotticall from0 "@/src/components/LottiCallToAct";
+// import Lotticall from0 "@/src/components/LottiCallToAct";
 import { CallToAct } from "@/src/components/CallToAct";
 import ColorChangeCards from "@/src/components/ColorChangeCard";
 import IlluTestimonial from "@/public/assets/images/illustration.png";
@@ -42,7 +42,7 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
 
         {/*====================================================grid start ===============*/}
 
-        <section className="w-[100vw] mx-auto bg-slate-800">
+        <section className="font-sans w-[100vw] mx-auto bg-slate-800">
           <div className="relative">
             <Hero03/>
           </div>
