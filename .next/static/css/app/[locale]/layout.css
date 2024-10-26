@@ -1,0 +1,32 @@
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/[locale]/layout.tsx","import":"Londrina_Sketch","arguments":[{"weight":["400"],"style":["normal"],"subsets":["latin"],"display":"swap","variable":"--font-londsketch"}],"variableName":"londsketch"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin */
+@font-face {
+  font-family: '__Londrina_Sketch_0e2b3e';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/1ea58adb420320b0-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Londrina_Sketch_Fallback_0e2b3e';src: local("Arial");ascent-override: 110.00%;descent-override: 27.70%;line-gap-override: 0.00%;size-adjust: 85.91%
+}.__className_0e2b3e {font-family: '__Londrina_Sketch_0e2b3e', '__Londrina_Sketch_Fallback_0e2b3e';font-weight: 400;font-style: normal
+}.__variable_0e2b3e {--font-londsketch: '__Londrina_Sketch_0e2b3e', '__Londrina_Sketch_Fallback_0e2b3e'
+}
+
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/[locale]/layout.tsx","import":"Architects_Daughter","arguments":[{"weight":["400"],"style":["normal"],"subsets":["latin"],"display":"swap","variable":"--font-archidaught"}],"variableName":"archidaught"} ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin */
+@font-face {
+  font-family: '__Architects_Daughter_58b470';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/396f3f65dc2bdc58-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Architects_Daughter_Fallback_58b470';src: local("Arial");ascent-override: 93.03%;descent-override: 38.04%;line-gap-override: 0.00%;size-adjust: 106.02%
+}.__className_58b470 {font-family: '__Architects_Daughter_58b470', '__Architects_Daughter_Fallback_58b470';font-weight: 400;font-style: normal
+}.__variable_58b470 {--font-archidaught: '__Architects_Daughter_58b470', '__Architects_Daughter_Fallback_58b470'
+}
+

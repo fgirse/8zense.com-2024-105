@@ -12,7 +12,7 @@ import Navigation from '@/src/components/Navigation/Menu';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
-import {Londrina_Shadow, Architects_Daughter } from "next/font/google";
+import {Londrina_Sketch, Architects_Daughter, Londrina_Outline } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 import Navbar from '@/src/components/ui/Navbar/Navbar';
@@ -24,12 +24,12 @@ import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto';
 
-const londshad= Londrina_Shadow({
+const londsketch= Londrina_Sketch({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-londshad',
+  variable: '--font-londsketch',
 })
 
 const archidaught= Architects_Daughter({
@@ -88,7 +88,7 @@ export async function generateMetadata({
 
     <>
      <html lang="en" className={"${archidaught.variable} ${londshad.variable}"} suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className={clsx(londshad.className, 'font-ad flex min-h-[100vh] w-[100%] flex-col bg-slate-700')}>
+        <body suppressHydrationWarning={true} className={clsx(londsketch.className, 'font-ad flex min-h-[100vh] w-[100%] flex-col bg-slate-700')}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

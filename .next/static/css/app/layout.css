@@ -145,7 +145,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
+  font-family: var(--font-londsketch); /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -225,7 +225,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
+  font-family: var(--font-archidaught); /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -534,6 +534,7 @@ video {
   }
   body {
   background-color: rgb(7, 5, 15);
+  font-family: Londrina_Sketch;
   }
 .container {
   width: 100%;
@@ -1869,14 +1870,11 @@ video {
 .text-right {
   text-align: right;
 }
-.font-ls {
-  font-family: var(--font-loundshad);
-}
 .font-mono {
-  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
-}
-.font-ad {
   font-family: var(--font-archidaught);
+}
+.font-sans {
+  font-family: var(--font-londsketch);
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -3638,6 +3636,10 @@ video {
 
   .md\:text-\[200px\] {
     font-size: 200px;
+  }
+
+  .md\:text-\[3\.0rem\] {
+    font-size: 3.0rem;
   }
 
   .md\:text-\[7\.33rem\] {

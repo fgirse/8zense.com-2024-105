@@ -42,7 +42,7 @@ export default async function IndexPage({ params: { locale } }: { params: { loca
 
         {/*====================================================grid start ===============*/}
 
-        <section className="font-sans w-[100vw] mx-auto bg-slate-800">
+        <section className=" w-[100vw] mx-auto bg-slate-800">
           <div className="relative">
             <Hero03/>
           </div>

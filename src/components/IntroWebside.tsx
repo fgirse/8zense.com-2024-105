@@ -7,9 +7,21 @@ import Skizze2 from "@/public/assets/images/scetch.png";
 import { useTranslations } from "next-intl";
 import Travel from "@/public/assets/images/IllustrationTravel.png";
 import Surprise from "@/public/assets/images/surprise01.png";
-import Footsteps from "@/public/assets/images/babyfoot.png";
+import Footsteps from "@/public/assets/images/babyfoot.png"
+import { Londrina_Shadow } from "next/font/google";
+
+const londshad= Londrina_Shadow({
+  weight: ['400',],
+  style: ['normal', ],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-londshad',
+})
+
 const IntroWebside = () => {
+  
   const t = useTranslations("introWebside");
+  
 
   return (
     <>
@@ -18,7 +30,7 @@ const IntroWebside = () => {
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
           <div className="relative top-0 left-0 col-span-6 col-start-7 row-span-7 row-start-1 px-1">
-            <p className="text-left mb-5  rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+            <p className="font-montext-left mb-5  rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
               {t("zitat")}
             </p>
 
@@ -37,7 +49,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className=" lg:top lg:leading-0 relative -top-20 text-slate-300 text-[2.0rem] font-ls">
+            <h1 className="text-4xl font-mono lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] font-ls">
               {t("text01")}
             </h1>
 
