@@ -73,8 +73,8 @@ const config = {
         "accordion-up": "accordion-up 0.2s ease-out",
       },
       fontFamily: {
-        sans: ['var(--font-loundsketch)'],
-        mono                                                                               : ['var(--font-archidaught)'],
+        londsketch: ['var(--font-londsketch)'],
+        archidaught: ['var(--font-archidaught)'],  
       },
     },
   },

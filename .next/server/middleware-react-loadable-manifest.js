@@ -1,1 +1,1 @@
-self.__REACT_LOADABLE_MANIFEST="{}"
+self.__REACT_LOADABLE_MANIFEST="{\"app/components/PrelineScript.tsx -> preline/preline\":{\"id\":\"app/components/PrelineScript.tsx -> preline/preline\",\"files\":[\"static/chunks/_app-pages-browser_node_modules_preline_preline_js.js\"]}}"

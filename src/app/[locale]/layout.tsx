@@ -87,7 +87,7 @@ export async function generateMetadata({
   return (
 
     <>
-     <html lang="en" className={"${archidaught.variable} ${londshad.variable}"} suppressHydrationWarning={true}>
+     <html lang="en" className={"${archidaught.variable} ${londsketsch.variable}"} suppressHydrationWarning={true}>
         <body suppressHydrationWarning={true} className={clsx(londsketch.className, 'font-ad flex min-h-[100vh] w-[100%] flex-col bg-slate-700')}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />

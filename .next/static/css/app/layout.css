@@ -145,7 +145,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: var(--font-londsketch); /* 4 */
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"; /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -225,7 +225,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: var(--font-archidaught); /* 1 */
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; /* 1 */
   font-feature-settings: normal; /* 2 */
   font-variation-settings: normal; /* 3 */
   font-size: 1em; /* 4 */
@@ -534,7 +534,7 @@ video {
   }
   body {
   background-color: rgb(7, 5, 15);
-  font-family: Londrina_Sketch;
+  
   }
 .container {
   width: 100%;
@@ -952,9 +952,6 @@ video {
 .h-3\.5 {
   height: 0.875rem;
 }
-.h-36 {
-  height: 9rem;
-}
 .h-4 {
   height: 1rem;
 }
@@ -1130,6 +1127,15 @@ video {
 }
 .w-screen {
   width: 100vw;
+}
+.w-\[909vw\] {
+  width: 909vw;
+}
+.w-\[9vw\] {
+  width: 9vw;
+}
+.w-\[99vw\] {
+  width: 99vw;
 }
 .min-w-64 {
   min-width: 16rem;
@@ -1745,9 +1751,6 @@ video {
 .p-4 {
   padding: 1rem;
 }
-.p-5 {
-  padding: 1.25rem;
-}
 .p-6 {
   padding: 1.5rem;
 }
@@ -1871,9 +1874,12 @@ video {
   text-align: right;
 }
 .font-mono {
-  font-family: var(--font-archidaught);
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.font-londsketch {
   font-family: var(--font-londsketch);
 }
 .text-2xl {
@@ -3725,6 +3731,10 @@ video {
     margin-top: 12vh;
   }
 
+  .lg\:mt-24 {
+    margin-top: 6rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3852,6 +3862,14 @@ video {
     font-size: 6rem;
   }
 
+  .lg\:text-\[12rem\] {
+    font-size: 12rem;
+  }
+
+  .lg\:text-\[10rem\] {
+    font-size: 10rem;
+  }
+
   .lg\:font-black {
     font-weight: 900;
   }
@@ -3868,6 +3886,10 @@ video {
     line-height: .75rem;
   }
 
+  .lg\:leading-9 {
+    line-height: 2.25rem;
+  }
+
   .lg\:text-slate-700 {
     --tw-text-opacity: 1;
     color: rgb(51 65 85 / var(--tw-text-opacity));
@@ -3876,6 +3898,14 @@ video {
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-\[6rm\] {
+    color: 6rm;
+  }
+
+  .lg\:text-\[\] {
+    color: ;
   }
 }
 
