@@ -533,12 +533,17 @@ video {
   
   }
   body {
-  background-color: rgb(7, 5, 15);
-  
+  background-color: #1e293b ;
+  font-family: "Architects Daughter" ;
+  font-weight: 900;
   }
 
-  .bowlbySC {
-font-family: var (--font-bowlbySC );
+  londshadow {
+font-family: "Londrina Shadow";
+  }
+
+  .bowlbySC{
+    font-family: var(--font-bowlbySC);
   }
 
 
@@ -572,6 +577,14 @@ font-family: var (--font-bowlbySC );
     url("/fonts/BowlbySC/BowlbyOneSC-Regular.ttf")format("truetype"),
     url("/fonts/BowlbySC/BowlbyOneSC-Regular.svg")format("svg"),
     
+}
+
+  team.filter(member => member.position == "developer")
+
+  .headingA {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #ffffff;
+  font-family: "Architects Daughter";
 }
 .container {
   width: 100%;
@@ -1907,6 +1920,9 @@ font-family: var (--font-bowlbySC );
 .font-sans {
   font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
+.font-bowlbySC {
+  font-family: var(--font-bowlbySC);
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -2145,6 +2161,10 @@ font-family: var (--font-bowlbySC );
 }
 .text-primary\/50 {
   color: hsl(var(--primary) / 0.5);
+}
+.text-red-200 {
+  --tw-text-opacity: 1;
+  color: rgb(254 202 202 / var(--tw-text-opacity));
 }
 .text-red-300\/50 {
   color: rgb(252 165 165 / 0.5);
@@ -3760,6 +3780,50 @@ font-family: var (--font-bowlbySC );
     margin-top: 12vh;
   }
 
+  .lg\:mt-\[1vh\] {
+    margin-top: 1vh;
+  }
+
+  .lg\:mt-\[vh\] {
+    margin-top: vh;
+  }
+
+  .lg\:mt-\[6vh\] {
+    margin-top: 6vh;
+  }
+
+  .lg\:mt-\[8vh\] {
+    margin-top: 8vh;
+  }
+
+  .lg\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .lg\:mt-20 {
+    margin-top: 5rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
+  .lg\:mt-10 {
+    margin-top: 2.5rem;
+  }
+
+  .lg\:mt-6 {
+    margin-top: 1.5rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3836,6 +3900,11 @@ font-family: var (--font-bowlbySC );
     padding-bottom: 0.75rem;
   }
 
+  .lg\:py-5 {
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+  }
+
   .lg\:text-center {
     text-align: center;
   }
@@ -3890,6 +3959,28 @@ font-family: var (--font-bowlbySC );
     font-size: 6rem;
   }
 
+  .lg\:text-\[5rem\] {
+    font-size: 5rem;
+  }
+
+  .lg\:text-\[4rem\] {
+    font-size: 4rem;
+  }
+
+  .lg\:text-\[4em\] {
+    font-size: 4em;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+
+  .lg\:text-8xl {
+    font-size: 6rem;
+    line-height: 1;
+  }
+
   .lg\:font-black {
     font-weight: 900;
   }
@@ -3918,6 +4009,22 @@ font-family: var (--font-bowlbySC );
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-\[rem\] {
+    color: rem;
+  }
+
+  .lg\:text-\[\] {
+    color: ;
+  }
+
+  .lg\:text-\[4\] {
+    color: 4;
+  }
+
+  .lg\:text-\[4e\] {
+    color: 4e;
   }
 }
 

@@ -64,15 +64,17 @@
   
   }
   body {
-  background-color: rgb(7, 5, 15);
-  
+  background-color: #1e293b ;
+  font-family: "Architects Daughter" ;
+  font-weight: 900;
   }
 
-  .bowlbySC {
-font-family: var (--font-bowlbySC );
+  londshadow {
+font-family: "Londrina Shadow";
   }
-  .archidaughter{
-    font-family: var(--font-archidaught);
+
+  .bowlbySC{
+    font-family: var(--font-bowlbySC);
   }
 
 

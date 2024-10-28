@@ -1,4 +1,6 @@
 {
-  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
-  "/[locale]/contact/page": "app/[locale]/contact/page.js"
+  "/_not-found/page": "app/_not-found/page.js",
+  "/[locale]/page": "app/[locale]/page.js",
+  "/[locale]/contact/page": "app/[locale]/contact/page.js",
+  "/[locale]/(auth-pages)/sign-in/page": "app/[locale]/(auth-pages)/sign-in/page.js"
 }

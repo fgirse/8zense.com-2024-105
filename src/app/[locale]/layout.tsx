@@ -12,7 +12,7 @@ import Navigation from '@/src/components/Navigation/Menu';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
-import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
+import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 import Navbar from '@/src/components/ui/Navbar/Navbar';
@@ -24,12 +24,12 @@ import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto';
 
-export const londsketch_init = Londrina_Sketch({
+export const londshadow_init = Londrina_Shadow({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-londsketch',
+  variable: '--font-londshadow',
 })
 
 export const bowlbySC_init= Bowlby_One_SC({

@@ -18,6 +18,13 @@ const config = {
       },
     },
     extend: {
+
+      fontFamily: {
+        londsketch: ['var(--font-londsketch)'],
+        archidaught: ['var(--font-archidaught)'],
+        bowlbySC: ['var(--font-bowlbySC)'],   
+      },
+      
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
@@ -72,12 +79,8 @@ const config = {
         "accordion-down": "accordion-down 0.2s ease-out",
         "accordion-up": "accordion-up 0.2s ease-out",
       },
-      
-      fontFamily: {
-        londsketch: ['var(--font-londsketch)'],
-        archidaught: ['var(--font-archidaught)'],
-        bowlbySC: ['var(--font-bowlbySC)'],   
-      },
+
+     
     },
   },
   plugins: [require("tailwindcss-animate")],

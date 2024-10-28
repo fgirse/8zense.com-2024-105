@@ -83,7 +83,7 @@ const t= useTranslations("Hero_03")
   </div>
  
 
-  <h1 className="mt-5 text-slate-100 font-sans text-5xl"> {t("text00_Hero3")}</h1>
+  <h1 className="mt-5 text-slate-100 headingA font-bowlbySC text-5xl"> {t("text00_Hero3")}</h1>
   <p className="text-base md:text-lg text-slate-200 my-4 md:my-6 ">{t("text01_Hero3")}</p>
         <div className="relative top-16 w-56 h-56 ">
       

@@ -12,8 +12,8 @@ const page = () => {
     <>
       <section className="h-screen py-3 ">
         <div className="flex-1 w-[99vw] mt-16 py-1 px-3 rounded-xl flex flex-col mx-auto items-center justify-center lg:mt-24">
-          <h1 className = {'{Bowlby_One_SC.className} uppercase text-center text-neutral-200 text-4xl lg:mt-[12vh] lg:text-[6rem]'}>
-            {" "}
+          <h1 className = {" ${bowlbySC.className} uppercase text-center text-red-200 text-8xl lg:mt-[8vh] g:text-[4em]"}>
+            
             contact
           </h1>
 
@@ -25,19 +25,19 @@ const page = () => {
             />
           </div>
           <div className="relative mt-3 flex-1 ">
-            <h1 className=" mb-2 text-4xl text-center text-neutral-200 lg:mt-5 lg:text-[12rem]">
+            <h1 className=" mb-2 text-4xl text-center text-neutral-200 lg:mt-6 lg:text-[5rem]">
               Claudia & Frank
             </h1>
-            <h1 className=" text-2xl text-center text-neutral-300 lg:text-[10rem] lg:leading-9">
+            <h1 className=" text-2xl text-center text-neutral-300 lg:mt-6  lg:text-[4em] lg:leading-9">
               Binzenstrasse 2
             </h1>
-            <h1 className=" text-2xl text-center text-neutral-200 lg:text-[10rem] lg:leading12 ">
+            <h1 className=" text-2xl text-center text-neutral-200  lg:mt-6 lg:text-[4em] lg:leading-9">
               4058 Basel
             </h1>
-            <h1 className=" text-2xl text-center text-neutral-200 <lg:text-5xllg:text-[10rem] lg:leading12">
+            <h1 className=" text-2xl text-center text-neutral-200 lg:mt-6  lg:text-[4em] lg:leading[6rem] lg:leading9">
               Telefon: +49 15167621859
             </h1>
-            <h1 className=" text-2xl text-center text-neutral-200 lg:text-[10rem] lg:leading12">
+            <h1 className=" text-2xl text-center text-neutral-200 lg:mt-6 lg:text-[4em] lg:leading9">
               claudiacarneiro@gmx.de
             </h1>
           </div>
