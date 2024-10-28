@@ -1,4 +1,4 @@
 {
-  "/[locale]/page": "app/[locale]/page.js",
+  "/manifest.webmanifest/route": "app/manifest.webmanifest/route.js",
   "/[locale]/contact/page": "app/[locale]/contact/page.js"
 }

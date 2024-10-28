@@ -12,7 +12,7 @@ import Navigation from '@/src/components/Navigation/Menu';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
-import {Londrina_Sketch, Architects_Daughter, Londrina_Outline } from "next/font/google";
+import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 
 import Navbar from '@/src/components/ui/Navbar/Navbar';
@@ -24,7 +24,7 @@ import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto';
 
-const londsketch= Londrina_Sketch({
+export const londsketch_init = Londrina_Sketch({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
@@ -32,7 +32,15 @@ const londsketch= Londrina_Sketch({
   variable: '--font-londsketch',
 })
 
-const archidaught= Architects_Daughter({
+export const bowlbySC_init= Bowlby_One_SC({
+  weight: ['400',],
+  style: ['normal', ],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--font-bowlbySC',
+})
+
+export const archidaught_init= Architects_Daughter({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
@@ -87,8 +95,8 @@ export async function generateMetadata({
   return (
 
     <>
-     <html lang="en" className={"${archidaught.variable} ${londsketsch.variable}"} suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className={clsx(londsketch.className, 'font-ad flex min-h-[100vh] w-[100%] flex-col bg-slate-700')}>
+     <html lang="en"  suppressHydrationWarning={true}>
+        <body suppressHydrationWarning={true} className= {'${bowlbySC_init.variable} ${archidaught_init.variable} ${londsketch_init.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

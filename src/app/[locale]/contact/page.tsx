@@ -4,7 +4,7 @@ import Logo from "@/src/components/icons/Logo";
 // 👇 import local font
 import localFont from 'next/font/local'
 import styles from './Contact.module.css'
-import { londsketch } from "@/src/app/utils/fonts";
+
 
 
 const page = () => {
@@ -12,16 +12,16 @@ const page = () => {
     <>
       <section className="h-screen py-3 ">
         <div className="flex-1 w-[99vw] mt-16 py-1 px-3 rounded-xl flex flex-col mx-auto items-center justify-center lg:mt-24">
-          <h1 className = '${londsketch.className} font-londsketch uppercase text-center text-neutral-200 text-4xl lg:mt-[12vh] lg:text-[12rem]'>
+          <h1 className = {'{Bowlby_One_SC.className} uppercase text-center text-neutral-200 text-4xl lg:mt-[12vh] lg:text-[6rem]'}>
             {" "}
             contact
           </h1>
 
-0            <Image
+            <Image
               src="/assets/images/logoPet.svg"
               alt="Logo"
-              width="300"
-              height="300"
+              width="150"
+              height="150"
             />
           </div>
           <div className="relative mt-3 flex-1 ">
