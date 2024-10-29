@@ -3,6 +3,8 @@ import Image from "next/image";
 import Puppies  from'@/public/assets/images/peddiesGras.png';
 import { useTranslations } from "next-intl"; 
 import Footsteps from '@/public/assets/images/babyfoot.png';
+import  {bowlbySC} from"@/src/app/utils/fonts"
+
 const Hero03= () => {
 const t= useTranslations("Hero_03")
     return (
@@ -83,8 +85,8 @@ const t= useTranslations("Hero_03")
   </div>
  
 
-  <h1 className="mt-5 text-slate-100 headingA font-bowlbySC text-5xl"> {t("text00_Hero3")}</h1>
-  <p className="text-base md:text-lg text-slate-200 my-4 md:my-6 ">{t("text01_Hero3")}</p>
+  <h1 className={"mt-5 text-slate-100 headingC bowlbySC text-5xl lg:text-[9rem] ${bowlbySC_init.className} "}> {t("text00_Hero3")}</h1>
+  <p className="text-base md:text-lg text-slate-200 my-4 md:my-6 lg:text-2xl ">{t("text01_Hero3")}</p>
         <div className="relative top-16 w-56 h-56 ">
       
       <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
