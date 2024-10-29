@@ -14,7 +14,7 @@ import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
 import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
-
+import localFont from 'next/font/local';
 import Navbar from '@/src/components/ui/Navbar/Navbar';
 import { Metadata } from 'next';
 import Footer from '@/src/components/Footer/footer';
@@ -23,29 +23,27 @@ import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto';
-
-export const londshadow_init = Londrina_Shadow({
+import Fake from "@/public/fonts/BowlbyOneSC/bowlby-one-sc-v19-latin-regular.svg"
+export const londshadow = Londrina_Shadow({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-londshadow',
+  variable: '--londshadow',
 })
 
-export const bowlbySC_init= Bowlby_One_SC({
-  weight: ['400',],
-  style: ['normal', ],
-  subsets: ['latin'],
+export const bowlbySC= localFont({
+  src: "../../../public/fonts/BowlbySC/BowlbyOneSC.eot",
   display: 'swap',
-  variable: '--font-bowlbySC',
+  variable: '--bowlbySC',
 })
 
-export const archidaught_init= Architects_Daughter({
+export const archidaught= Architects_Daughter({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--font-archidaught',
+  variable: '--archidaught',
 })
 
 
@@ -96,7 +94,7 @@ export async function generateMetadata({
 
     <>
      <html lang="en"  suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className= {'${bowlbySC_init.variable} ${archidaught_init.variable} ${londsketch_init.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
+        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${archidaught.variable} ${londsketch.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

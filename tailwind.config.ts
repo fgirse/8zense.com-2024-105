@@ -20,11 +20,11 @@ const config = {
     extend: {
 
       fontFamily: {
-        londsketch: ['var(--font-londsketch)'],
-        archidaught: ['var(--font-archidaught)'],
-        bowlbySC: ['var(--font-bowlbySC)'],   
+        londsketch: ['var(--londsketch)'],
+        archidaught: ['var(--archidaught)'],
+        bowlbySC: ['var(--bowlbySC)'],   
       },
-      
+
       colors: {
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",

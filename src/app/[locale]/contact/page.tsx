@@ -4,7 +4,7 @@ import Logo from "@/src/components/icons/Logo";
 // 👇 import local font
 import localFont from 'next/font/local'
 import styles from './Contact.module.css'
-
+import {bowwlby} from '@/src/app/utils/fonts';
 
 
 const page = () => {
@@ -12,7 +12,7 @@ const page = () => {
     <>
       <section className="h-screen py-3 ">
         <div className="flex-1 w-[99vw] mt-16 py-1 px-3 rounded-xl flex flex-col mx-auto items-center justify-center lg:mt-24">
-          <h1 className = {" ${bowlbySC.className} uppercase text-center text-red-200 text-8xl lg:mt-[8vh] g:text-[4em]"}>
+          <h1 className = "uppercase text-center text-slate-500 text-8xl lg:mt-[8vh] lg:text-[4em]">
             
             contact
           </h1>

@@ -65,17 +65,16 @@
   }
   body {
   background-color: #1e293b ;
-  font-family: "Architects Daughter" ;
-  font-weight: 900;
+
+  font-weight: 400;
   }
 
   londshadow {
-font-family: "Londrina Shadow";
+ font-family: "Londrina Shadow";
   }
 
   .bowlbySC{
-    font-family: "Bowlby One SC"
-  
+    font-family: "Bowlby One SC";
   }
 
 
@@ -114,9 +113,9 @@ font-family: "Londrina Shadow";
   team.filter(member => member.position == "developer")
 
   .headingA {
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2 px;
   -webkit-text-stroke-color: #ffffff;
-  font-family: "Architects Daughter";
+  font-family: "Bowlby One SC";
 }
 
 .headingB {

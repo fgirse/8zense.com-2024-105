@@ -13,6 +13,8 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Banner from "@/src/components/Banner";
 import Footsteps from "@/public/assets/images/babyfoot.png";
+import { bowlbySC } from "../app/utils/fonts";
+
 const locale: string = "en";
 const Hero =()=> {
   
@@ -39,11 +41,11 @@ const Hero =()=> {
         <h1 className="relative mb-2 text-center -top-5 text-[2.33rem] leading-9 lg:text-white font-normal uppercase text-neutral-100  sm:text-4xl md:text-6x lg:mb7 lg:text-[5.0rem] lg:leading-10 lg:top-1 xl:text-[4.66rem] 2xl:text-[5.166rem] lg:mb-5">
           {t("präTitle")}
                                                             </h1>
-        <h1 className="mb-3 font-ls relative text-center -top-[3vh] text-[8.0rem] font-normal uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:font-black lg:leading-3 xl:text-[14.33rem] xl:top-32">
+        <h1 className="mb-3 bowlbySC headingF relative text-center -top-[3vh] text-[8.0rem] uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:text-neutral-600  xl:text-[14.33rem] xl:top-32">
           {t("Title")}
         </h1>
 
-        <p className="relative uppercase top6 text-center text-[2.2663rem] leading-8 text-neutral-100 sm:text-4xl md:top-3 md:tet-4xl lg:mb-4 lg:top-52 lg:text-center lg:text-5xl lg:font-black">
+        <p className="relative uppercase top6 text-center text-[2.2663rem] leading-8 text-neutral-100 sm:text-4xl md:top-3 md:tet-4xl lg:mb-4 lg:top-52 lg:text-center lg:text-5xl lg:font-bowlbySC lg:text-neutral-600">
           {t("postTitle")}
         </p>
         </div>
@@ -64,6 +66,6 @@ const Hero =()=> {
         </div>
       </div>
     </section>
-  );0
+  );
 }
 export default Hero

@@ -534,17 +534,16 @@ video {
   }
   body {
   background-color: #1e293b ;
-  font-family: "Architects Daughter" ;
-  font-weight: 900;
+
+  font-weight: 400;
   }
 
   londshadow {
-font-family: "Londrina Shadow";
+ font-family: "Londrina Shadow";
   }
 
   .bowlbySC{
-    font-family: "Bowlby One SC"
-  
+    font-family: "Bowlby One SC";
   }
 
 
@@ -583,15 +582,22 @@ font-family: "Londrina Shadow";
   team.filter(member => member.position == "developer")
 
   .headingA {
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: 2 px;
   -webkit-text-stroke-color: #ffffff;
-  font-family: "Architects Daughter";
+  font-family: "Bowlby One SC";
 }
 
 .headingC {
   -webkit-text-stroke-width: 1px;
   -webkit-text-stroke-color: orange;
   font-family: "Architects Daughter";
+}
+
+.headingF {
+  -webkit-text-stroke-width: 5.9px;
+  -webkit-text-stroke-color: #fffffc;
+  font-family: Bowlby_One_SC;
+  font-weight: extrabold;
 }
 .container {
   width: 100%;
@@ -1922,7 +1928,7 @@ font-family: "Londrina Shadow";
   text-align: right;
 }
 .font-bowlbySC {
-  font-family: var(--font-bowlbySC);
+  font-family: var(--bowlbySC);
 }
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
@@ -2166,10 +2172,6 @@ font-family: "Londrina Shadow";
 .text-primary\/50 {
   color: hsl(var(--primary) / 0.5);
 }
-.text-red-200 {
-  --tw-text-opacity: 1;
-  color: rgb(254 202 202 / var(--tw-text-opacity));
-}
 .text-red-300\/50 {
   color: rgb(252 165 165 / 0.5);
 }
@@ -2199,6 +2201,10 @@ font-family: "Londrina Shadow";
 .text-slate-50 {
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 .text-white {
   --tw-text-opacity: 1;
@@ -3864,6 +3870,10 @@ font-family: "Londrina Shadow";
     text-align: center;
   }
 
+  .lg\:font-bowlbySC {
+    font-family: var(--bowlbySC);
+  }
+
   .lg\:text-2xl {
     font-size: 1.5rem;
     line-height: 2rem;
@@ -3899,10 +3909,6 @@ font-family: "Londrina Shadow";
     line-height: 1;
   }
 
-  .lg\:text-\[12rem\] {
-    font-size: 12rem;
-  }
-
   .lg\:text-\[15\.33rem\] {
     font-size: 15.33rem;
   }
@@ -3919,16 +3925,8 @@ font-family: "Londrina Shadow";
     font-size: 5rem;
   }
 
-  .lg\:text-\[1rem\] {
-    font-size: 1rem;
-  }
-
   .lg\:text-\[9rem\] {
     font-size: 9rem;
-  }
-
-  .lg\:font-black {
-    font-weight: 900;
   }
 
   .lg\:font-semibold {
@@ -3939,12 +3937,13 @@ font-family: "Londrina Shadow";
     line-height: 2.5rem;
   }
 
-  .lg\:leading-3 {
-    line-height: .75rem;
-  }
-
   .lg\:leading-9 {
     line-height: 2.25rem;
+  }
+
+  .lg\:text-neutral-600 {
+    --tw-text-opacity: 1;
+    color: rgb(82 82 82 / var(--tw-text-opacity));
   }
 
   .lg\:text-slate-700 {
@@ -3955,10 +3954,6 @@ font-family: "Londrina Shadow";
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .lg\:text-\[rem\] {
-    color: rem;
   }
 }
 
