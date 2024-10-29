@@ -1,15 +1,5 @@
-import {
-  Body,
-  Container,
-  Head,
-  Heading,
-  Html,
-  Link,
-  Preview,
-  Text,
-} from 'npm:@react-email/components@0.0.22'
-import * as React from 'npm:react@18.3.1'
-
+import {Body,Container,Head,Heading,Html,Link,Preview,Text,} from '@react-email/components'  
+import * as React from 'react'//+
 interface MagicLinkEmailProps {
   supabase_url: string
   email_action_type: string
