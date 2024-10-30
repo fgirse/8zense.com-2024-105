@@ -41,7 +41,7 @@ const Hero =()=> {
         <h1 className="relative mb-2 text-center -top-5 text-[2.33rem] leading-9 lg:text-white font-normal uppercase text-neutral-100  sm:text-4xl md:text-6x lg:mb7 lg:text-[5.0rem] lg:leading-10 lg:top-1 xl:text-[4.66rem] 2xl:text-[5.166rem] lg:mb-5">
           {t("präTitle")}
                                                             </h1>
-        <h1 className="mb-3 bowlbySC headingF relative text-center -top-[3vh] text-[8.0rem] uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:text-neutral-600  xl:text-[14.33rem] xl:top-32">
+        <h1 className="mb-3font-bowlbySC headingB relative text-center -top-[3vh] text-[8.0rem] uppercase leading-3 text-orange-300 sm:text-8xl md:text-8xl md:top-3 lg:top-[8vh] lg:text-[15.33rem] lg:text-neutral-600  xl:text-[14.33rem] xl:top-32">
           {t("Title")}
         </h1>
 
