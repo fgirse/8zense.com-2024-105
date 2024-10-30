@@ -66,10 +66,9 @@
   body {
   background-color: #1e293b ;
 
-  font-weight: 400;
   }
 
-  londshadow {
+  .londshadow {
  font-family: "Londrina Shadow";
   }
 
@@ -119,7 +118,7 @@
 }
 
 .headingB {
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-width: .4px;
   -webkit-text-stroke-color: #ffcc00;
   font-family: "Architects Daughter";
 }
@@ -138,8 +137,8 @@
 }
 
 .headingE {
-  -webkit-text-stroke-width: 7.99px;
-  -webkit-text-stroke-color: #595959;
+  -webkit-text-stroke-width: 1.99px;
+  -webkit-text-stroke-color: #0f0f0f;
   font-family: "Bowlby One SC";
   font-weight: extrabold;
 }

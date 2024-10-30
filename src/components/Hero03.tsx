@@ -23,8 +23,8 @@ const t= useTranslations("Hero_03")
         <div className="hs-carousel-slide">
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica08.png')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-              <span className="block text-white text-6xl uppercase md:text-[7.33rem]">{t("Title")}</span>
-              <span className="block text-white text-xl md:text-3xl">{t("postTitle")}</span>
+              <span className="block text-white text-6xl uppercase md:text-[7.33rem] headingE ">{t("Title")}</span>
+              <span className="block text-white text-2xl md:text-3xl">{t("postTitle")}</span>
               <div className="mt-5">
           l
               </div>
@@ -37,8 +37,8 @@ const t= useTranslations("Hero_03")
         <div className="hs-carousel-slide">
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica_Welpe-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-              <span className="block uppercase text-black text-[4.0rem] leading-9">Bom dia</span>
-              <span className="block text-white text-xl md:text-3xl">Kica als Welpe</span>
+              <span className="block uppercase text-slate-300 text-[3.0rem] headingE leading-9">Bom dia</span>
+              <span className="block text-slate-600 text-xl md:text-3xl">Kica als Welpe</span>
               <div className="mt-5">
 
               </div>
@@ -51,7 +51,7 @@ const t= useTranslations("Hero_03")
         <div className="hs-carousel-slide">
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Portrait_Kica-01-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
-              <span className="block text-[5rem] uppercase text-white">Kica</span>
+              <span className="block text-[3rem] uppercase headingE  text-white">Kica</span>
               <span className="block text-white text-xl md:text-3xl">4 jährige Hündin aus Monte Cordova</span>
               <div className="mt-5">
             
@@ -85,7 +85,8 @@ const t= useTranslations("Hero_03")
   </div>
  
 
-  <h1 className={"mt-5 text-slate-100 headingC bowlbySC text-5xl lg:text-[9rem] ${bowlbySC_init.className} "}> {t("text00_Hero3")}</h1>
+  <h1 className=
+  "mt-5 text-slate-100 bowlbySC text-5xl lg:text-[9rem] "> {t("text00_Hero3")}</h1>
   <p className="text-base md:text-lg text-slate-200 my-4 md:my-6 lg:text-2xl ">{t("text01_Hero3")}</p>
         <div className="relative top-16 w-56 h-56 ">
       

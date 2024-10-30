@@ -30,7 +30,7 @@ const IntroWebside = () => {
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
           <div className="relative top-0 left-0 col-span-6 col-start-7 row-span-7 row-start-1 px-1">
-            <p className="bowlbySC -700 font-bowlbySC text-left mb-5  rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl lg:font-semibold">
+            <p className="bowlbySC text-left mb-5 rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl ">
               {t("zitat")}
             </p>
 

@@ -12,7 +12,7 @@ const page = () => {
     <>
       <section className="h-screen py-3 ">
         <div className="flex-1 w-[99vw] mt-16 py-1 px-3 rounded-xl flex flex-col mx-auto items-center justify-center lg:mt-24">
-          <h1 className = "font-bowlbyS uppercase text-center text-slate-500 text-8xl lg:mt-[8vh] lg:text-[4em]">
+          <h1 className = "headingE font-bowlbySC uppercase text-center text-slate-500 text-6xl lg:mt-[8vh] lg:text-[4em]">
             
             contact
           </h1>
@@ -24,7 +24,7 @@ const page = () => {
               height="150"
             />
           </div>
-          <div className="relative mt-3 flex-1 ">
+          <div className="relative mt-3 flex-1 headingB">
             <h1 className=" mb-2 text-4xl text-center text-neutral-200 lg:mt-6 lg:text-[5rem]">
               Claudia & Frank
             </h1>

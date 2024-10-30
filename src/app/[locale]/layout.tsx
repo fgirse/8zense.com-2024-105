@@ -12,7 +12,7 @@ import Navigation from '@/src/components/Navigation/Menu';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
-import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
+import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC, Gochi_Hand } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import localFont from 'next/font/local';
 import Navbar from '@/src/components/ui/Navbar/Navbar';
@@ -22,12 +22,12 @@ import { Toaster } from '@/src/components/ui/Toasts/toaster';
 import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
-import { KeyObject } from 'crypto';
-import Fake from "@/public/fonts/BowlbyOneSC/bowlby-one-sc-v19-latin-regular.svg"
-export const londshadow = Londrina_Shadow({
-  weight: ['400',],
-  style: ['normal', ],
-  subsets: ['latin'],
+import { KeyObject } from 'crypto'
+
+
+
+export const londshadow = localFont({
+  src: "../../../public/fonts/LodrinaShadow/LondrinaShadow-Regular.ttf",
   display: 'swap',
   variable: '--londshadow',
 })
@@ -38,12 +38,11 @@ export const bowlbySC= localFont({
   variable: '--bowlbySC',
 })
 
-export const archidaught= Architects_Daughter({
-  weight: ['400',],
-  style: ['normal', ],
-  subsets: ['latin'],
+export const gochiHand= localFont({
+
+  src:"../../../public/fonts/Gochi_Hand/GochiHand-Regular.ttf",
   display: 'swap',
-  variable: '--archidaught',
+  variable: '--gochiHand',
 })
 
 
@@ -94,7 +93,7 @@ export async function generateMetadata({
 
     <>
      <html lang="en"  suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${archidaught.variable} ${londsketch.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
+        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

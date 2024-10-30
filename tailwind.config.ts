@@ -20,8 +20,8 @@ const config = {
     extend: {
 
       fontFamily: {
-        londsketch: ['var(--londsketch)'],
-        archidaught: ['var(--archidaught)'],
+        londshadow: ['var(--londshadow)'],
+        gochiHand: ['var(--gochiHand)'],
         bowlbySC: ['var(--bowlbySC)'],   
       },
 
