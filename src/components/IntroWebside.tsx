@@ -5,18 +5,10 @@ import Button from "@/src/components/Button";
 import Skizze from "@/public/assets/images/skizze.png";
 import Skizze2 from "@/public/assets/images/scetch.png";
 import { useTranslations } from "next-intl";
-import Travel from "@/public/assets/images/test.svg";
+import Travel from "@/public/assets/images/travel2.svg"
 import Surprise from "@/public/assets/images/surprise01.png";
 import Footsteps from "@/public/assets/images/babyfoot.png"
-import { Londrina_Shadow } from "next/font/google";
 
-const londshad= Londrina_Shadow({
-  weight: ['400',],
-  style: ['normal', ],
-  subsets: ['latin'],
-  display: 'swap',
-  variable: '--font-londshad',
-})
 
 const IntroWebside = () => {
   
@@ -35,7 +27,7 @@ const IntroWebside = () => {
             </p>
 
             <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-8xl leading-3 text-white sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
-         <p className="mt-4 relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+         <p className="mt-4 relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
               🇵🇹
               </p>
 
@@ -49,7 +41,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className="text-4xl headingA font-mono lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] font-ls">
+            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] font-ls">
               {t("text01")}
             </h1>
 
@@ -69,21 +61,21 @@ const IntroWebside = () => {
       
       </div>
 
-            <p className="text-left rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+            <p className="text-left bowlbySC uppercase rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
               {t("zitat02")}
             </p>
             <div className=" inline-flex">
-            <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+            <p className="relative z-10 text-[9.0rem] font-black md:text-7xl md:leading-4 lg:text-9xl">
               🇵🇹
               </p>
-              <div className="w-32 h-20">
+              <div className="w-48 h-36 mt-12">
               <Image src={Travel} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
               🇨🇭
               </p>
               </div>
-              <p className=" text-[2.0rem] text-slate-200 md:my-6 md:text-lg">
+              <p className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg">
             
             {t("text03")}
           </p>
@@ -96,27 +88,27 @@ const IntroWebside = () => {
       
       <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
       
-      </div>         <p className="text-right rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
+      </div>         <p className="uppercase bowlbySC text-right rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
               {t("zitat02")}
             </p>
             <div className=" inline-flex">
-            <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
-              🇵🇹
+            <p className="relative z-10 text-[8.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              
               </p>
 
  ≈
-              <div className="w-32 h-20">
+              <div className="w-48 h-32">
               <Image src={Surprise} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="relative z-10 text-[6.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
               🇨🇭
               </p>
               </div>
-              <p className=" text-[1.33rem] text-slate-200 md:my-6 md:text-lg">
+              <p className=" text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg">
             
             {t("text05")}
           </p>
-          <p className="text-base text-slate-200 md:my-6 md:text-lg">
+          <p className="font-gochiHand text-base text-slate-200 md:my-6 md:text-lg">
             
               {t("text06")}
             </p>

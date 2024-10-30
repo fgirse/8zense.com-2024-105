@@ -545,6 +545,10 @@ video {
     font-family: "Bowlby One SC";
   }
 
+  .gochiHand{
+    font-family: "Gochi Hand";
+  }
+
 
   /* architects-daughter-regular - latin */
  font-face {
@@ -590,13 +594,6 @@ video {
   -webkit-text-stroke-width: .4px;
   -webkit-text-stroke-color: #ffcc00;
   font-family: "Architects Daughter";
-}
-
-.headingD {
-  -webkit-text-stroke-width: 0.66px;
-  -webkit-text-stroke-color: #595959;
-  font-family: "Architects Daughter";
-  font-weight: extrabold;
 }
 
 .headingE {
@@ -1015,14 +1012,17 @@ video {
 .h-2 {
   height: 0.5rem;
 }
-.h-20 {
-  height: 5rem;
-}
 .h-3 {
   height: 0.75rem;
 }
 .h-3\.5 {
   height: 0.875rem;
+}
+.h-32 {
+  height: 8rem;
+}
+.h-36 {
+  height: 9rem;
 }
 .h-4 {
   height: 1rem;
@@ -1131,9 +1131,6 @@ video {
 }
 .w-3\/4 {
   width: 75%;
-}
-.w-32 {
-  width: 8rem;
 }
 .w-36 {
   width: 9rem;
@@ -1942,6 +1939,9 @@ video {
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
+.font-gochiHand {
+  font-family: var(--gochiHand);
+}
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -1966,8 +1966,8 @@ video {
   font-size: 6rem;
   line-height: 1;
 }
-.text-\[1\.33rem\] {
-  font-size: 1.33rem;
+.text-\[1\.66rem\] {
+  font-size: 1.66rem;
 }
 .text-\[1\.6rem\] {
   font-size: 1.6rem;
@@ -1987,17 +1987,17 @@ video {
 .text-\[250px\] {
   font-size: 250px;
 }
-.text-\[4\.0rem\] {
-  font-size: 4.0rem;
+.text-\[3\.0rem\] {
+  font-size: 3.0rem;
 }
-.text-\[5rem\] {
-  font-size: 5rem;
-}
-.text-\[6\.0rem\] {
-  font-size: 6.0rem;
+.text-\[3rem\] {
+  font-size: 3rem;
 }
 .text-\[8\.0rem\] {
   font-size: 8.0rem;
+}
+.text-\[9\.0rem\] {
+  font-size: 9.0rem;
 }
 .text-base {
   font-size: 1rem;
@@ -2018,21 +2018,6 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
-}
-.text-\[\.0rem\] {
-  font-size: .0rem;
-}
-.text-\[3\.0rem\] {
-  font-size: 3.0rem;
-}
-.text-\[4rem\] {
-  font-size: 4rem;
-}
-.text-\[43rem\] {
-  font-size: 43rem;
-}
-.text-\[3rem\] {
-  font-size: 3rem;
 }
 .font-black {
   font-weight: 900;
@@ -2230,6 +2215,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(100 116 139 / var(--tw-text-opacity));
 }
+.text-slate-600 {
+  --tw-text-opacity: 1;
+  color: rgb(71 85 105 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2271,13 +2260,6 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
-}
-.text-slate-600 {
-  --tw-text-opacity: 1;
-  color: rgb(71 85 105 / var(--tw-text-opacity));
-}
-.text-\[rem\] {
-  color: rem;
 }
 .underline {
   text-decoration-line: underline;
@@ -3714,6 +3696,11 @@ video {
 
   .md\:text-5xl {
     font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-7xl {
+    font-size: 4.5rem;
     line-height: 1;
   }
 
