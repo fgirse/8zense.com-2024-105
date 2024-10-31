@@ -954,6 +954,9 @@ video {
 .mt-auto {
   margin-top: auto;
 }
+.mt-9 {
+  margin-top: 2.25rem;
+}
 .block {
   display: block;
 }
@@ -1202,6 +1205,18 @@ video {
 }
 .w-1\/3 {
   width: 33.333333%;
+}
+.w-\[\] {
+  width: ;
+}
+.w-\[33\] {
+  width: 33;
+}
+.w-\[33v\] {
+  width: 33v;
+}
+.w-\[33vw\] {
+  width: 33vw;
 }
 .min-w-64 {
   min-width: 16rem;
@@ -2458,6 +2473,15 @@ video {
 }
 .\[--strategy\:static\] {
   --strategy: static;
+}
+
+@media (min-width: 1024px) {
+
+.lg\:headingB {
+  -webkit-text-stroke-width: .4px;
+  -webkit-text-stroke-color: #ffcc00;
+  font-family: "Architects Daughter";
+}
 }
 
 .file\:border-0::file-selector-button {
@@ -3814,6 +3838,26 @@ video {
     margin-top: 8vh;
   }
 
+  .lg\:mt-12 {
+    margin-top: 3rem;
+  }
+
+  .lg\:mt-2 {
+    margin-top: 0.5rem;
+  }
+
+  .lg\:mt-9 {
+    margin-top: 2.25rem;
+  }
+
+  .lg\:mt-1 {
+    margin-top: 0.25rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
+  }
+
   .lg\:block {
     display: block;
   }
@@ -3840,6 +3884,17 @@ video {
 
   .lg\:w-\[45vw\] {
     width: 45vw;
+  }
+
+  .lg\:w-\[33vw\] {
+    width: 33vw;
+  }
+
+  @media (min-width: 1024px) {
+
+    .lg\:lg\:w-\[33vw\] {
+      width: 33vw;
+    }
   }
 
   .lg\:max-w-4xl {
@@ -3892,6 +3947,16 @@ video {
   .lg\:py-3 {
     padding-top: 0.75rem;
     padding-bottom: 0.75rem;
+  }
+
+  .lg\:py-7 {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+  }
+
+  .lg\:py-9 {
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
   }
 
   .lg\:text-center {
@@ -3961,6 +4026,41 @@ video {
     font-size: 12rem;
   }
 
+  .lg\:text-\[1\.33rem\] {
+    font-size: 1.33rem;
+  }
+
+  .lg\:text-\[1rem\] {
+    font-size: 1rem;
+  }
+
+  .lg\:text-\[10rem\] {
+    font-size: 10rem;
+  }
+
+  .lg\:text-\[13rem\] {
+    font-size: 13rem;
+  }
+
+  .lg\:text-\[6rem\] {
+    font-size: 6rem;
+  }
+
+  .lg\:text-\[7rem\] {
+    font-size: 7rem;
+  }
+
+  @media (min-width: 1024px) {
+
+    .lg\:lg\:text-\[7rem\] {
+      font-size: 7rem;
+    }
+  }
+
+  .lg\:text-\[6\.33rem\] {
+    font-size: 6.33rem;
+  }
+
   .lg\:font-semibold {
     font-weight: 600;
   }
@@ -4011,6 +4111,50 @@ video {
   .lg\:text-slate-300 {
     --tw-text-opacity: 1;
     color: rgb(203 213 225 / var(--tw-text-opacity));
+  }
+
+  .lg\:text-\[1\] {
+    color: 1;
+  }
+
+  .lg\:text-\[1\.\] {
+    color: 1.;
+  }
+
+  .lg\:text-\[1\.33re\] {
+    color: 1.33re;
+  }
+
+  .lg\:text-\[6\] {
+    color: 6;
+  }
+
+  .lg\:text-\[6r\] {
+    color: 6r;
+  }
+
+  .lg\:text-\[6re\] {
+    color: 6re;
+  }
+
+  .lg\:text-\[rem\] {
+    color: rem;
+  }
+
+  .lg\:text-\[6\.rem\] {
+    color: 6.rem;
+  }
+
+  .lg\:text-\[9\] {
+    color: 9;
+  }
+
+  .lg\:text-\[9r\] {
+    color: 9r;
+  }
+
+  .lg\:text-\[9re\] {
+    color: 9re;
   }
 }
 

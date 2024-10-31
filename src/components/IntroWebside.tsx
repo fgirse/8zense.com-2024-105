@@ -27,7 +27,7 @@ const IntroWebside = () => {
             </p>
 
             <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-8xl leading-3 text-white sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
-         <p className="mt-4 relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+         <p className="mt-4 relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[13rem]">
               🇵🇹
               </p>
 
@@ -41,7 +41,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] font-ls">
+            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
               {t("text01")}
             </h1>
 
@@ -50,7 +50,7 @@ const IntroWebside = () => {
             </div>*/}
             
 
-            <p className="-mt-24 text-base text-slate-200 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base w-[33vw] headingB lg:text-2xl text-slate-200 md:my-6 md:text-lg">
             
               {t("text02")}
             </p>
@@ -71,15 +71,12 @@ const IntroWebside = () => {
               <div className="w-48 h-36 mt-12">
               <Image src={Travel} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem] lg:mt-16 ">
               🇨🇭
               </p>
               </div>
-              <p className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg">
-            
-            {t("text03")}
-          </p>
-          <p className="text-base text-slate-200 md:my-6 md:text-lg">
+              <h1 className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg"> {t("text03")}</h1>
+          <p className="text-base headingB w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text04")}
             </p>
@@ -96,19 +93,19 @@ const IntroWebside = () => {
               
               </p>
 
- ≈
+ 
               <div className="w-48 h-32">
               <Image src={Surprise} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl">
+              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
               🇨🇭
               </p>
               </div>
-              <p className=" text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg">
+              <p className="lg:mt-9 text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg lg:text-[6rem]">
             
             {t("text05")}
           </p>
-          <p className="font-gochiHand text-base text-slate-200 md:my-6 md:text-lg">
+          <p className="headingB text-base w-1/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text06")}
             </p>
