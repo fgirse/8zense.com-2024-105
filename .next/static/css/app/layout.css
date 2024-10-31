@@ -1084,6 +1084,24 @@ video {
 .h-screen {
   height: 100vh;
 }
+.h-60 {
+  height: 15rem;
+}
+.h-\[\] {
+  height: ;
+}
+.h-\[5vh\] {
+  height: 5vh;
+}
+.h-\[20vh\] {
+  height: 20vh;
+}
+.h-1 {
+  height: 0.25rem;
+}
+.h-1\/3 {
+  height: 33.333333%;
+}
 .max-h-32 {
   max-height: 8rem;
 }
@@ -1217,6 +1235,21 @@ video {
 }
 .w-\[33vw\] {
   width: 33vw;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-\[5vww\] {
+  width: 5vww;
+}
+.w-\[5vw\] {
+  width: 5vw;
+}
+.w-\[20vw\] {
+  width: 20vw;
+}
+.w-\[50vw\] {
+  width: 50vw;
 }
 .min-w-64 {
   min-width: 16rem;
@@ -3895,6 +3928,14 @@ video {
     .lg\:lg\:w-\[33vw\] {
       width: 33vw;
     }
+  }
+
+  .lg\:w-1\/3 {
+    width: 33.333333%;
+  }
+
+  .lg\:w-1\/2 {
+    width: 50%;
   }
 
   .lg\:max-w-4xl {

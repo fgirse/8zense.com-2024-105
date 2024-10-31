@@ -50,7 +50,7 @@ const IntroWebside = () => {
             </div>*/}
             
 
-            <p className="-mt-24 text-base w-[33vw] headingB lg:text-2xl text-slate-200 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base lg:w-[33vw] headingB lg:text-2xl text-slate-200 md:my-6 md:text-lg">
             
               {t("text02")}
             </p>
@@ -68,15 +68,15 @@ const IntroWebside = () => {
             <p className="relative z-10 text-[9.0rem] font-black md:text-7xl md:leading-4 lg:text-9xl">
               🇵🇹
               </p>
-              <div className="w-48 h-36 mt-12">
-              <Image src={Travel} alt="illustration travel" width={300} height={300}/>
+              <div className="w-1/3 h-1/3 mt-12">
+              <Image src={Travel} alt="illustration travel" width={600} height={600}/>
               </div>
               <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem] lg:mt-16 ">
               🇨🇭
               </p>
               </div>
               <h1 className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg"> {t("text03")}</h1>
-          <p className="text-base headingB w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="text-base headingB lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text04")}
             </p>
@@ -105,7 +105,7 @@ const IntroWebside = () => {
             
             {t("text05")}
           </p>
-          <p className="headingB text-base w-1/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="headingB text-base lg:w-1/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text06")}
             </p>
