@@ -60,11 +60,9 @@
     "text06": "Zuerst war es nur eine leise Ahnung - dann hat es sich aber schnell bestätigt: Kica brachte uns ein kleines Uberraschungspaket mit - sie war mit sechs kleinen Welpen trächtig."
   },
   "Layout": {
-    "metaData": {
       "title": "Kica2024.de",
       "description": "landing page entwickelt mit Next.js und next-intl"
-    }
-  },
+    },
   
   "LocaleSwitcher": {
     "label": "wähle Sprache",
