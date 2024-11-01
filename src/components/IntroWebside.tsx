@@ -101,15 +101,17 @@ const IntroWebside = () => {
               🇨🇭
               </p>
               </div>
-              <p className="lg:mt-9 text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg lg:text-[6rem]">
+              <p className="lg:mt-9 text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-12">
             
             {t("text05")}
           </p>
-          <p className="headingB text-base lg:w-1/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="headingB text-base lg:w-2/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text06")}
             </p>
-
+              <div className="flex flex-col justify-center items-center">
+                <p className="text-3xl text-center text-slate-300 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
+              </div>  
           </section>
 
  
