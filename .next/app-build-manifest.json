@@ -24,8 +24,8 @@
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/css/app/[locale]/layout.css",
-      "static/chunks/app/[locale]/layout.js"
+      "static/chunks/app/[locale]/layout.js",
+      "static/css/app/[locale]/layout.css"
     ],
     "/[locale]/error": [
       "static/chunks/webpack.js",
@@ -46,6 +46,16 @@
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
       "static/chunks/app/[locale]/protected/page.js"
+    ],
+    "/[locale]/(auth-pages)/sign-in/page": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(auth-pages)/sign-in/page.js"
+    ],
+    "/[locale]/(auth-pages)/layout": [
+      "static/chunks/webpack.js",
+      "static/chunks/main-app.js",
+      "static/chunks/app/[locale]/(auth-pages)/layout.js"
     ]
   }
 }

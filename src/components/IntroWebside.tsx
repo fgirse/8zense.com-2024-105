@@ -76,7 +76,7 @@ const IntroWebside = () => {
               </p>
               </div>
               <h1 className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg"> {t("text03")}</h1>
-          <p className="text-base headingB lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="text-base archidaught headingB lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text04")}
             </p>

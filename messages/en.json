@@ -38,21 +38,17 @@
 
   "introWebside": {
     "zitat": "August 2024",
-    "zitat02": "Septeber 2024,                                                   b 2024",
+    "zitat02": "September 2024,                                                   b 2024",
     "text01": "Make a decision",
     "text02": "In August, due to Claudia's parents' health situation, we decided to move the four-year-old dog Kica to Switzerland. Kica receives an extensive veterinary medical examination and, in accordance with the Swiss Pet Recommendations, an identification chip. In addition, the vaccination status is checked or supplemented.",
     "text03": "Traveling for Kica",
     "text04": "After a few training trips in Portugal, Kica traveled with the Agostini family - Sissy, Matthiasm Joana, Raul and Alena in the family bus from Montecordova to Basel on September 8th and was warmly welcomed by Claudia at her new home on Binzenstrasse.",
-    "text05": "Ein A surpricing Package!!!",
-    "text06": "At first it was just a vague idea - but then it was quickly confirmed: Kica brought us a little surprise package - she was pregnant with six little pDue to our excellent networking we will found a specific team of specialists which would realize your design dream under the hood of Fernanda will realize your design dream",
-    "text_04": "Das Projekt wird in viele Einzelprojekte herunter gebrochen - nach und nach fügt sich Ihr Design-Traum wie ein Puzzel zu etwas aussergewöhlichen wundervollem zusammnen",
-    "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
-    "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
+    "text05": "A surpricing Package!!!",
+    "text06": "At first it was just a vague idea - but then it was quickly confirmed: Kica brought us a little surprise package - she was pregnant with six little pDue to our excellent networking we will found a specific team of specialists which would realize your design dream under the hood of Fernanda will realize your design dream"
   },
 
   "Layout": {
-    
-      "title": "kica2024.de",
+     "title": "kica2024.de",
       "description": "A landing page built with Next.js and next-intl"
     },
 

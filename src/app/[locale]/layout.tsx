@@ -26,10 +26,10 @@ import { KeyObject } from 'crypto'
 
 
 
-export const londshadow = localFont({
-  src: "../../../public/fonts/LodrinaShadow/LondrinaShadow-Regular.ttf",
+export const archidaught = localFont({
+  src: "../../../public/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.ttf",
   display: 'swap',
-  variable: '--londshadow',
+  variable: '--archidaught',
 })
 
 export const bowlbySC= localFont({
