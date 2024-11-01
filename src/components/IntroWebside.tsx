@@ -97,7 +97,7 @@ const IntroWebside = () => {
               <div className="w-48 h-32">
               <Image src={Surprise} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
+              <p className="re0lative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
               🇨🇭
               </p>
               </div>
@@ -109,7 +109,7 @@ const IntroWebside = () => {
             
               {t("text06")}
             </p>
-              <div className="flex flex-col justify-center items-center">
+              <div className="bg-gradient-to-b from-slate-800 to bg-black w-[100vq]  flex flex-col justify-center items-center">
                 <p className="text-3xl text-center text-slate-300 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
               </div>  
           </section>

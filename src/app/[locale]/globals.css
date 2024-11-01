@@ -123,7 +123,13 @@
 
 .headingB {
   -webkit-text-stroke-width: .4px;
-  -webkit-text-stroke-color: #ffcc00;
+  -webkit-text-stroke-color: #f5c507;
+  font-family: "Architects Daughter";
+}
+
+.headingB2 {
+  -webkit-text-stroke-width: .8px;
+  -webkit-text-stroke-color: #03011f;
   font-family: "Architects Daughter";
 }
 

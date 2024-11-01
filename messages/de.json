@@ -27,18 +27,13 @@
     "Title": "Kica",
     "postTitle": "ist Mama"
   },
-
-
-"Hero_03": {
-  "präTitle": "",
-  "Title": "Kica wird Mama",
-  "postTitle": "Geschichte einer Hundedame ",
-  "text00_Hero3": "Hier ist was los !!!",
-  "text01_Hero3": "Kica hat am 30. September 2024 zwischen 17:12 und 20:48 sechs Welpen geworfen: Primus, Secundus, Tertius, Quartus, Quintus und Sixtus. Alle waren sie wohl auf und hatten ein Gewicht zwischen 370g und 470g.!!!"
-
-},
-
-
+  "Hero_03": {
+    "präTitle": "",
+    "Title": "Kica wird Mama",
+    "postTitle": "Geschichte einer Hundedame ",
+    "text00_Hero3": "Hier ist was los !!!",
+    "text01_Hero3": "Kica hat am 30. September 2024 zwischen 17:12 und 20:48 sechs Welpen geworfen: Primus, Secundus, Tertius, Quartus, Quintus und Sixtus. Alle waren sie wohl auf und hatten ein Gewicht zwischen 370g und 470g.!!!"
+  },
   "HowItWorks": {
     "Howitworks": "So geht's",
     "text_01": "Erstellen Sie einen Account auf unserer Website  von 8zense.com!",
@@ -48,7 +43,6 @@
     "text_05": "In allen Phasen des Projektes wird in einem Analyze-Evaluate-Synthesyze-Circuit kontenuierlich fortentwickelt, bis Ihre Ziele und Vorgaben erreicht sind!",
     "text_06": "Ist Ihr Design-Projekt dann umgesetzt, erfolgt der Startpfiff zur Abnahme des Projektes durch Fernanda mit allen Beteiligten gemeinsam bis alle Korrekturen und Beanstandungen aus dem Weg geräumt sind"
   },
-
   "introWebside": {
     "zitat": "August 2024",
     "zitat02": "September 2024",
@@ -61,10 +55,9 @@
     "text07": "Galerie"
   },
   "Layout": {
-      "title": "Kica2024.de",
-      "description": "landing page entwickelt mit Next.js und next-intl"
-    },
-  
+    "title_Layout": "Kica2024.de",
+    "description": "landing page entwickelt mit Next.js und next-intl"
+  },
   "LocaleSwitcher": {
     "label": "wähle Sprache",
     "locale": "{locale, select, de {🇩🇪 Deutsch} en {🇺🇸 English} fr {🇫🇷 France} other {Unknown}}"
@@ -92,7 +85,6 @@
   "NotFoundPage": {
     "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln.",
     "title": "Seite nicht gefunden"
-
   },
   "PathnamesPage": {
     "description": "<p>Auch die Pfadnamen sind internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/en/pathnames</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL entsprechend lokalisiert (<code>/de/pfadnamen</code>).</p>",
@@ -124,5 +116,6 @@
   "IndexPage": {
     "title": "Rechtliches",
     "description": "absbssbbbsb"
-  }
+  },
+  "title": ""
 }

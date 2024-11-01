@@ -24,7 +24,7 @@ const t= useTranslations("Hero_03")
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica08.png')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <span className="block text-white text-6xl uppercase md:text-[7.33rem] headingE ">{t("Title")}</span>
-              <span className="block w-1/3 text-white headingB text-2xl md:text-3xl lg:text-slate-300 ">{t("postTitle")}</span>
+              <span className="block w-1/3 text-white headingB2 text-2xl md:text-3xl lg:text-slate-300 ">{t("postTitle")}</span>
               <div className="mt-5">
           l
               </div>
@@ -38,7 +38,7 @@ const t= useTranslations("Hero_03")
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica_Welpe-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <><span className="block text-[3rem] uppercase headingE  text-slate-300 lg:text-[10rem]">Bomdia </span></>
-              <span className="block headingB text-slate-600 text-xl md:text-3xl">Kica als Welpe</span>
+              <span className="block headingB2 text-slate-600 text-xl md:text-3xl">Kica als Welpe</span>
               <div className="mt-5">
 
               </div>
@@ -52,7 +52,7 @@ const t= useTranslations("Hero_03")
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Portrait_Kica-01-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10 ">
               <span className="block text-[3rem] uppercase headingE  text-slate-300 lg:text-[12rem]">Kica</span>
-              <span className="block headingB text-slate-300 text-xl md:text-3xl lg:text-6xl lg:texf-slate-600">4 jährige Hündin aus Monte Cordova</span>
+              <span className="block headingB2 text-slate-600 text-xl md:text-3xl lg:text-3xl lg:texf-slate-600">4 jährige Hündin aus Monte Cordova</span>
               <div className="mt-5">
             
               </div>
@@ -66,7 +66,7 @@ const t= useTranslations("Hero_03")
     {/* Arrows */}
     <button type="button" className="hs-carousel-prev hs-carousel-disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 start-0 inline-flex justify-center items-center w-12 h-full text-black hover:bg-white/20 rounded-s-2xl focus:outline-none focus:bg-white/20">
       <span className="text-2xl" aria-hidden="true">
-        <svg className="shrink-0 size-3.5 md:size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <svg className="shrink-0 size-3.5 md:size-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"></path>
         </svg>
       </span>
@@ -74,9 +74,9 @@ const t= useTranslations("Hero_03")
     </button>
 
     <button type="button" className="hs-carousel-next hs-carousel-disabled:opacity-50 disabled:pointer-events-none absolute inset-y-0 end-0 inline-flex justify-center items-center w-12 h-full text-black hover:bg-white/20 rounded-e-2xl focus:outline-none focus:bg-white/20">
-      <span className="sr-only  text-orange-300 headingE lg:text-3xl">Next</span>
+      <span className="sr-only headingE lg:text-3xl">Next</span>
       <span className="text-2xl" aria-hidden="true">
-        <svg className="shrink-0 size-3.5 md:size-4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" viewBox="0 0 16 16">
+        <svg className="shrink-0 size-3.5 md:size-4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"></path>
         </svg>
       </span>

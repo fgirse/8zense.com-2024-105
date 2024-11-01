@@ -27,7 +27,7 @@ import { KeyObject } from 'crypto'
 
 
 export const archidaught = localFont({
-  src: "../../../public/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.ttf",
+  src: "../../../public/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.woff2",  
   display: 'swap',
   variable: '--archidaught',
 })
@@ -61,8 +61,9 @@ export async function generateMetadata({
 }: Omit<Props, 'children'>) {
   const t = await getTranslations({locale, namespace: 'Layout'});
 
+ 
   return {
-    title: t("title"                ),
+    title: t("title_Layout"                ),
     icons: {icon : "/favicon.ico"},
   }}
 
