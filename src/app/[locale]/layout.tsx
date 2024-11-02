@@ -26,10 +26,12 @@ import { KeyObject } from 'crypto'
 
 
 
-export const archidaught = localFont({
-  src: "../../../public/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.woff2",  
+export const archidaught =Architects_Daughter ({
   display: 'swap',
   variable: '--archidaught',
+  weight: ['400',],
+  style: ['normal', ],
+  subsets: ['latin'],
 })
 
 export const bowlbySC= localFont({
