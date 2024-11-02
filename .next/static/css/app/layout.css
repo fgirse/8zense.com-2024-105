@@ -582,14 +582,6 @@ video {
     
 }
 
-  team.filter(member => member.position == "developer")
-
-  .headingA {
-  -webkit-text-stroke-width: 2 px;
-  -webkit-text-stroke-color: #ffffff;
-  font-family: "Bowlby One SC";
-}
-
 .headingB {
   -webkit-text-stroke-width: .4px;
   -webkit-text-stroke-color: #f5c507;
@@ -598,7 +590,7 @@ video {
 
 .headingB2 {
   -webkit-text-stroke-width: .8px;
-  -webkit-text-stroke-color: #03011f;
+  -webkit-text-stroke-color: #000000;
   font-family: "Architects Daughter";
 }
 
@@ -1592,6 +1584,9 @@ video {
 .border-t-foreground\/10 {
   border-top-color: hsl(var(--foreground) / 0.1);
 }
+.border-t-primary-foreground {
+  border-top-color: hsl(var(--primary-foreground));
+}
 .bg-accent {
   background-color: hsl(var(--accent));
 }
@@ -1697,10 +1692,6 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(100 116 139 / var(--tw-bg-opacity));
 }
-.bg-slate-700 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(51 65 85 / var(--tw-bg-opacity));
-}
 .bg-slate-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(30 41 59 / var(--tw-bg-opacity));
@@ -1711,6 +1702,14 @@ video {
 }
 .bg-slate-900\/50 {
   background-color: rgb(15 23 42 / 0.5);
+}
+.bg-stone-200 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(231 229 228 / var(--tw-bg-opacity));
+}
+.bg-stone-800 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(41 37 36 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
@@ -1768,6 +1767,11 @@ video {
 .from-orange-500 {
   --tw-gradient-from: #f97316 var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(249 115 22 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-red-800 {
+  --tw-gradient-from: #991b1b var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(153 27 27 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-slate-800 {
@@ -3918,10 +3922,6 @@ video {
 
   .lg\:text-center {
     text-align: center;
-  }
-
-  .lg\:font-bowlbySC {
-    font-family: var(--bowlbySC);
   }
 
   .lg\:text-2xl {

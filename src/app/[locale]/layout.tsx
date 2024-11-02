@@ -34,8 +34,10 @@ export const archidaught =Architects_Daughter ({
   subsets: ['latin'],
 })
 
-export const bowlbySC= localFont({
-  src: "../../../public/fonts/BowlbySC/BowlbyOneSC.eot",
+export const bowlbySC= Bowlby_One_SC({
+  weight: ['400',],
+  style: ['normal', ],
+  subsets: ['latin'],
   display: 'swap',
   variable: '--bowlbySC',
 })
@@ -96,7 +98,7 @@ export async function generateMetadata({
 
     <>
      <html lang="en"  suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} flex min-h-[100vh] w-[100%] flex-col bg-slate-700'}>
+        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} {archidaught.className} flex min-h-[100vh] w-[100%] flex-col '}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

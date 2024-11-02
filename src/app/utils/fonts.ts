@@ -1,30 +1,30 @@
 import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
 
 
-export const londsketch_init= Londrina_Sketch({
+export const londsketch= Londrina_Sketch({
     weight: ['400',],
     style: ['normal', ],
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-londsketch',
+    variable: '--londsketch',
   })
   
-  export const archidaught_init= Architects_Daughter({
+  export const archidaught= Architects_Daughter({
     weight: ['400',],
     style: ['normal', ],
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-archidaught',
+    variable: '--archidaught',
   })
 
-  export const bowlbySC_init= Bowlby_One_SC({
+  export const bowlbySC= Bowlby_One_SC({
     weight: ['400',],
     style: ['normal', ],
     subsets: ['latin'],
     display: 'swap',
-    variable: '--font-bowlbySC',
+    variable: '--bowlbySC',
   })
 
-  export const londsketch = londsketch_init.variable;
-  export const archidaught = archidaught_init.variable;
-  export const bowlbySC = bowlbySC_init.variable;
+  export const londsketch_init = londsketch.variable;
+  export const archidaught_init = archidaught.variable;
+  export const bowlbySC_init = bowlbySC.variable;

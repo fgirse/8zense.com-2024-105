@@ -17,12 +17,12 @@ const IntroWebside = () => {
 
   return (
     <>
-      <section className="bg-slate-800 ">
+      <section className="bg-stone-200 ">
         <div className="grid-rows-16 grid grid-cols-12 gap-1">
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
           <div className="relative top-0 left-0 col-span-6 col-start-7 row-span-7 row-start-1 px-1">
-            <p className="bowlbySC text-left mb-5 rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl ">
+            <p className="nt-5 text-left mb-5 rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl ">
               {t("zitat")}
             </p>
 
@@ -41,7 +41,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-300 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
+            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-500 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
               {t("text01")}
             </h1>
 
@@ -50,7 +50,7 @@ const IntroWebside = () => {
             </div>*/}
             
 
-            <p className="-mt-24 text-base lg:w-[33vw] headingB lg:text-2xl text-slate-200 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base lg:w-[33vw] headingB2 lg:text-2xl text-slate-200 md:my-6 md:text-lg">
             
               {t("text02")}
             </p>
@@ -76,7 +76,7 @@ const IntroWebside = () => {
               </p>
               </div>
               <h1 className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg"> {t("text03")}</h1>
-          <p className="text-base archidaught headingB lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="text-base archidaught headingB2 lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text04")}
             </p>
@@ -105,7 +105,7 @@ const IntroWebside = () => {
             
             {t("text05")}
           </p>
-          <p className="headingB text-base lg:w-2/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <p className="headingB2 text-base lg:w-2/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text06")}
             </p>

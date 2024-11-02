@@ -8,8 +8,8 @@
     "/[locale]/layout": [
       "static/chunks/webpack.js",
       "static/chunks/main-app.js",
-      "static/chunks/app/[locale]/layout.js",
-      "static/css/app/[locale]/layout.css"
+      "static/css/app/[locale]/layout.css",
+      "static/chunks/app/[locale]/layout.js"
     ],
     "/[locale]/error": [
       "static/chunks/webpack.js",
