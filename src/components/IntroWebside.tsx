@@ -22,7 +22,7 @@ const IntroWebside = () => {
           <div className="col-span-7 col-start-1 row-span-3 row-start-4"></div>
 
           <div className="relative top-0 left-0 col-span-6 col-start-7 row-span-7 row-start-1 px-1">
-            <p className="nt-5 text-left mb-5 rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl ">
+            <p className="mt-9 text-left mb-5 bowlbySC rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:px-5 lg:py-3 lg:text-8xl ">
               {t("zitat")}
             </p>
 
@@ -41,7 +41,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-500 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
+            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-200 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
               {t("text01")}
             </h1>
 
@@ -81,7 +81,7 @@ const IntroWebside = () => {
               {t("text04")}
             </p>
 
-            <div className="relative -top-8 transform translate-x-44 w-56 h-56 ">
+            <div className="relative -top-8 transform translate-x-24 w-56 h-56 ">
       
       <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
       
@@ -101,7 +101,7 @@ const IntroWebside = () => {
               🇨🇭
               </p>
               </div>
-              <p className="lg:mt-9 text-[1.66rem] text-slate-100 headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-12">
+              <p className="lg:mt-9 text-[1.66rem] text-slate-200 headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-12">
             
             {t("text05")}
           </p>
@@ -110,7 +110,7 @@ const IntroWebside = () => {
               {t("text06")}
             </p>
               <div className="bg-gradient-to-b from-slate-800 to bg-black w-[100vq]  flex flex-col justify-center items-center">
-                <p className="text-3xl text-center text-slate-300 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
+                <p className="text-3xl text-center text-slate-200 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
               </div>  
           </section>
 
