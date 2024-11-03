@@ -41,7 +41,7 @@ const IntroWebside = () => {
          
 
           <section className="container mx-auto mt-16 grid w-full max-w-6xl grid-cols-1 items-center gap-8 px-8 py-12 lg:grid-cols-1">
-            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-slate-200 md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
+            <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-white md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
               {t("text01")}
             </h1>
 
@@ -68,14 +68,14 @@ const IntroWebside = () => {
             <p className="relative z-10 text-[9.0rem] font-black md:text-7xl md:leading-4 lg:text-9xl">
               🇵🇹
               </p>
-              <div className="w-1/3 h-1/3 mt-12">
+              <div className="w-[5vw] h-[5vh] mt-12">
               <Image src={Travel} alt="illustration travel" width={600} height={600}/>
               </div>
               <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem] lg:mt-16 ">
               🇨🇭
               </p>
               </div>
-              <h1 className="uppercase text-[2.0rem] headingE text-slate-200 md:my-6 md:text-lg"> {t("text03")}</h1>
+              <h1 className="uppercase text-[2.0rem] headingE text-white md:my-6 md:text-lg"> {t("text03")}</h1>
           <p className="text-base archidaught headingB2 lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
             
               {t("text04")}
@@ -97,7 +97,7 @@ const IntroWebside = () => {
               <div className="w-48 h-32">
               <Image src={Surprise} alt="illustration travel" width={300} height={300}/>
               </div>
-              <p className="re0lative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
+              <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
               🇨🇭
               </p>
               </div>
@@ -105,12 +105,12 @@ const IntroWebside = () => {
             
             {t("text05")}
           </p>
-          <p className="headingB2 text-base lg:w-2/3 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
+          <h1 className="headingB2 text-base lg:w-2/3 text-white md:my-6 md:text-lg lg:text-2xl">
             
               {t("text06")}
-            </p>
+            </h1>
               <div className="bg-gradient-to-b from-slate-800 to bg-black w-[100vq]  flex flex-col justify-center items-center">
-                <p className="text-3xl text-center text-slate-200 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
+                <p className="text-3xl text-center text-orange-300 bowlbySC md:text-6xl lg:text-[7rem] ">{t("text07")}</p>
               </div>  
           </section>
 
