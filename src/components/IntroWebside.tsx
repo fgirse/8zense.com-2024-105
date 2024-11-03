@@ -103,7 +103,7 @@ const IntroWebside = () => {
             <h1 className="headingB2 text-xl lg:w-2/3s text-white md:my-6 md:text-lg lg:text-2xl">
               {t("text06")}
             </h1>
-            <div className="bg-gradient-to-b from-slate-800 to bg-black w-[100vw]  flex flex-col justify-center items-center">
+            <div className="mx-auto bg-gradient-to-b from-slate-800 to bg-black w-[50vw]  flex flex-col justify-center items-center">
               <p className="text-3xl text-center text-orange-300 bowlbySC md:text-6xl lg:text-[7rem] ">
                 {t("text07")}
               </p>
