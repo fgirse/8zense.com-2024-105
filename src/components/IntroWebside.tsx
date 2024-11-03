@@ -83,7 +83,7 @@ const IntroWebside = () => {
             <div className=" inline-flex">
               <p className="relative z-10 text-[8.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl"></p>
 
-              <div className="w-48 h-48">
+              <div className="w-52 h-52 lg:w-[12vw] lg:h-[12vh]">
                 <Image
                   src={Surprise}
                   alt="illustration travel"
@@ -95,10 +95,10 @@ const IntroWebside = () => {
                 🇨🇭
               </p>
             </div>
-            <p className="lg:mt-9 text-[1.66rem] text-white headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-012">
+            <p className="lg:mt-9 text-[1.66rem] text-white headingE md:my-6 md:text-lg lg:text-[5rem] lg:leading-9">
               {t("text05")}
             </p>
-            <h1 className="headingB2 text-xl lg:w-2/3s text-white md:my-6 md:text-lg lg:text-2xl">
+            <h1 className="headingB2 text-xl lg:w-2/3 text-white md:my-6 md:text-lg lg:text-2xl">
               {t("text06")}
             </h1>
             <div className="mx-auto bg-gradient-to-b from-slate-800 to bg-black w-[50vw]  flex flex-col justify-center items-center">
