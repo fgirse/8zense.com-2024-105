@@ -23,16 +23,8 @@ import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto'
+import { archidaught } from"@/src/app/utils/fonts";
 
-
-
-export const archidaught =Architects_Daughter ({
-  display: 'swap',
-  variable: '--archidaught',
-  weight: ['400',],
-  style: ['normal', ],
-  subsets: ['latin'],
-})
 
 export const bowlbySC= Bowlby_One_SC({
   weight: ['400',],
@@ -97,7 +89,7 @@ export async function generateMetadata({
   return (
 
     <>
-     <html lang="en"  suppressHydrationWarning={true}>
+     <html lang="en" className='{archidaught.className} ' suppressHydrationWarning={true}>
         <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} {archidaught.className} flex min-h-[100vh] w-[100%] flex-col '}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />

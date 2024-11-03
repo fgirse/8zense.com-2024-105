@@ -47,8 +47,8 @@ const IntroWebside = () => {
               <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
             </div>
             <div className="relative -top-24 left-52 w-36 ">
-                <Image src={Bone} alt="Knochen" width={500} height={500}/>
-              </div>
+              <Image src={Bone} alt="Knochen" width={500} height={500} />
+            </div>
             <p className="text-left bowlbySC uppercase rounded-xl bg-neutral-700 px-3 py-1 text-[1.6rem] leading-7 text-slate-50 sm:text-2xl md:text-[2.33rem] md:font-semibold md:leading-9 lg:mr-12 lg:p-5 lg:px-5 lg:py-3 lg:text-6xl lg:font-semibold">
               {t("zitat02")}
             </p>
@@ -68,9 +68,7 @@ const IntroWebside = () => {
                 🇨🇭
               </p>
             </div>
-            
             <h1 className="uppercase text-[2.0rem] headingE text-white md:my-6 md:text-lg">
-        
               {t("text03")}
             </h1>
             <p className="text-base archidaught headingB2 lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
@@ -97,7 +95,7 @@ const IntroWebside = () => {
                 🇨🇭
               </p>
             </div>
-           <p className="lg:mt-9 text-[1.66rem] text-white headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-012">
+            <p className="lg:mt-9 text-[1.66rem] text-white headingE md:my-6 md:text-lg lg:text-[4rem] lg:leading-012">
               {t("text05")}
             </p>
             <h1 className="headingB2 text-xl lg:w-2/3s text-white md:my-6 md:text-lg lg:text-2xl">
@@ -107,7 +105,6 @@ const IntroWebside = () => {
               <p className="text-3xl text-center text-orange-300 bowlbySC md:text-6xl lg:text-[7rem] ">
                 {t("text07")}
               </p>
-             
             </div>
           </section>
         </section>

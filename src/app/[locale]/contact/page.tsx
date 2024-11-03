@@ -4,15 +4,15 @@ import Logo from "@/src/components/icons/Logo";
 // 👇 import local font
 import localFont from 'next/font/local'
 import styles from './Contact.module.css'
-//import {bowwlbySC} from '@/src/app/utils/fonts';
+import {archidaught} from '@/src/app/utils/fonts';
 
 
 const page = () => {
   return (
     <>
-      <section className="h-screen py-3 ">
+      <section className="bg-gradient-to-b from-stone-600 to bg-stone-700 h-screen py-3 ">
         <div className="flex-1 w-[99vw] mt-16 py-1 px-3 rounded-xl flex flex-col mx-auto items-center justify-center lg:mt-24">
-          <h1 className = "headingE font-bowlbySC uppercase text-center text-slate-500 text-6xl lg:mt-[8vh] lg:text-[4em]">
+          <h1 className = "headingE bowlbySC uppercase text-center text-stone-100 text-6xl lg:mt-[8vh] lg:text-[4em]">
             
             contact
           </h1>
@@ -24,7 +24,7 @@ const page = () => {
               height="150"
             />
           </div>
-          <div className="relative mt-3 flex-1 headingB">
+          <div className="relative mt-3 flex-1 headingB2">
             <h1 className=" mb-2 text-4xl text-center text-neutral-200 lg:mt-6 lg:text-[5rem]">
               Claudia & Frank
             </h1>

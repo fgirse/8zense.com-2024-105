@@ -1181,6 +1181,9 @@ video {
 .w-\[30vw\] {
   width: 30vw;
 }
+.w-\[50vw\] {
+  width: 50vw;
+}
 .w-\[75vw\] {
   width: 75vw;
 }
@@ -1200,15 +1203,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-\[vw\] {
-  width: vw;
-}
-.w-\[5vw\] {
-  width: 5vw;
-}
-.w-\[50vw\] {
-  width: 50vw;
 }
 .min-w-64 {
   min-width: 16rem;
@@ -1746,6 +1740,10 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
+.bg-stone-700 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+}
 .bg-\[url\(\'\/assets\/images\/Kica08\.png\'\)\] {
   background-image: url('/assets/images/Kica08.png');
 }
@@ -1795,6 +1793,16 @@ video {
 .from-slate-900 {
   --tw-gradient-from: #0f172a var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-stone-300 {
+  --tw-gradient-from: #d6d3d1 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(214 211 209 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-stone-600 {
+  --tw-gradient-from: #57534e var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(87 83 78 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .via-gray-200 {
@@ -2071,6 +2079,9 @@ video {
 .uppercase {
   text-transform: uppercase;
 }
+.italic {
+  font-style: italic;
+}
 .leading-3 {
   line-height: .75rem;
 }
@@ -2284,6 +2295,14 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
+}
+.text-stone-500 {
+  --tw-text-opacity: 1;
+  color: rgb(120 113 108 / var(--tw-text-opacity));
+}
+.text-stone-100 {
+  --tw-text-opacity: 1;
+  color: rgb(245 245 244 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
