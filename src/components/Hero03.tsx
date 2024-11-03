@@ -4,6 +4,7 @@ import Puppies  from'@/public/assets/images/peddiesGras.png';
 import { useTranslations } from "next-intl"; 
 import Footsteps from '@/public/assets/images/babyfoot.png';
 import  {bowlbySC} from"@/src/app/utils/fonts"
+import Bone from "@/public/assets/images/bone.svg";
 
 const Hero03= () => {
 const t= useTranslations("Hero_03")
@@ -93,6 +94,9 @@ const t= useTranslations("Hero_03")
       <Image src={Footsteps} alt="babyfoot" width={400} height={300} />
       
       </div>
+      <div className="relative top-6 left-52 w-36 ">
+                <Image src={Bone} alt="Knochen" width={500} height={500}/>
+              </div>
 </div>
 
 </>
