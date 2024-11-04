@@ -98,6 +98,19 @@
         format("svg");
   }
 
+@font-face {
+    font-family: 'annie_use_your_telescopeRg';
+    src: url('/fonts/annieuseyourtelescope/annieuseyourtelescope-regular-webfont.eot');
+    src: url('/fonts/annieuseyourtelescope-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.woff2') format('woff2'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.woff') format('woff'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.ttf') format('truetype'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.svg#annie_use_your_telescopeRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
   /* BowlbyOneSC/-sc-regular - latin */
   @font-face {
     font-family: "Bowlby One SC";

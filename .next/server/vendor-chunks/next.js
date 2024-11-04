@@ -383,16 +383,6 @@ eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__Bowlby_O
 
 /***/ }),
 
-/***/ "(rsc)/./node_modules/next/font/local/target.css?{\"path\":\"src/app/[locale]/layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":\"../../../public/fonts/Gochi_Hand/GochiHand-Regular.ttf\",\"display\":\"swap\",\"variable\":\"--gochiHand\"}],\"variableName\":\"gochiHand\"}":
-/*!********************************************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/font/local/target.css?{"path":"src/app/[locale]/layout.tsx","import":"","arguments":[{"src":"../../../public/fonts/Gochi_Hand/GochiHand-Regular.ttf","display":"swap","variable":"--gochiHand"}],"variableName":"gochiHand"} ***!
-  \********************************************************************************************************************************************************************************************************************************************************/
-/***/ ((module) => {
-
-eval("// Exports\nmodule.exports = {\n\t\"style\": {\"fontFamily\":\"'__gochiHand_bf6c99', '__gochiHand_Fallback_bf6c99'\"},\n\t\"className\": \"__className_bf6c99\",\n\t\"variable\": \"__variable_bf6c99\"\n};\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKHJzYykvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2xvY2FsL3RhcmdldC5jc3M/e1wicGF0aFwiOlwic3JjL2FwcC9bbG9jYWxlXS9sYXlvdXQudHN4XCIsXCJpbXBvcnRcIjpcIlwiLFwiYXJndW1lbnRzXCI6W3tcInNyY1wiOlwiLi4vLi4vLi4vcHVibGljL2ZvbnRzL0dvY2hpX0hhbmQvR29jaGlIYW5kLVJlZ3VsYXIudHRmXCIsXCJkaXNwbGF5XCI6XCJzd2FwXCIsXCJ2YXJpYWJsZVwiOlwiLS1nb2NoaUhhbmRcIn1dLFwidmFyaWFibGVOYW1lXCI6XCJnb2NoaUhhbmRcIn0iLCJtYXBwaW5ncyI6IkFBQUE7QUFDQTtBQUNBLFdBQVcsbUVBQW1FO0FBQzlFO0FBQ0E7QUFDQSIsInNvdXJjZXMiOlsid2VicGFjazovLzh6ZW5zZS5jb20tMjAyNC0wOTYvLi9ub2RlX21vZHVsZXMvbmV4dC9mb250L2xvY2FsL3RhcmdldC5jc3M/NzNjNCJdLCJzb3VyY2VzQ29udGVudCI6WyIvLyBFeHBvcnRzXG5tb2R1bGUuZXhwb3J0cyA9IHtcblx0XCJzdHlsZVwiOiB7XCJmb250RmFtaWx5XCI6XCInX19nb2NoaUhhbmRfYmY2Yzk5JywgJ19fZ29jaGlIYW5kX0ZhbGxiYWNrX2JmNmM5OSdcIn0sXG5cdFwiY2xhc3NOYW1lXCI6IFwiX19jbGFzc05hbWVfYmY2Yzk5XCIsXG5cdFwidmFyaWFibGVcIjogXCJfX3ZhcmlhYmxlX2JmNmM5OVwiXG59O1xuIl0sIm5hbWVzIjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(rsc)/./node_modules/next/font/local/target.css?{\"path\":\"src/app/[locale]/layout.tsx\",\"import\":\"\",\"arguments\":[{\"src\":\"../../../public/fonts/Gochi_Hand/GochiHand-Regular.ttf\",\"display\":\"swap\",\"variable\":\"--gochiHand\"}],\"variableName\":\"gochiHand\"}\n");
-
-/***/ }),
-
 /***/ "(ssr)/./node_modules/next/dist/api/link.js":
 /*!********************************************!*\
   !*** ./node_modules/next/dist/api/link.js ***!

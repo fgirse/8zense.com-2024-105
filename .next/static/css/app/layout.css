@@ -544,10 +544,6 @@ video {
     font-family: "Bowlby One SC";
   }
 
-  .gochiHand {
-    font-family: "Gochi Hand";
-  }
-
   /* architects-daughter-regular - latin */
   font-face {
     font-family: "Architects Daughter";
@@ -566,6 +562,19 @@ video {
       url("/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.svg")
         format("svg");
   }
+
+@font-face {
+    font-family: 'annie_use_your_telescopeRg';
+    src: url('/fonts/annieuseyourtelescope/annieuseyourtelescope-regular-webfont.eot');
+    src: url('/fonts/annieuseyourtelescope-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.woff2') format('woff2'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.woff') format('woff'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.ttf') format('truetype'),
+         url('/fonts/annieuseyourtelescope-regular-webfont.svg#annie_use_your_telescopeRg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
 
   /* BowlbyOneSC/-sc-regular - latin */
   @font-face {
@@ -1013,14 +1022,14 @@ video {
 .h-3\.5 {
   height: 0.875rem;
 }
+.h-36 {
+  height: 9rem;
+}
 .h-4 {
   height: 1rem;
 }
 .h-5 {
   height: 1.25rem;
-}
-.h-52 {
-  height: 13rem;
 }
 .h-56 {
   height: 14rem;
@@ -1049,9 +1058,6 @@ video {
 .h-\[30rem\] {
   height: 30rem;
 }
-.h-\[30vh\] {
-  height: 30vh;
-}
 .h-\[36px\] {
   height: 36px;
 }
@@ -1075,24 +1081,6 @@ video {
 }
 .h-screen {
   height: 100vh;
-}
-.h-80 {
-  height: 20rem;
-}
-.h-36 {
-  height: 9rem;
-}
-.h-\[3\] {
-  height: 3;
-}
-.h-60 {
-  height: 15rem;
-}
-.h-1 {
-  height: 0.25rem;
-}
-.h-1\/5 {
-  height: 20%;
 }
 .max-h-32 {
   max-height: 8rem;
@@ -1215,24 +1203,6 @@ video {
 }
 .w-screen {
   width: 100vw;
-}
-.w-8 {
-  width: 2rem;
-}
-.w-80 {
-  width: 20rem;
-}
-.w-1 {
-  width: 0.25rem;
-}
-.w-6 {
-  width: 1.5rem;
-}
-.w-1\/5 {
-  width: 20%;
-}
-.w-\[3y0vw\] {
-  width: 3y0vw;
 }
 .min-w-64 {
   min-width: 16rem;
@@ -2030,8 +2000,8 @@ video {
   font-size: 6rem;
   line-height: 1;
 }
-.text-\[1\.66rem\] {
-  font-size: 1.66rem;
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
 }
 .text-\[1\.6rem\] {
   font-size: 1.6rem;
@@ -2080,15 +2050,6 @@ video {
   font-size: 0.75rem;
   line-height: 1rem;
 }
-.text-\[1\.5rem\] {
-  font-size: 1.5rem;
-}
-.text-\[\.5rem\] {
-  font-size: .5rem;
-}
-.text-\[2\.5rem\] {
-  font-size: 2.5rem;
-}
 .font-black {
   font-weight: 900;
 }
@@ -2112,9 +2073,6 @@ video {
 }
 .uppercase {
   text-transform: uppercase;
-}
-.italic {
-  font-style: italic;
 }
 .leading-3 {
   line-height: .75rem;
@@ -2329,9 +2287,6 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
-}
-.text-\[1\.rem\] {
-  color: 1.rem;
 }
 .underline {
   text-decoration-line: underline;
@@ -3919,10 +3874,6 @@ video {
 
   .lg\:w-32 {
     width: 8rem;
-  }
-
-  .lg\:w-\[12vw\] {
-    width: 12vw;
   }
 
   .lg\:w-\[16vw\] {

@@ -9,39 +9,47 @@ export const londsketch= Londrina_Sketch({
     display: 'swap',
     variable: '--londsketch',
   })
+
   
-  export const archidaught= localFont({
+  export const annieuseyourtelescope= localFont({
     src: [
       {
-        path: '/assets/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.eof',
+        path: "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg",
         weight: '400',
         style: 'normal',
       },
       {
-        path: '/assets/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.woff2',
+        path: '@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.ttf',
         weight: '400',
         style: 'normal',
       },
       {
-        path: '/assets/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.woff',
-        weight: '700',
+        path: '@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.woff',
+        weight: '400',
         style: 'normal',
       },
       {
-        path: '/assets/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.ttf',
-        weight: '700',
-        style: 'italic',
+        path: '@/public/fonts/annie-use-your-telescop/annieuseyourtelescope/annieuseyourtelescope-regular-webfont.ttf',
+        weight: '400',
+        style: 'normal',
       },
-      {
-        path: '/assets/fonts/ArchitectsDaughter/architects-daughter-v17-latin-regular.svg',
+      { 
+        path: '@/public/fonts/annie-use-your-telescop/generator_config.txt',
+        weight: '400',
+        style: 'normal',
+      },
+      { 
+        path: '@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.woff2',
         weight: '400',
         style: 'normal',
       },
     ],
     display: 'swap',
-    variable: '--archidaught',
+    variable: '--annieuseyourtelescope',
   })
 
+
+  
   export const bowlbySC= Bowlby_One_SC({
     weight: ['400',],
     style: ['normal', ],
@@ -51,5 +59,5 @@ export const londsketch= Londrina_Sketch({
   })
 
   export const londsketch_init = londsketch.variable;
-  export const archidaught_init = archidaught.variable;
+  export const annieuseyourtelescope_init = annieuseyourtelescope.variable;
   export const bowlbySC_init = bowlbySC.variable;

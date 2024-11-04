@@ -23,8 +23,8 @@ import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto'
-import { archidaught } from"@/src/app/utils/fonts";
-
+import { annieuseyourtelescope } from"@/src/app/utils/fonts";
+import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";
 
 export const bowlbySC= Bowlby_One_SC({
   weight: ['400',],
@@ -34,12 +34,7 @@ export const bowlbySC= Bowlby_One_SC({
   variable: '--bowlbySC',
 })
 
-export const gochiHand= localFont({
 
-  src:"../../../public/fonts/Gochi_Hand/GochiHand-Regular.ttf",
-  display: 'swap',
-  variable: '--gochiHand',
-})
 
 
 
@@ -89,7 +84,7 @@ export async function generateMetadata({
   return (
 
     <>
-     <html lang="en" className='{archidaught.className} ' suppressHydrationWarning={true}>
+     <html lang="en" className={'{annieuseyourtelescope.className}'} suppressHydrationWarning={true}>
         <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} {archidaught.className} flex min-h-[100vh] w-[100%] flex-col '}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
