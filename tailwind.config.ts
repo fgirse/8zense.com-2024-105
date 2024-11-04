@@ -21,7 +21,7 @@ const config = {
 
       fontFamily: {
         londshadow: ['var(--londshadow)'],
-        gochiHand: ['var(--gochiHand)'],
+        archidaught: ['var(--archidaught)'],
         bowlbySC: ['var(--bowlbySC)'],   
       },
 

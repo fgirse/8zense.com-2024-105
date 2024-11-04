@@ -7,6 +7,7 @@ import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { Navigation } from 'lucide-react';
+import { archidaught } from '@/src/app/utils/fonts';
 
 
 const Menu = () => {
@@ -14,15 +15,15 @@ const Menu = () => {
     const t = useTranslations("Navigation")
   return (
 
-<header className="relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gradient to b from bg-gradient-to-b from-gray-300 via-gray-200 to-zinc-50 text-sm py-3 dark:bg-neutral-800">
-<nav className="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
+<header className={" relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gradient to b from bg-gradient-to-b from-gray-300 via-gray-200 to-zinc-50 text-sm py-3 dark:bg-neutral-800"}>
+<nav className={"{archidaught.className} max-w-[97rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"}>
     <div className="flex items-center justify-between">
     <Link href="/" className="mr-6 flex" prefetch={false}>
           <div className=" w-12 ">
             <Image src={LogoPet} alt="Logo" width="60" height="60" />
           </div>
           <div className="hidden py-3 ml-3 md:block w-[10vw] md:py-2">
-            <h1 className="text-neutral-500">Kica.com</h1>
+            <h1 className="font-archidaught  text-neutral-500">kica2024.de</h1>
           </div>
         </Link>
     

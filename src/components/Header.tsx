@@ -28,7 +28,7 @@ export default async function AuthButton() {
               size="sm"
               variant={"default"}
               disabled
-              className="opacity-75 cursor-none pointer-events-none"
+              className="font-archidaught opacity-75 cursor-none pointer-events-none"
             >
               <Link href="/sign-in">Sign in</Link>
             </Button>

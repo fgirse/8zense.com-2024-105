@@ -56,12 +56,12 @@ const IntroWebside = () => {
               <p className="relative z-10 text-[9.0rem] font-black md:text-7xl md:leading-4 lg:text-9xl">
                 🇵🇹
               </p>
-              <div className="w-[30vw] h-[30vh] mt-12">
+              <div className="relative w-[30vw] h-12 mt-1">
                 <Image
                   src={Travel}
                   alt="illustration travel"
-                  width={600}
-                  height={600}
+                  fill={true}
+                  
                 />
               </div>
               <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem] lg:mt-16 ">
@@ -83,24 +83,19 @@ const IntroWebside = () => {
             <div className=" inline-flex">
               <p className="relative z-10 text-[8.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl"></p>
 
-              <div className="w-52 h-52 lg:w-[12vw] lg:h-[12vh]">
-                <Image
-                  src={Surprise}
-                  alt="illustration travel"
-                  width={700}
-                  height={700}
-                />
+              <div className="relative w-36 h-36 -------lg:w-[12vw] lg:h-[12vh]">
+                <Image src={Surprise} alt="illustration travel" fill={true} />
               </div>
               <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
                 🇨🇭
               </p>
             </div>
-            <p className="lg:mt-9 text-[1.66rem] text-white headingE md:my-6 md:text-lg lg:text-[5rem] lg:leading-9">
+            <p className="lg:mt-9 text-[1.5rem] text-white headingE md:my-6 md:text-lg lg:text-[5rem] lg:leading-9">
               {t("text05")}
             </p>
-            <h1 className="headingB2 text-xl lg:w-2/3 text-white md:my-6 md:text-lg lg:text-2xl">
+            <p className="text-base archidaught headingB2 lg:w-1/2 text-slate-200 md:my-6 md:text-lg lg:text-2xl">
               {t("text06")}
-            </h1>
+            </p>
             <div className="mx-auto bg-gradient-to-b from-slate-800 to bg-black w-[50vw]  flex flex-col justify-center items-center">
               <p className="text-3xl text-center text-orange-300 bowlbySC md:text-6xl lg:text-[7rem] ">
                 {t("text07")}

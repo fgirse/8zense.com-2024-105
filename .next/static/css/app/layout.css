@@ -1016,11 +1016,11 @@ video {
 .h-4 {
   height: 1rem;
 }
-.h-48 {
-  height: 12rem;
-}
 .h-5 {
   height: 1.25rem;
+}
+.h-52 {
+  height: 13rem;
 }
 .h-56 {
   height: 14rem;
@@ -1076,17 +1076,23 @@ video {
 .h-screen {
   height: 100vh;
 }
-.h-52 {
-  height: 13rem;
+.h-80 {
+  height: 20rem;
 }
-.h-\[\] {
-  height: ;
+.h-36 {
+  height: 9rem;
 }
-.h-\[20\] {
-  height: 20;
+.h-\[3\] {
+  height: 3;
 }
-.h-\[20vh\] {
-  height: 20vh;
+.h-60 {
+  height: 15rem;
+}
+.h-1 {
+  height: 0.25rem;
+}
+.h-1\/5 {
+  height: 20%;
 }
 .max-h-32 {
   max-height: 8rem;
@@ -1210,6 +1216,24 @@ video {
 .w-screen {
   width: 100vw;
 }
+.w-8 {
+  width: 2rem;
+}
+.w-80 {
+  width: 20rem;
+}
+.w-1 {
+  width: 0.25rem;
+}
+.w-6 {
+  width: 1.5rem;
+}
+.w-1\/5 {
+  width: 20%;
+}
+.w-\[3y0vw\] {
+  width: 3y0vw;
+}
 .min-w-64 {
   min-width: 16rem;
 }
@@ -1249,8 +1273,8 @@ video {
 .max-w-\[460px\] {
   max-width: 460px;
 }
-.max-w-\[85rem\] {
-  max-width: 85rem;
+.max-w-\[97rem\] {
+  max-width: 97rem;
 }
 .max-w-\[calc\(100\%_-_80px\)\] {
   max-width: calc(100% - 80px);
@@ -1976,6 +2000,9 @@ video {
 .text-right {
   text-align: right;
 }
+.font-archidaught {
+  font-family: var(--archidaught);
+}
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
@@ -2052,6 +2079,15 @@ video {
 .text-xs {
   font-size: 0.75rem;
   line-height: 1rem;
+}
+.text-\[1\.5rem\] {
+  font-size: 1.5rem;
+}
+.text-\[\.5rem\] {
+  font-size: .5rem;
+}
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
 }
 .font-black {
   font-weight: 900;
@@ -2293,6 +2329,9 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
+}
+.text-\[1\.rem\] {
+  color: 1.rem;
 }
 .underline {
   text-decoration-line: underline;
@@ -3862,16 +3901,12 @@ video {
     height: 8rem;
   }
 
-  .lg\:h-\[16vh\] {
-    height: 16vh;
-  }
-
-  .lg\:h-\[20vh\] {
-    height: 20vh;
-  }
-
   .lg\:h-\[12vh\] {
     height: 12vh;
+  }
+
+  .lg\:h-\[16vh\] {
+    height: 16vh;
   }
 
   .lg\:w-1\/2 {
@@ -3886,6 +3921,10 @@ video {
     width: 8rem;
   }
 
+  .lg\:w-\[12vw\] {
+    width: 12vw;
+  }
+
   .lg\:w-\[16vw\] {
     width: 16vw;
   }
@@ -3896,26 +3935,6 @@ video {
 
   .lg\:w-\[45vw\] {
     width: 45vw;
-  }
-
-  .lg\:w-\[\] {
-    width: ;
-  }
-
-  .lg\:w-\[20v\] {
-    width: 20v;
-  }
-
-  .lg\:w-\[20vw\] {
-    width: 20vw;
-  }
-
-  .lg\:w-\[vw\] {
-    width: vw;
-  }
-
-  .lg\:w-\[12vw\] {
-    width: 12vw;
   }
 
   .lg\:max-w-4xl {
@@ -4029,10 +4048,6 @@ video {
     font-size: 4em;
   }
 
-  .lg\:text-\[4rem\] {
-    font-size: 4rem;
-  }
-
   .lg\:text-\[5\.0rem\] {
     font-size: 5.0rem;
   }
@@ -4078,10 +4093,6 @@ video {
   .lg\:text-white {
     --tw-text-opacity: 1;
     color: rgb(255 255 255 / var(--tw-text-opacity));
-  }
-
-  .lg\:text-\[rem\] {
-    color: rem;
   }
 }
 
