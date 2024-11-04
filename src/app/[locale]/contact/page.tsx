@@ -4,7 +4,7 @@ import Logo from "@/src/components/icons/Logo";
 // 👇 import local font
 import localFont from 'next/font/local'
 import styles from './Contact.module.css'
-import {archidaught} from '@/src/app/utils/fonts';
+import {annieuseyourtelescope} from '@/src/app/utils/fonts';
 
 
 const page = () => {
