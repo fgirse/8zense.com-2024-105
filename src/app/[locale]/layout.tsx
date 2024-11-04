@@ -24,7 +24,7 @@ import { getURL } from '@/src/utils/helpers';
 import '@/src/app/[locale]/globals.css';
 import { KeyObject } from 'crypto'
 import { annieuseyourtelescope } from"@/src/app/utils/fonts";
-import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";
+//import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";
 
 export const bowlbySC= Bowlby_One_SC({
   weight: ['400',],
@@ -84,8 +84,8 @@ export async function generateMetadata({
   return (
 
     <>
-     <html lang="en" className={'{annieuseyourtelescope.className}'} suppressHydrationWarning={true}>
-        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${gochiHa.variable} ${londshadow.variable} {archidaught.className} flex min-h-[100vh] w-[100%] flex-col '}>
+     <html lang="en" className='annieuseyourtelescope' suppressHydrationWarning={true}>
+        <body suppressHydrationWarning={true} className= {'${bowlbySC.variable} ${archidaught.variable} ${annieuseyourtelescope.variable} {annieuseyourtelescope.className} flex min-h-[100vh] w-[100%] flex-col '}>
           <NextIntlClientProvider messages={messages}>
             <Navigation />
             {children}

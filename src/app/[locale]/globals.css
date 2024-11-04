@@ -64,7 +64,7 @@
   }
   body {
     background-color: #1e293b;
-    font-family: var --archidaught;
+    font-family: "annie use your telescope";
   }
 
   .londshadow {
@@ -75,8 +75,8 @@
     font-family: "Bowlby One SC";
   }
 
-  .gochiHand {
-    font-family: "Gochi Hand";
+  .annieuseyourtelescope {
+    font-family: "annie use your telescope";
   }
 
   /* architects-daughter-regular - latin */

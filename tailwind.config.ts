@@ -20,7 +20,7 @@ const config = {
     extend: {
 
       fontFamily: {
-        londshadow: ['var(--londshadow)'],
+        sans: ['var(--annieuseyourtelescope)'],
         archidaught: ['var(--archidaught)'],
         bowlbySC: ['var(--bowlbySC)'],   
       },
