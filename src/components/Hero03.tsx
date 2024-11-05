@@ -39,7 +39,7 @@ const t= useTranslations("Hero_03")
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica_Welpe-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <><span className="block text-[3rem] uppercase headingE  text-white lg:text-[10rem]">Bomdia </span></>
-              <span className="block headingB2 text-slate-600 text-xl md:text-3xl">Kica als Welpe</span>
+              <span className="block headingB2 text-white text-xl md:text-3xl">Kica als Welpe</span>
               <div className="mt-5">
 
               </div>
@@ -53,7 +53,7 @@ const t= useTranslations("Hero_03")
           <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Portrait_Kica-01-Photoroom.jpg')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10 ">
               <span className="block text-[3rem] uppercase headingE  text-white lg:text-[12rem]">Kica</span>
-              <span className="block headingB2 text-white headingB2 text-xl md:text-3xl lg:text-3xl lg:texf-slate-600">4 jährige Hündin aus Monte Cordova</span>
+              <span className="block headingB2 text-white text-xl md:text-3xl lg:text-3xl lg:texf-slate-600">4 jährige Hündin aus Monte Cordova</span>
               <div className="mt-5">
             
               </div>

@@ -24,7 +24,7 @@ const IntroWebside = () => {
               {t("zitat")}
             </p>
 
-            <div className="relative -top-2 left-10 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-8xl leading-3 text-white sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
+            <div className="relative -top-2 left-3 flex h-16 w-16 translate-x-16 transform flex-col items-center justify-center rounded-full  mt-2 text-8xl leading-3 text-white sm:h-20 sm:w-20 sm:text-2xl md:-top-1 md:h-24 md:w-24 md:translate-x-44 md:transform md:text-2xl lg:left-2/4 lg:h-32 lg:w-32 lg:text-3xl">
               <p className="mt-4 relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[13rem]">
                 🇵🇹
               </p>

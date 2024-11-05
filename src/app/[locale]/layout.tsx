@@ -12,7 +12,7 @@ import Navigation from '@/src/components/Navigation/Menu';
 import ScrollToTopButton from "@/src/components/ScrollToTopButton";
 import {routing} from '@/src/i18n/routing';
 import PrelineScript from "@/src/app/components/PrelineScript";
-import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC, Gochi_Hand } from "next/font/google";
+import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC, Annie_Use_Your_Telescope } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import localFont from 'next/font/local';
 import Navbar from '@/src/components/ui/Navbar/Navbar';
