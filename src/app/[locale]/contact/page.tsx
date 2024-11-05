@@ -4,7 +4,7 @@ import Logo from "@/src/components/icons/Logo";
 // 👇 import local font
 import localFont from 'next/font/local'
 import styles from './Contact.module.css'
-import {annieuseyourtelescope} from '@/src/app/utils/fonts';
+import {auyt} from '@/src/app/utils/fonts';
 
 
 const page = () => {
@@ -25,7 +25,7 @@ const page = () => {
             />
           </div>
           <div className="relative mt-3 flex-1 headingB2">
-            <h1 className=" mb-2 text-4xl text-center text-neutral-200 lg:mt-6 lg:text-[5rem]">
+            <h1 className=" mb-2 text-4xl text-center font-sans text-neutral-200 lg:mt-6 lg:text-[5rem]">
               Claudia & Frank
             </h1>
             <h1 className=" text-2xl text-center text-neutral-300 lg:mt-6  lg:text-[4em] lg:leading-9">

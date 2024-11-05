@@ -9,7 +9,7 @@ import Travel from "@/public/assets/images/travel2.svg";
 import Surprise from "@/public/assets/images/surprise01.png";
 import Footsteps from "@/public/assets/images/babyfoot.png";
 import Bone from "@/public/assets/images/bone.svg";
-import { annieuseyourtelescope_init } from "@/src/app/utils/fonts";
+import { auyt } from "@/src/app/utils/fonts";
 
 const IntroWebside = () => {
   const t = useTranslations("introWebside");
@@ -41,7 +41,7 @@ const IntroWebside = () => {
             {/*<div className="relative -top-20 h-[24vh] w-[75vw] lg:w-[45vw]">
               <Image src={Skizze} fill sizes="100vw" alt="Skizze" />
             </div>*/}
-            <p className="-mt-24 text-base lg:w-[33vw] annie-use-your-telescope lg:text-2xl text-slate-700 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base lg:w-[33vw] bowlbySC lg:text-2xl text-slate-700 md:my-6 md:text-lg">
               {t("text02")}
             </p>
             <div className="relative -top-8 right-16 w-56 h-56 ">
@@ -72,7 +72,7 @@ const IntroWebside = () => {
             <h1 className="uppercase text-[2.0rem] headingE text-white md:my-6 md:text-lg">
               {t("text03")}
             </h1>
-            <p className="text-base annie-use-youe-telescope lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
+            <p className="text-base bowlbySC lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
               {t("text04")}
             </p>
             <div className="relative -top-8 transform translate-x-24 w-56 h-56 ">
@@ -94,7 +94,7 @@ const IntroWebside = () => {
             <p className="lg:mt-9 text-[1.5rem] text-white headingE md:my-6 md:text-lg lg:text-[5rem] lg:leading-9">
               {t("text05")}
             </p>
-            <p className="text-base annie-use-your-telescope lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
+            <p className="text-base bowlbySC lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
               {t("text06")}
             </p>
             <div className="mx-auto bg-gradient-to-b from-slate-800 to bg-black w-[50vw]  flex flex-col justify-center items-center">

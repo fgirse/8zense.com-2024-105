@@ -1,17 +1,14 @@
-import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC } from "next/font/google";
-import localFont from "next/font/local";
+import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC} from "next/font/google";
+import { Annie_Use_Your_Telescope } from 'next/font/google';
 
+export const auyt = Annie_Use_Your_Telescope({
+  subsets: ['latin'], style: 'normal',
+  weight: "400",variable: '--annieuseyourtelescope'
+});
 
-export const londsketch= Londrina_Sketch({
-    weight: ['400',],
-    style: ['normal', ],
-    subsets: ['latin'],
-    display: 'swap',
-    variable: '--londsketch',
-  })
 
   
-  export const annieuseyourtelescope= localFont({
+  {/*export const annieuseyourtelescope= localFont({
     src: [
       {
         path: "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg",
@@ -47,7 +44,7 @@ export const londsketch= Londrina_Sketch({
     display: 'swap',
     variable: '--annieuseyourtelescope',
   })
-
+*/}
 
   
   export const bowlbySC= Bowlby_One_SC({
@@ -58,6 +55,3 @@ export const londsketch= Londrina_Sketch({
     variable: '--bowlbySC',
   })
 
-  export const londsketch_init = londsketch.variable;
-  export const annieuseyourtelescope_init = annieuseyourtelescope.variable;
-  export const bowlbySC_init = bowlbySC.variable;
