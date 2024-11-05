@@ -21,7 +21,7 @@ import Footer from '@/src/components/Footer/footer';
 import { Toaster } from '@/src/components/ui/Toasts/toaster';
 import { PropsWithChildren, Suspense } from 'react';
 import { getURL } from '@/src/utils/helpers';
-import '@/src/app/[locale]/globals.css';
+import './globals.css';
 import { KeyObject } from 'crypto'
 import { annieuseyourtelescope } from"@/src/app/utils/fonts";
 //import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";

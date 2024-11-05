@@ -16,14 +16,14 @@ const Menu = () => {
   return (
 
 <header className={" relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gradient to b from bg-gradient-to-b from-gray-300 via-gray-200 to-zinc-50 text-sm py-3 dark:bg-neutral-800"}>
-<nav className={"{archidaught.className} max-w-[97rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between"}>
+<nav className=" max-w-[97rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
     <div className="flex items-center justify-between">
     <Link href="/" className="mr-6 flex" prefetch={false}>
           <div className=" w-12 ">
             <Image src={LogoPet} alt="Logo" width="60" height="60" />
           </div>
           <div className="hidden py-3 ml-3 md:block w-[10vw] md:py-2">
-            <h1 className="font-archidaught  text-neutral-500">kica2024.de</h1>
+            <h1 className="annie-use-your-telescope  text-neutral-500">kica2024.de</h1>
           </div>
         </Link>
     
@@ -43,9 +43,9 @@ const Menu = () => {
     </div>
     <div id="hs-navbar-example" className="hidden hs-collapse overflow-hidden transition-all duration-300 basis-full grow sm:block" aria-labelledby="hs-navbar-example-collapse">
       <div className="flex flex-col gap-5 mt-5 sm:flex-row sm:items-center sm:justify-end sm:mt-0 sm:ps-5 hover:text-white lg:text-2xl ">
-        <Link className="mb-2 font-medium  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/" aria-current="page">{t("home")}</Link>
+        <Link className="mb-2 font-medium annie-use-your-telescope  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/" aria-current="page">{t("home")}</Link>
        
-        <Link className="mb-2 font-medium  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/protected" aria-current="page">{t("galery")}</Link>                       
+        <Link className="mb-2 font-medium anni-use-your-telescope  text-amber-500 border-b-4 bg-neutral-300 hover:bg-neutral-400/70 rounded-xl px-2 py-1 shadow-lg shadow-gray-300 hover:text-white focus:outline-none" href="/protected" aria-current="page">{t("galery")}</Link>                       
         <div className="hs-dropdown [--strategy:static] sm:[--strategy:fixed] [--adaptive:none] ">
           <button id="hs-navbar-example-dropdown" type="button" className="hs-dropdown-toggle flex items-center w-full text-gray-600 hover:text-gray-400 focus:outline-none focus:text-gray-400 font-medium dark:text-neutral-400 dark:hover:text-neutral-500 dark:focus:text-neutral-500" aria-haspopup="menu" aria-expanded="false" aria-label="Mega Menu">
          {t("about")}
