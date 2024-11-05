@@ -538,6 +538,15 @@ video {
     font-weight: 400;
   }
 
+
+  .annie-use-your-telescope{
+
+    font-family: Annie Use Your Telescope;
+    font-weight: 400;
+    font-style: normal;
+
+  }
+
   .bowlbySC {
     font-family: "Bowlby One SC";
   }
@@ -1086,6 +1095,15 @@ video {
 }
 .h-screen {
   height: 100vh;
+}
+.h-\[\] {
+  height: ;
+}
+.h-\[2\] {
+  height: 2;
+}
+.h-\[25vh\] {
+  height: 25vh;
 }
 .max-h-32 {
   max-height: 8rem;
