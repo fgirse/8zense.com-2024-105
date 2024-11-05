@@ -64,7 +64,9 @@
   }
   body {
     background-color: #1e293b;
-    font-family: "annie use your telescope";
+    font-family: Annie Use Your Telescope , cursive;
+    font-style: normal;
+    font-weight: 400;
   }
 
   .londshadow {
