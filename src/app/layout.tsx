@@ -6,7 +6,7 @@ import { auyt } from '@/src/app/utils/fonts';
 import { Bowlby_One_SC, Annie_Use_Your_Telescope, Architects_Daughter} from 'next/font/google';
 //import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";
 
-export const bowlbySC= Bowlby_One_SC({
+ const bowlbySC  = Bowlby_One_SC({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
@@ -14,7 +14,7 @@ export const bowlbySC= Bowlby_One_SC({
   variable: '--bowlbySC',
 })
 
-export const annieuseyourTelescope = Annie_Use_Your_Telescope({
+const annieuseyourTelescope = Annie_Use_Your_Telescope({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
@@ -22,7 +22,7 @@ export const annieuseyourTelescope = Annie_Use_Your_Telescope({
   variable: '--auyT',
 })
 
-export const architectsDaughter = Architects_Daughter({
+const architectsDaughter = Architects_Daughter({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
