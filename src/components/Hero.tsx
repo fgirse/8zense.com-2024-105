@@ -13,7 +13,7 @@ import Link from "next/link";
 import { unstable_setRequestLocale } from "next-intl/server";
 import Banner from "@/src/components/Banner";
 import Footsteps from "@/public/assets/images/babyfoot.png";
-import { bowlbySC_init } from "../app/utils/fonts";
+import { bowlbySC} from "../app/utils/fonts";
 
 const locale: string = "en";
 const Hero =()=> {

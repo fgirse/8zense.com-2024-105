@@ -8,21 +8,16 @@
   }
 
   .annie-use-your-telescope{
-
-    font-family: var(--annieuseyourtelescope);
-    font-weight: 400;
-    font-style: cursive;
-
-  }
-  .londshadow {
-    font-family: Londrina Shadow;
+    font-family: Annie Use Your Telescope;
   }
 
   .bowlbySC {
     font-family: Bowlby One SC;
   }
 
-
+  .architectsDaughter {
+    font-family: Architects Daughter;
+  }
 
   /* architects-daughter-regular - latin */
   font-face {

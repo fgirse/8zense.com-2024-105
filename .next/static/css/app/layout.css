@@ -23,9 +23,9 @@
 }.__variable_d71059 {--bowlbySC: '__Bowlby_One_SC_d71059', '__Bowlby_One_SC_Fallback_d71059'
 }
 
-/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
-  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Annie_Use_Your_Telescope","arguments":[{"weight":["400"],"style":["normal"],"subsets":["latin"],"display":"swap","variable":"--annieuseyourtelescope"}],"variableName":"annieuseyourtelescope"} ***!
-  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*!********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Annie_Use_Your_Telescope","arguments":[{"weight":["400"],"style":["normal"],"subsets":["latin"],"display":"swap","variable":"--auyT"}],"variableName":"annieuseyourTelescope"} ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
 /* latin */
 @font-face {
   font-family: '__Annie_Use_Your_Telescope_8734ef';
@@ -36,7 +36,23 @@
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }@font-face {font-family: '__Annie_Use_Your_Telescope_Fallback_8734ef';src: local("Arial");ascent-override: 132.48%;descent-override: 52.92%;line-gap-override: 0.00%;size-adjust: 77.33%
 }.__className_8734ef {font-family: '__Annie_Use_Your_Telescope_8734ef', '__Annie_Use_Your_Telescope_Fallback_8734ef';font-weight: 400;font-style: normal
-}.__variable_8734ef {--annieuseyourtelescope: '__Annie_Use_Your_Telescope_8734ef', '__Annie_Use_Your_Telescope_Fallback_8734ef'
+}.__variable_8734ef {--auyT: '__Annie_Use_Your_Telescope_8734ef', '__Annie_Use_Your_Telescope_Fallback_8734ef'
+}
+
+/*!*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[2].use[1]!./node_modules/next/dist/build/webpack/loaders/next-font-loader/index.js??ruleSet[1].rules[13].oneOf[2].use[2]!./node_modules/next/font/google/target.css?{"path":"src/app/layout.tsx","import":"Architects_Daughter","arguments":[{"weight":["400"],"style":["normal"],"subsets":["latin"],"display":"swap","variable":"--archiDaught"}],"variableName":"architectsDaughter"} ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/* latin */
+@font-face {
+  font-family: '__Architects_Daughter_58b470';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(/_next/static/media/396f3f65dc2bdc58-s.p.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}@font-face {font-family: '__Architects_Daughter_Fallback_58b470';src: local("Arial");ascent-override: 93.03%;descent-override: 38.04%;line-gap-override: 0.00%;size-adjust: 106.02%
+}.__className_58b470 {font-family: '__Architects_Daughter_58b470', '__Architects_Daughter_Fallback_58b470';font-weight: 400;font-style: normal
+}.__variable_58b470 {--archiDaught: '__Architects_Daughter_58b470', '__Architects_Daughter_Fallback_58b470'
 }
 
 /*!**************************************************************************************************************************************************************************************************************************************************************************!*\
@@ -186,7 +202,7 @@ html,
   -moz-tab-size: 4; /* 3 */
   -o-tab-size: 4;
      tab-size: 4; /* 3 */
-  font-family: var(--annieuseyourtelescope); /* 4 */
+  font-family: var(--auyT); /* 4 */
   font-feature-settings: normal; /* 5 */
   font-variation-settings: normal; /* 6 */
   -webkit-tap-highlight-color: transparent; /* 7 */
@@ -547,18 +563,16 @@ video {
   }
 
   .annie-use-your-telescope{
-
-    font-family: var(--annieuseyourtelescope);
-    font-weight: 400;
-    font-style: cursive;
-
+    font-family: Annie Use Your Telescope;
   }
 
   .bowlbySC {
     font-family: Bowlby One SC;
   }
 
-
+  .architectsDaughter {
+    font-family: Architects Daughter;
+  }
 
   /* architects-daughter-regular - latin */
   font-face {
@@ -1992,13 +2006,16 @@ video {
   text-align: right;
 }
 .font-archidaught {
-  font-family: var(--archidaught);
+  font-family: var(--archiDaught);
 }
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .font-sans {
-  font-family: var(--annieuseyourtelescope);
+  font-family: var(--auyT);
+}
+.font-bowlbySC {
+  font-family: var(--bowlbySC);
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -2261,6 +2278,10 @@ video {
 .text-slate-50 {
   --tw-text-opacity: 1;
   color: rgb(248 250 252 / var(--tw-text-opacity));
+}
+.text-slate-500 {
+  --tw-text-opacity: 1;
+  color: rgb(100 116 139 / var(--tw-text-opacity));
 }
 .text-slate-700 {
   --tw-text-opacity: 1;

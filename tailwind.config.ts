@@ -20,8 +20,8 @@ const config = {
     extend: {
 
       fontFamily: {
-        sans: ['var(--annieuseyourtelescope)'],
-        archidaught: ['var(--archidaught)'],
+        sans: ['var(--auyT)'],
+        archidaught: ['var(--archiDaught)'],
         bowlbySC: ['var(--bowlbySC)'],   
       },
 

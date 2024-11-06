@@ -2,13 +2,77 @@ import {Londrina_Sketch, Architects_Daughter, Bowlby_One_SC} from "next/font/goo
 import { Annie_Use_Your_Telescope } from 'next/font/google';
 
 export const auyt = Annie_Use_Your_Telescope({
-  subsets: ['latin'], style: 'normal',
-  weight: "400",variable: '--annieuseyourtelescope'
+  subsets: ['latin'], 
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+                                                           style: 'normal',
+  weight: "400",variable: '--auyT'
 });
 
 
   
-  {/*export const annieuseyourtelescope= localFont({
+  {/*export const annieuseyourtelescope= Annie_Use_Your_Telescope({
     src: [
       {
         path: "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg",

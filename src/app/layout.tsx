@@ -3,7 +3,7 @@
 import {ReactNode} from 'react';
 import '@/src/app/[locale]/globals.css';
 import { auyt } from '@/src/app/utils/fonts';
-import { Bowlby_One_SC, Annie_Use_Your_Telescope} from 'next/font/google';
+import { Bowlby_One_SC, Annie_Use_Your_Telescope, Architects_Daughter} from 'next/font/google';
 //import Faje from "@/public/fonts/annie-use-your-telescop/annieuseyourtelescope-regular-webfont.svg";
 
 export const bowlbySC= Bowlby_One_SC({
@@ -14,15 +14,21 @@ export const bowlbySC= Bowlby_One_SC({
   variable: '--bowlbySC',
 })
 
-export const annieuseyourtelescope= Annie_Use_Your_Telescope({
+export const annieuseyourTelescope = Annie_Use_Your_Telescope({
   weight: ['400',],
   style: ['normal', ],
   subsets: ['latin'],
   display: 'swap',
-  variable: '--annieuseyourtelescope',
+  variable: '--auyT',
 })
 
-
+export const architectsDaughter = Architects_Daughter({
+  weight: ['400',],
+  style: ['normal', ],
+  subsets: ['latin'],
+  display: 'swap',
+  variable: '--archiDaught',
+})
 
 type Props = {
   children: ReactNode;
@@ -33,8 +39,8 @@ type Props = {
 export default function RootLayout({children}: Props) {
  return (
 
-  <html className={'${auyt.className}'}>
-   <body  suppressHydrationWarning={true}   className={'{auyt.variable} {bowlbySC.varisble}'}>
+  <html>
+   <body  suppressHydrationWarning={true}   className={'{auyT.variable} {bowlbySC.variable} {architectsDaughter.variable}'}>
    {children}
    </body>
  

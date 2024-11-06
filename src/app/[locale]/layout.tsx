@@ -15,7 +15,6 @@ import PrelineScript from "@/src/app/components/PrelineScript";
 import {Londrina_Shadow, Architects_Daughter, Bowlby_One_SC, Annie_Use_Your_Telescope } from "next/font/google";
 import {unstable_setRequestLocale} from 'next-intl/server';
 import localFont from 'next/font/local';
-import Navbar from '@/src/components/ui/Navbar/Navbar';
 import { Metadata } from 'next';
 import Footer from '@/src/components/Footer/footer';
 import { Toaster } from '@/src/components/ui/Toasts/toaster';
