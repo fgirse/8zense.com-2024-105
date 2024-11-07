@@ -31,13 +31,14 @@ const ScrollToTopButton = () => {
 
   return (
     <button
-      className={`fixed bottom-4 right-4 rounded-full p-2 bg-lime-400 outline-none transition-opacity duration-200 ${
+      className={`fixed bottom-4 architectsDaughter right-4 rounded-full px-3 text-white font-black bg-red-300 outline-none transition-opacity duration-200 ${
         isVisible ? "opacity-100" : "opacity-0"
       }`}
       onClick={scrollToTop}
     >
       <ChevronUp />
-      up
+      <ChevronUp />
+      
     </button>
   );
 };

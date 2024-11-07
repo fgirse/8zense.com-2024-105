@@ -9,7 +9,6 @@ import Travel from "@/public/assets/images/travel2.svg";
 import Surprise from "@/public/assets/images/surprise01.png";
 import Footsteps from "@/public/assets/images/babyfoot.png";
 import Bone from "@/public/assets/images/bone.svg";
-import { auyt } from "@/src/app/utils/fonts";
 
 const IntroWebside = () => {
   const t = useTranslations("introWebside");
@@ -41,7 +40,7 @@ const IntroWebside = () => {
             {/*<div className="relative -top-20 h-[24vh] w-[75vw] lg:w-[45vw]">
               <Image src={Skizze} fill sizes="100vw" alt="Skizze" />
             </div>*/}
-            <p className="-mt-24 text-base lg:w-[33vw] architectsDaughter lg:text-2xl text-slate-700 md:my-6 md:text-lg">
+            <p className="-mt-24 text-base lg:w-[33vw] annieuseyourTelescope lg:text-2xl text-slate-700 md:my-6 md:text-lg">
               {t("text02")}
             </p>
             <div className="relative -top-8 right-16 w-56 h-56 ">

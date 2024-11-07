@@ -7,7 +7,7 @@ import { Locale } from "@/src/i18n/routing";
 import { useLocale, useTranslations } from "next-intl";
 import Link from "next/link";
 import { Navigation } from 'lucide-react';
-import { auyt } from '@/src/app/utils/fonts';
+import { annieuseyourTelescope, bowlbySC, architectsDaughter } from '@/src/app/utils/fonts';
 
 
 const Menu = () => {

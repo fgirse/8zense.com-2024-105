@@ -8,7 +8,7 @@
   }
 
   .annie-use-your-telescope{
-    font-family: Annie Use Your Telescope;
+    font-family: var(--allieuseyourTelescope);
   }
 
   .bowlbySC {
