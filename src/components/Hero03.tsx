@@ -23,7 +23,7 @@ const t= useTranslations("Hero_03")
       <div className="hs-carousel-body absolute top-0 bottom-0 start-0 flex flex-nowrap transition-transform duration-700 opacity-0">
         {/* Item */}
         <div className="hs-carousel-slide">
-          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica08.png')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
+          <div className="h-[30rem] md:h-[calc(100vh-106px)]  flex flex-col bg-[url('/assets/images/Kica01.png')] bg-cover bg-center bg-no-repeat lg:bg-contain lg:text-slate-700">
             <div className="mt-auto w-2/3 md:max-w-lg ps-5 pb-5 md:ps-10 md:pb-10">
               <span className="block text-white text-6xl uppercase md:text-[7.33rem] headingE ">{t("Title")}</span>
               <span className=" block w-full font-primary text-slate-700 text-2xl md:text-3xl lg:text-slate-600 ">{t("postTitle")}</span>

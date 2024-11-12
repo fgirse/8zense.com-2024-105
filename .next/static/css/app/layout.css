@@ -639,11 +639,6 @@ video {
     font-family: "Bowlby One SC";
     font-weight: extrabold;
   }
-
-  .headingG {
-    -webkit-text-stroke-width: .2px;
-    -webkit-text-stroke-color: #000000;  
-  }
 .container {
   width: 100%;
   margin-right: auto;
@@ -1812,6 +1807,12 @@ video {
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
 }
+.bg-\[url\(\'\/assets\/images\/Kica\.png\'\)\] {
+  background-image: url('/assets/images/Kica.png');
+}
+.bg-\[url\(\'\/assets\/images\/Kica01\.png\'\)\] {
+  background-image: url('/assets/images/Kica01.png');
+}
 .from-gray-300 {
   --tw-gradient-from: #d1d5db var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(209 213 219 / 0) var(--tw-gradient-to-position);
@@ -1840,11 +1841,6 @@ video {
 .from-slate-900 {
   --tw-gradient-from: #0f172a var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(15 23 42 / 0) var(--tw-gradient-to-position);
-  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
-}
-.from-stone-600 {
-  --tw-gradient-from: #57534e var(--tw-gradient-from-position);
-  --tw-gradient-to: rgb(87 83 78 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .from-stone-800 {
@@ -2308,6 +2304,10 @@ video {
   --tw-text-opacity: 1;
   color: rgb(245 245 244 / var(--tw-text-opacity));
 }
+.text-stone-300 {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
+}
 .text-white {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
@@ -2349,10 +2349,6 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
-}
-.text-stone-300 {
-  --tw-text-opacity: 1;
-  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;
