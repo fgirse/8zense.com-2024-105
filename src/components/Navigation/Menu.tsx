@@ -16,7 +16,7 @@ const Menu = () => {
   return (
 
 <header className={" relative flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-gradient to b from bg-gradient-to-b from-gray-300 via-gray-200 to-zinc-50 text-sm py-3 dark:bg-neutral-800"}>
-<nav className="architectsDaughter max-w-[97rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
+<nav className="font-primary max-w-[97rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between">
     <div className="flex items-center justify-between">
     <Link href="/" className="mr-6 flex" prefetch={false}>
           <div className=" w-12 ">
