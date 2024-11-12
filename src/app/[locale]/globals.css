@@ -7,9 +7,21 @@
   * {
   }
 
-  .annie-use-your-telescope{
-    font-family: var(--allieuseyourTelescope);
+
+
+  body {
+  
+      font-family: 'Caveat';
+      font-weight: 700;
+      font-style: normal;
   }
+
+  .caveat {
+    font-family: 'Caveat';
+    font-weight: 700;
+    font-style: normal;
+}
+
 
   .bowlbySC {
     font-family: Bowlby One SC;

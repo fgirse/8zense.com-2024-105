@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import { bowlbySC } from "./src/app/utils/fonts";
 
 const config = {
   darkMode: ["class"],
@@ -20,9 +21,9 @@ const config = {
     extend: {
 
       fontFamily: {
-        sans: ['var(--auyT)'],
-        archidaught: ['var(--archiDaught)'],
-        bowlbySC: ['var(--bowlbySC)'],   
+        bowlbySC: 'var(--font-bowlbySC)',
+        primary: 'var(--font-annieuseyourTelescope)',
+        archidaught: 'var(--font-architectsDaughter)',  
       },
 
       colors: {

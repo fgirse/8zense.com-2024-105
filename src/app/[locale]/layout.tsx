@@ -42,7 +42,7 @@ export async function generateMetadata({
 
  
   return {
-    title: t("title_Layout"                ),
+    title: "kica2024.de"                ,
     icons: {icon : "/favicon.ico"},
   }}
 

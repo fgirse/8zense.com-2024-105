@@ -9,7 +9,7 @@ import Travel from "@/public/assets/images/travel2.svg";
 import Surprise from "@/public/assets/images/surprise01.png";
 import Footsteps from "@/public/assets/images/babyfoot.png";
 import Bone from "@/public/assets/images/bone.svg";
-
+import { caveat } from "@/src/app/utils/fonts";
 const IntroWebside = () => {
   const t = useTranslations("introWebside");
 
@@ -37,10 +37,8 @@ const IntroWebside = () => {
             <h1 className="text-4xl headingE  lg:top lg:leading-0 relative -top-20 text-white md:text-[3.0rem] lg:leading-9 lg:text-[6.33rem]">
               {t("text01")}
             </h1>
-            {/*<div className="relative -top-20 h-[24vh] w-[75vw] lg:w-[45vw]">
-              <Image src={Skizze} fill sizes="100vw" alt="Skizze" />
-            </div>*/}
-            <p className="-mt-24 text-base lg:w-[33vw] annieuseyourTelescope lg:text-2xl text-slate-700 md:my-6 md:text-lg">
+     
+            <p className="-mt-24 text-base lg:w-[33vw] font-primary lg:text-2xl text-slate-700 md:my-6 md:text-lg">
               {t("text02")}
             </p>
             <div className="relative -top-8 right-16 w-56 h-56 ">
@@ -71,7 +69,7 @@ const IntroWebside = () => {
             <h1 className="uppercase text-[2.0rem] headingE text-white md:my-6 md:text-lg">
               {t("text03")}
             </h1>
-            <p className="text-base architectsDaughter lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
+            <p className="text-base lg:w-1/2 font-primary text-slate-700 md:my-6 md:text-lg lg:text-2xl">
               {t("text04")}
             </p>
             <div className="relative -top-8 transform translate-x-24 w-56 h-56 ">
@@ -83,7 +81,7 @@ const IntroWebside = () => {
             <div className=" inline-flex">
               <p className="relative z-10 text-[8.0rem] font-black md:text-5xl md:leading-4 lg:text-6xl"></p>
 
-              <div className="relative w-36 h-36 -------lg:w-[12vw] lg:h-[12vh]">
+              <div className="relative w-36 h-36 lg:w-[12vw] lg:h-[12vh]">
                 <Image src={Surprise} alt="illustration travel" fill={true} />
               </div>
               <p className="relative z-10 text-[9.0rem] font-black md:text-5xl md:leading-4 lg:text-[9rem]">
@@ -93,7 +91,7 @@ const IntroWebside = () => {
             <p className="lg:mt-9 text-[1.5rem] text-white headingE md:my-6 md:text-lg lg:text-[5rem] lg:leading-9">
               {t("text05")}
             </p>
-            <p className="text-base architectsDaughter lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
+            <p className="text-base font-primary lg:w-1/2 text-slate-700 md:my-6 md:text-lg lg:text-2xl">
               {t("text06")}
             </p>
             <div className="mx-auto bg-gradient-to-b from-slate-800 to bg-black w-[50vw]  flex flex-col justify-center items-center">

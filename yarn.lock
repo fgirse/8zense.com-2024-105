@@ -9262,10 +9262,10 @@ sucrase@^3.32.0:
     pirates "^4.0.1"
     ts-interface-checker "^0.1.9"
 
-supabase@^1.207.8:
-  version "1.207.8"
-  resolved "https://registry.yarnpkg.com/supabase/-/supabase-1.207.8.tgz#202884bce0607e382d633f210909c9f1111c185d"
-  integrity sha512-Bbgs2s6MPyC812urXxrRZoorUkGk31QQyM77jWQKzfF32e6EDQeBKTRMmfeWc2bGuLlUczmozsGvNCh0gzkQ7g==
+supabase@^1.219.0:
+  version "1.219.0"
+  resolved "https://registry.yarnpkg.com/supabase/-/supabase-1.219.0.tgz#25619a41789ef96c1c0a989fa396944f88bec920"
+  integrity sha512-BVfON6T2iKbvq1Y90Pn9RFdQ3YFeCR+HdQCKw/JJFtIo1JtrSb7V5UXOC8/UP+ZK4fWG8ZjkDSIxLRjYrsJN2g==
   dependencies:
     bin-links "^5.0.0"
     https-proxy-agent "^7.0.2"
