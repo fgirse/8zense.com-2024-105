@@ -23,7 +23,7 @@ const Menu = () => {
             <Image src={LogoPet} alt="Logo" width="60" height="60" />
           </div>
           <div className="hidden py-3 ml-3 md:block w-[10vw] md:py-2">
-            <h1 className="  text-neutral-500 architectsDaughter">kica2024.de</h1>
+            <h1 className="  text-neutral-500 font-bowlbySC">kica2024.de</h1>
           </div>
         </Link>
     

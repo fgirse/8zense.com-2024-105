@@ -633,17 +633,16 @@ video {
       url("/fonts/BowlbySC/BowlbyOneSC-Regular.svg") format("svg");
   }
 
-  .headingB2 {
-    -webkit-text-stroke-width: 0.8px;
-    -webkit-text-stroke-color: #000000;
-    font-family: "Architects Daughter";
-  }
-
   .headingE {
     -webkit-text-stroke-width: 1.99px;
     -webkit-text-stroke-color: #0f0f0f;
     font-family: "Bowlby One SC";
     font-weight: extrabold;
+  }
+
+  .headingG {
+    -webkit-text-stroke-width: .2px;
+    -webkit-text-stroke-color: #000000;  
   }
 .container {
   width: 100%;
@@ -1762,9 +1761,9 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(231 229 228 / var(--tw-bg-opacity));
 }
-.bg-stone-700 {
+.bg-stone-400 {
   --tw-bg-opacity: 1;
-  background-color: rgb(68 64 60 / var(--tw-bg-opacity));
+  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
 }
 .bg-stone-800 {
   --tw-bg-opacity: 1;
@@ -1791,10 +1790,6 @@ video {
 .bg-zinc-900 {
   --tw-bg-opacity: 1;
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
-}
-.bg-stone-400 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(168 162 158 / var(--tw-bg-opacity));
 }
 .bg-\[url\(\'\/assets\/images\/Kica08\.png\'\)\] {
   background-image: url('/assets/images/Kica08.png');
@@ -1850,6 +1845,11 @@ video {
 .from-stone-600 {
   --tw-gradient-from: #57534e var(--tw-gradient-from-position);
   --tw-gradient-to: rgb(87 83 78 / 0) var(--tw-gradient-to-position);
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
+}
+.from-stone-800 {
+  --tw-gradient-from: #292524 var(--tw-gradient-from-position);
+  --tw-gradient-to: rgb(41 37 36 / 0) var(--tw-gradient-to-position);
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to);
 }
 .via-gray-200 {
@@ -2025,14 +2025,14 @@ video {
 .font-archidaught {
   font-family: var(--font-architectsDaughter);
 }
+.font-bowlbySC {
+  font-family: var(--font-bowlbySC);
+}
 .font-mono {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 .font-primary {
   font-family: var(--font-annieuseyourTelescope);
-}
-.font-sans {
-  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 .text-2xl {
   font-size: 1.5rem;
@@ -2349,6 +2349,10 @@ video {
 }
 .text-zinc-950\/50 {
   color: rgb(9 9 11 / 0.5);
+}
+.text-stone-300 {
+  --tw-text-opacity: 1;
+  color: rgb(214 211 209 / var(--tw-text-opacity));
 }
 .underline {
   text-decoration-line: underline;

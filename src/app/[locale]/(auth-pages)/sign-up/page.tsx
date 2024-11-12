@@ -11,7 +11,7 @@ import { SmtpMessage } from "@/src/app/[locale]/(auth-pages)/smtp-message";
 export default function Signup({ searchParams }: { searchParams: Message }) {
   if ("message" in searchParams) {
     return (
-      <div className=" mt-4 w-full flex-1 flex items-center h-screen sm:max-w-md justify-center gap-2 p-4">
+      <div className="mt-4 w-full flex-1 flex items-center h-screen sm:max-w-md justify-center gap-2 p-4">
         <FormMessage message={searchParams} />
       </div>
     );
@@ -22,7 +22,7 @@ export default function Signup({ searchParams }: { searchParams: Message }) {
     <div className=" mt-4  flex-col items-center w-36 j">
         <Image src={Logo} alt="Logo" height={300}  />
     </div>
-      <form className="bg-slate-500 rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
+      <form className="bg-slate-500 font-primary rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
         <h1 className="mt-3 text-2xl text-lime-400 font-medium">Sign up</h1>
         <p className="text-white text-sm">
           Already have an account?{" "}

@@ -13,7 +13,7 @@ export default function Login({ searchParams }: { searchParams: Message }) {
     <div className=" mt-4  flex-col items-center w-36 ">
     <Image src={Logo} alt="Logo" height={300}  />
 </div>
-    <form className="bg-slate-500 rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
+    <form className="bg-slate-500 font-primary rounded-xl px-3 py-3 flex flex-col min-w-64 max-w-64 mx-auto mb-12">
       <h1 className="text-2xl text-orange-300 font-medium">Sign in</h1>
       <p className="text-sm text-white">
         Don't have an account?{" "}
